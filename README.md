@@ -4,11 +4,13 @@ Prototipo funcional de la propuesta para el Reto 5 del programa de innovación a
 
 ## Cómo abrirlo
 
-Abra el archivo `app/index.html` con doble clic. Funciona en cualquier navegador actual, sin instalar nada, sin servidor y sin conexión a internet. No usa servicios externos ni inteligencia artificial: todo el código está en `app/app.js` y los datos en `app/data.js`.
+Abra `index.html` (o `app/index.html`) con doble clic. También está publicado en GitHub Pages: https://samccdev.github.io/radar-propio-metro/ . Funciona en cualquier navegador actual, sin instalar nada, sin servidor y sin conexión a internet. No usa servicios externos ni inteligencia artificial: todo el código está en `app/app.js` y los datos en `app/data.js`.
 
 Lo que se cambie en pantalla (datos de un activo, pesos, fichas nuevas, decisiones) se guarda únicamente en el navegador de quien lo usa. El botón «Restablecer datos de ejemplo», en el paso 2, vuelve al estado inicial.
 
 ## Qué hace cada pantalla
+
+El inicio responde de un vistazo qué encontró el radar y cuál es la propuesta. Muestra las fichas con fuente, los proveedores, las celdas de la matriz que llegan a tres proveedores y las alertas del Plan de Tecnología; la cobertura del mercado en una matriz de cuatro por cuatro, el índice de obsolescencia de cada activo con su semáforo, qué tan verificadas están las fuentes y dónde están las brechas. Debajo, la propuesta en seis respuestas (el problema, la solución, la propuesta de valor, por qué es la mejor, la viabilidad y la factibilidad) y la entrada a los cinco pasos. Todas las cifras se calculan con los datos cargados: si se agrega una ficha o se renueva un activo, el inicio cambia.
 
 El paso 1 muestra la matriz de cuatro categorías tecnológicas (material rodante, señalización y control, energía y tracción, tecnología digital) por cuatro modos (metro, tranvía, BRT, cable). Cada celda indica cuántos proveedores con fuente tiene, sobre el mínimo de tres que pide el reto.
 
@@ -40,7 +42,11 @@ python tests/test_ui.py                  # usa el Chromium de Playwright
 python tests/test_ui.py /ruta/a/chrome   # o uno ya instalado
 ```
 
-La última corrida pasó 44 de 44 pruebas. Para comprobar que las pruebas pueden fallar, se corrieron contra una copia con el cálculo del índice fijado en 50: fallaron 7.
+Desde el 2 de noviembre las pruebas cubren también el inicio: que abra primero, que cada cifra coincida con la que se calcula directamente de `data.js` (con un control que altera un número a propósito y comprueba que la diferencia se detecta), que las barras salgan de mayor a menor y que las celdas y los botones lleven al paso correcto. La última corrida pasó 55 de 55 pruebas.
+
+`tools/medir.py` revisa el contraste (4,5:1 como mínimo) y que nada desborde en las seis pantallas, en pantalla de 1920×1080 al 100 y al 90 %, vertical de 1080×1920 y celular de 390 px, en modo claro y oscuro. Antes de medir, comprueba que detecta dos defectos fabricados. Última corrida: 0 fallas en 5.586 textos. `tools/capturar_inicio.py` saca las capturas de `capturas/inicio/`.
+
+La app sigue el modo claro u oscuro del aparato. Para comprobar que las pruebas pueden fallar, se corrieron contra una copia con el cálculo del índice fijado en 50: fallaron 7.
 
 `tools/gen_data.py` regenera `app/data.js` a partir de la lista de fichas. Los datos se editan ahí y no a mano en el JS.
 

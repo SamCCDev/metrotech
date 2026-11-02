@@ -35,15 +35,95 @@ function puntaje(a){var w=S.pesos,cov=cobertura(a.modo,a.categoria),n=Math.min(c
 function sem(i){return i>=65?'rojo':i>=35?'amarillo':'verde'}
 
 // ---- UI
-var TABS=['Definir','Cargar fuentes','Comparar','Puntuar','Decidir'];
+// La pestaña 0 es el inicio (el panorama de un vistazo); los pasos del método siguen siendo tab-1 a tab-5.
+var TABS=['Inicio','Definir','Cargar fuentes','Comparar','Puntuar','Decidir'];
+function ir(i){S.tab=i;S.open=undefined;render()}
 function render(){
   var nav=document.getElementById('nav');nav.textContent='';
-  TABS.forEach(function(t,i){nav.appendChild(h('button',{role:'tab','aria-selected':String(S.tab===i),'data-testid':'tab-'+(i+1),
-    onclick:function(){S.tab=i;S.open=undefined;render()}},h('span',{class:'n',text:i+1}),t))});
+  TABS.forEach(function(t,i){nav.appendChild(h('button',{role:'tab','aria-selected':String(S.tab===i),'data-testid':'tab-'+i,
+    onclick:function(){ir(i)}},i?h('span',{class:'n',text:i}):null,t))});
   document.getElementById('aviso').textContent=D.aviso;
   var m=document.getElementById('main');m.textContent='';
-  [p1,p2,p3,p4,p5][S.tab](m);
+  [p0,p1,p2,p3,p4,p5][S.tab](m);
   if(S.open===undefined)window.scrollTo(0,0)}
+
+// ---- inicio: lo que el radar encontró y las seis preguntas, con las cifras calculadas de los datos cargados
+function resumenRadar(){var prov={},ver={verificada:0,parcial:0,'no-verificada':0},celdas=0,brechas=[];
+  S.fichas.forEach(function(f){prov[f.proveedor]=1;ver[f.verificacion]=(ver[f.verificacion]||0)+1});
+  D.categorias.forEach(function(c){D.modos.forEach(function(mo){var n=cobertura(mo.id,c.id).ok.length;if(n>=3)celdas++;else brechas.push({c:c,mo:mo,n:n})})});
+  var act=S.activos.map(function(a){var p=puntaje(a);return {a:a,idx:p.idx,s:sem(p.idx)}}).sort(function(x,y){return y.idx-x.idx});
+  return {fichas:S.fichas.length,prov:Object.keys(prov).length,ver:ver,celdas:celdas,brechas:brechas,act:act,
+    rojos:act.filter(function(x){return x.s==='rojo'}).length,alertasPT:alertas().filter(function(x){return x.tipo==='pt'}).length}}
+function kpi(tid,num,lab,sub){return h('div',{class:'kpi','data-testid':tid},h('b',{text:String(num)}),h('span',{class:'kl',text:lab}),sub?h('span',{class:'ks',text:sub}):null)}
+var SEM_TXT={verde:'bajo',amarillo:'medio',rojo:'alto'};
+function p0(m){var r=resumenRadar();
+  var hero=h('section',{class:'card hero','data-testid':'p0'},
+    h('p',{class:'kicker',text:'Reto 5 · Radar tecnológico para el Metro de Medellín'}),
+    h('h2',{text:'El Metro se entera tarde de lo que existe en el mercado. Radar Propio lo junta en un solo lugar y avisa antes de que una tecnología quede obsoleta.'}),
+    h('p',{class:'lead',text:'Un método de cinco pasos y una herramienta que opera el propio equipo del Metro, con fuentes públicas y sin cajas negras. Esto es lo que encontró el radar con datos reales del mercado:'}),
+    h('div',{class:'kpis'},
+      kpi('kpi-fichas',r.fichas,'fichas con fuente pública',r.ver.verificada+' verificadas'),
+      kpi('kpi-prov',r.prov,'proveedores reales','cada uno con enlace y fecha de consulta'),
+      kpi('kpi-celdas',r.celdas+' de 16','celdas con 3 proveedores o más','4 modos × 4 categorías'),
+      kpi('kpi-alertas',r.alertasPT,'alertas del Plan de Tecnología',r.rojos+' activos en riesgo alto · ejemplo')));
+  m.appendChild(hero);
+  var g=h('div',{class:'grid2'});
+  // cobertura: matriz 4x4
+  var mat=h('section',{class:'card','data-testid':'ini-matriz'},h('h3',{text:'Cobertura del mercado'}),
+    h('p',{class:'note',text:'Proveedores con fuente por celda, sobre el mínimo de 3 que pide el reto. Toca una celda para verla en el paso 1.'}));
+  var gm=h('div',{class:'mgrid'});gm.appendChild(h('span'));
+  D.modos.forEach(function(mo){gm.appendChild(h('span',{class:'mh',text:mo.nombre}))});
+  D.categorias.forEach(function(c){gm.appendChild(h('span',{class:'mr',text:c.nombre.split(' /')[0]}));
+    D.modos.forEach(function(mo){var n=cobertura(mo.id,c.id).ok.length,k=n>=3?'c3':n>=1?'c1':'c0';
+      gm.appendChild(h('button',{class:'mc '+k,'data-testid':'ini-celda-'+c.id+'-'+mo.id,'aria-label':c.nombre+', '+mo.nombre+': '+n+' de 3',
+        onclick:function(){S.sel={cat:c.id,modo:mo.id};ir(1)}},h('b',{text:String(n)}),h('small',{text:n>=3?'completa':n?'brecha':'sin datos'})))})});
+  mat.appendChild(gm);
+  mat.appendChild(h('p',{class:'leyenda'},h('span',{class:'mc c3 sw'}),' 3 o más · ',h('span',{class:'mc c1 sw'}),' 1 o 2 · ',h('span',{class:'mc c0 sw'}),' ninguno'));
+  g.appendChild(mat);
+  // obsolescencia: barras
+  var ob=h('section',{class:'card','data-testid':'ini-activos'},h('h3',{text:'Riesgo de obsolescencia por activo'}),
+    h('p',{class:'note',text:'Índice de 0 a 100 (edad, dependencia del proveedor y brecha tecnológica). Activos de ejemplo: no son datos del Metro.'}));
+  var bl=h('div',{class:'bars'});
+  r.act.forEach(function(x){bl.appendChild(h('div',{class:'brow','data-testid':'ini-act-'+x.a.id},
+    h('span',{class:'bn',text:x.a.nombre}),
+    h('span',{class:'bt'},h('i',{class:'bf s-'+x.s,style:'width:'+Math.max(2,Math.round(x.idx))+'%'})),
+    h('span',{class:'bv'},h('b',{text:x.idx.toFixed(0)}),' '+SEM_TXT[x.s])))});
+  ob.appendChild(bl);
+  ob.appendChild(h('p',{class:'leyenda'},'Corte: menos de 35 bajo, de 35 a 65 medio, 65 o más alto. ',h('button',{class:'lnk',onclick:function(){ir(4)},text:'Ajustar los pesos en el paso 4'})));
+  g.appendChild(ob);
+  m.appendChild(g);
+  // verificación de las fuentes y brechas
+  var g2=h('div',{class:'grid2'});
+  var vt=r.ver.verificada+r.ver.parcial+r.ver['no-verificada']||1;
+  var vf=h('section',{class:'card','data-testid':'ini-verif'},h('h3',{text:'Qué tan confiables son las fuentes'}),
+    h('p',{class:'note',text:'Cada ficha lleva un enlace público y la fecha de consulta. Solo las verificadas y las parciales cuentan para el mínimo de 3.'}),
+    h('div',{class:'stack3'},
+      h('i',{class:'v1',style:'width:'+(100*r.ver.verificada/vt)+'%'}),h('i',{class:'v2',style:'width:'+(100*r.ver.parcial/vt)+'%'}),h('i',{class:'v3',style:'width:'+(100*r.ver['no-verificada']/vt)+'%'})),
+    h('ul',{class:'vleg'},h('li',null,h('span',{class:'sw v1'}),h('b',{'data-testid':'ini-ver-ok',text:String(r.ver.verificada)}),' verificadas: la página responde y nombra el producto'),
+      h('li',null,h('span',{class:'sw v2'}),h('b',{text:String(r.ver.parcial)}),' parciales: responde, pero es un comunicado o un documento'),
+      h('li',null,h('span',{class:'sw v3'}),h('b',{text:String(r.ver['no-verificada'])}),' sin verificar: el sitio bloqueó la consulta')));
+  g2.appendChild(vf);
+  var br=h('section',{class:'card','data-testid':'ini-brechas'},h('h3',{text:'Dónde falta mirar ('+r.brechas.length+' brechas)'}),
+    h('p',{class:'note',text:'Celdas con menos de 3 proveedores con fuente. Se muestran como brecha en lugar de rellenarlas con nombres sin respaldo.'}));
+  var ul=h('ul',{class:'blist'});r.brechas.forEach(function(x){ul.appendChild(h('li',null,h('b',{text:x.n+'/3'}),' '+x.c.nombre+' · '+x.mo.nombre))});
+  br.appendChild(ul);g2.appendChild(br);m.appendChild(g2);
+  // las seis preguntas
+  var q=h('section',{class:'card','data-testid':'ini-preguntas'},h('h3',{text:'La propuesta en seis respuestas'}));
+  var qg=h('div',{class:'qgrid'});
+  [['El problema','El Metro evalúa tecnología cuando salta una alerta o ya hay una compra en marcha, modo por modo y con búsquedas manuales. Pierde ventanas de negociación y no mide el riesgo de quedar atado a un solo proveedor.'],
+   ['La solución','Un método de cinco pasos (definir, recolectar, comparar, puntuar y decidir) y una herramienta dentro de Metro Digital. Vigilancia tecnológica: mirar de forma ordenada y constante qué hacen los demás.'],
+   ['La propuesta de valor','48 fichas como mínimo (4 modos, 4 categorías y 3 proveedores por celda) en un solo lugar, un semáforo que avisa a tiempo y cero cajas negras: desde la semana 11 el equipo del Metro opera el radar sin nosotros.'],
+   ['Por qué es la mejor','El Metro no quiere comprar un tren, un software cerrado, una consultoría puntual ni exponer datos en IA pública. Radar Propio vende el método para elegir, es código abierto dentro de Metro Digital, termina con el Metro operando solo y usa fuentes públicas.'],
+   ['La viabilidad','Cobra por implementar el piloto, por una licencia anual del método y por un soporte que baja con el tiempo. Cuesta poco producirlo: fuentes abiertas, software libre e infraestructura del Metro. No promete un ahorro en pesos: el piloto lo mide.'],
+   ['La factibilidad','Todo lo necesario ya existe. 16 semanas, en la ventana de piloto de mayo a agosto de 2027: construir con el equipo del Metro, que el Metro llene fichas con revisión, y que opere solo. La prueba que puede fallar: en la semana 14 un analista agrega un proveedor sin ayuda.']
+  ].forEach(function(x,i){qg.appendChild(h('div',{class:'q','data-testid':'ini-q-'+(i+1)},h('span',{class:'qn',text:String(i+1)}),h('h4',{text:x[0]}),h('p',{text:x[1]})))});
+  q.appendChild(qg);m.appendChild(q);
+  // entrada a los pasos
+  var pas=h('section',{class:'card','data-testid':'ini-pasos'},h('h3',{text:'Recorrer el método'}),h('p',{class:'note',text:'Cada paso es una pantalla del prototipo, con los mismos datos de arriba.'}));
+  var pr=h('div',{class:'pasos'});
+  [['Definir','qué se vigila: 4 modos por 4 categorías'],['Cargar fuentes','solo información pública, con enlace'],['Comparar','una ficha igual para cada solución'],['Puntuar','el semáforo de obsolescencia'],['Decidir','alertas, brechas y bitácora']]
+   .forEach(function(x,i){pr.appendChild(h('button',{class:'paso','data-testid':'ini-paso-'+(i+1),onclick:function(){ir(i+1)}},h('span',{class:'n',text:String(i+1)}),h('b',{text:x[0]}),h('small',{text:x[1]})))});
+  pas.appendChild(pr);m.appendChild(pas)}
 
 function badge(cov){var n=cov.ok.length,cl=n>=3?'b-ok':n>=1?'b-mid':'b-bad';return h('span',{class:'badge '+cl,text:n+'/3'})}
 

@@ -10,6 +10,27 @@ OK_JSON = RAIZ / 'tests' / 'fichas_ok.json'
 MAL_JSON = RAIZ / 'tests' / 'fichas_mal.json'
 resultados = []
 
+def esperado_desde_data():
+    # Las cifras del inicio calculadas en Python directo de data.js, sin pasar por el JS de la app.
+    txt = (RAIZ / 'app' / 'data.js').read_text(encoding='utf-8')
+    d = json.loads(txt[txt.index('{'):txt.rindex('}') + 1])
+    celdas = 0
+    for c in d['categorias']:
+        for m in d['modos']:
+            ok = {f['proveedor'] for f in d['fichas'] if f['categoria'] == c['id'] and m['id'] in f['modos'] and f['verificacion'] != 'no-verificada'}
+            celdas += len(ok) >= 3
+    return {'kpi-fichas': str(len(d['fichas'])), 'kpi-prov': str(len({f['proveedor'] for f in d['fichas']})),
+            'kpi-celdas': f'{celdas} de 16', 'ini-ver-ok': str(sum(f['verificacion'] == 'verificada' for f in d['fichas'])),
+            'activos': len(d['activos'])}
+
+def cifras_inicio(pg):
+    return {t: pg.inner_text(f'[data-testid={t}] b' if t.startswith('kpi') else f'[data-testid={t}]').strip()
+            for t in ('kpi-fichas', 'kpi-prov', 'kpi-celdas', 'ini-ver-ok')}
+
+def distintas(pg, esp):
+    got = cifras_inicio(pg)
+    return [k for k in got if got[k] != esp[k]]
+
 def chk(nombre, cond, detalle=''):
     resultados.append((nombre, bool(cond), detalle))
     print(('OK  ' if cond else 'FALLA'), nombre, detalle)
@@ -37,6 +58,29 @@ with sync_playwright() as p:
     pg.evaluate("console.error('error sembrado')")
     chk('detector de consola detecta un error sembrado', len(errores) == n0 + 1)
     errores.clear()
+
+    # 0b. el inicio: abre primero y sus cifras salen de data.js
+    esp = esperado_desde_data()
+    chk('la app abre en el inicio', pg.locator('[data-testid=p0]').count() == 1)
+    chk('cifras del inicio = data.js (41 fichas, 21 proveedores, 8 de 16, 32 verificadas)', not distintas(pg, esp), str(cifras_inicio(pg)))
+    pg.evaluate("document.querySelector('[data-testid=kpi-fichas] b').textContent='40'")
+    chk('el comparador detecta un número alterado (control positivo)', distintas(pg, esp) == ['kpi-fichas'])
+    pg.click('[data-testid=tab-0]')
+    chk('alertas del inicio = alertas del paso 5', pg.inner_text('[data-testid=kpi-alertas] b') == '3')
+    barras = pg.locator('[data-testid^=ini-act-]')
+    vals = [float(x.split()[0]) for x in barras.locator('.bv').all_inner_texts()]
+    chk('una barra por activo, de mayor a menor', barras.count() == esp['activos'] and vals == sorted(vals, reverse=True), str(vals))
+    chk('las seis preguntas', pg.locator('[data-testid^=ini-q-]').count() == 6)
+    chk('8 brechas en el inicio', pg.locator('[data-testid=ini-brechas] li').count() == 8)
+    pg.click('[data-testid=ini-celda-dg-tranvia]')
+    chk('tocar una celda abre el paso 1 con esa celda', pg.locator('[data-testid=p1]').count() == 1
+        and pg.get_attribute('[data-testid=celda-dg-tranvia]', 'aria-pressed') == 'true')
+    pg.click('[data-testid=tab-0]'); pg.click('[data-testid=ini-paso-4]')
+    chk('el botón del paso 4 abre el paso 4', pg.locator('[data-testid=p4]').count() == 1)
+    pg.click('[data-testid=tab-4]'); pg.fill('[data-testid=A2-instalado]', '2024'); pg.dispatch_event('[data-testid=A2-instalado]', 'change')
+    pg.click('[data-testid=tab-0]')
+    chk('renovar un activo baja las alertas del inicio (3 -> 2)', pg.inner_text('[data-testid=kpi-alertas] b') == '2', pg.inner_text('[data-testid=kpi-alertas] b'))
+    pg.click('[data-testid=tab-2]'); pg.click('[data-testid=reset]')
 
     # 1. cada pantalla carga sin errores y muestra su contenido
     for i, tid in enumerate(['p1', 'p2', 'p3', 'p4', 'p5'], 1):
@@ -130,7 +174,7 @@ with sync_playwright() as p:
     mp = m.new_page(); merr = []
     mp.on('console', lambda x: merr.append(x.text) if x.type == 'error' else None); mp.on('pageerror', lambda e: merr.append(str(e)))
     mp.goto(APP)
-    for i in range(1, 6):
+    for i in range(0, 6):
         mp.click(f'[data-testid=tab-{i}]')
         ancho = mp.evaluate('document.documentElement.scrollWidth <= window.innerWidth + 1')
         chk(f'celular: pantalla {i} sin desbordar la página', ancho)
