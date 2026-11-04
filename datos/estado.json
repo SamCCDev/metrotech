@@ -35,11 +35,11 @@
   },
   "rs-tram-caf": {
    "revisada": "2026-11-04",
-   "abre": false,
-   "nombra": false,
-   "http": null,
+   "abre": true,
+   "nombra": true,
+   "http": 200,
    "fecha_dato": null,
-   "error": "RemoteDisconnected: Remote end closed connection without response"
+   "error": null
   },
   "rs-tram-stadler": {
    "revisada": "2026-11-04",
@@ -131,11 +131,11 @@
   },
   "sc-tram-thales": {
    "revisada": "2026-11-04",
-   "abre": true,
+   "abre": false,
    "nombra": false,
-   "http": 200,
+   "http": 404,
    "fecha_dato": null,
-   "error": null
+   "error": "HTTP 404"
   },
   "sc-brt-trapeze": {
    "revisada": "2026-11-04",

@@ -174,6 +174,14 @@ window.RADAR_DATA = {
   },
   {
    "proveedor": "Siemens Mobility",
+   "titulo": "Renfe moderniza su flota con una millonaria compra de trenes Siemens - MasContainer",
+   "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdUNTbFJKd0NrS1FCZTA3aVRxdFpkTDA0ZGRJSzQ5YUd0LWVsa3VfQ3JSanEtQ1dkTWhTZ3NpcEpKZWwzZmx6TzlJYnhaeGRyZFdDa082VWwwRDloRjNZVk1XTDNiTkFHT0JHcnFCX2Y2b1JCSk9qMUd1SThwUTd2N2dnX0JhRzVrX0dPV3VKMmE?oc=5",
+   "fecha": "2026-11-04",
+   "medio": "MasContainer",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Siemens Mobility",
    "titulo": "Siemens suministra 113 trenes de baterías para descarbonizar el transporte ferroviario en Baja Sajonia - Interempresas Media",
    "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYmZiOTJYVlU2N0hudUx0LTR2YWkxTW5vcGlFbjNVNkNwRG5KSElZMEJXV0dqNWZaLXA4aFVfcnNhSkJsdUZyTHZKaW4xelI2SU9aYXVndWJjaG9fVmltMHNIQ19kV3QxQWRIQkRXX2ZmVlhlUnRFazZCQlBJTlJlSHBwSFpVWUMtNjNNbTNGZ1M2cDhBX1RTMTBRQjlzTnB5a0N6MUp2VHVldXdRekh3WWdLTGkxYkpxX0p5aENrc2s0R1RmamJ6alJVNTJITTFka2ZKcVhKNnFrUQ?oc=5",
    "fecha": "2026-11-03",
@@ -202,14 +210,6 @@ window.RADAR_DATA = {
    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRlpxY2l1bTktUnJCTFBHak1jUWVyb2QtNjluY3h5RlN4c0FmX1JnRDR0V212MmNzVDRXUXlBaUNkQk85ZzVoY0JLSnpyak5iTXlYQzdFc0Jtdk5iU2p1al92eGFTQmpkN2lOZll2dmdJTzVBYTh1U3JxZW8xSkViM1hxUmpvUEZkYl9xWU43WWNBLTZjWnhqSUk5SlpkV3VXVGVhSWNZQy0xRjVyazJ5V0gtWmpSQ1g3NW1EMm0yNzl6aTl6Smk2NHk4WWxqaE0zUklkbi1OQzhuM29tbXRNcTh6Zk1vNlowd0h2Smdza1NUdTDSAfgBQVVfeXFMTy1XYmIwYUxCdGgtOWdLbTJ6TzdrTk5mZWRZblNDMkVSRGVaLWRzRng3TUdPRjhYNGVIbkJLYWU0U0dJWFh2UFdicUlhQ2Y2em1XSC00YlVxb0hfZ0lMSFg3VUJQbGJKb2tGS3llZi1YZHhwMFJBMktEeHdSZTBWa3NnYVhlcllEVG5sNkV4N2R4VGFfWEVVZ0tzOXNKdDlIbFJkZUZ5aklVOFBvTXJCYUNRbDlyQ2FFb2NqdExzSXJmbHkzU01ST2UycHAtZWpvVjhvOW5KVHV4Q2J2bTNjbElSckd2a2RCWkRweFlmV1R2emI5NUxrMVo?oc=5",
    "fecha": "2026-10-28",
    "medio": "El Español",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Siemens Mobility",
-   "titulo": "Los nuevos trenes de Siemens para Renfe tardarán más de tres años en rodar por las vías españolas - Merca2.es",
-   "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wUVl5cThvamdJVHh2bnpLa1ZkZHNVVzNwVmJoT3JvNU55YXNUTjFTdV9xQ0lPcTVsR0wyS18tN2lOR2pYckxReEtXelo3dERaLU1tWnhWenh6TjJETl95TWd4RTFWM0NiNG5RV2RMMzVOS3RqaHc?oc=5",
-   "fecha": "2026-10-28",
-   "medio": "Merca2.es",
    "origen": "Google News"
   },
   {
@@ -385,11 +385,11 @@ window.RADAR_DATA = {
    "url": "https://www.caf.net/en/soluciones/familia/urbos/index.php",
    "tipo_fuente": "fabricante",
    "dato": "100 % piso bajo, 750 V CC, de 18 a 43 m (datos técnicos del fabricante, según resultado de búsqueda; el sitio no dejó abrir la página cuando se comprobó el enlace)",
-   "abre": false,
-   "nombra": false,
+   "abre": true,
+   "nombra": true,
    "fecha_dato": null,
    "consultada": "2026-11-04",
-   "confianza": "baja",
+   "confianza": "media",
    "madurez_trl_estimada": null
   },
   {
@@ -613,11 +613,11 @@ window.RADAR_DATA = {
    "url": "https://www.thalesgroup.com/en/tramway-lrt-signalling-solution",
    "tipo_fuente": "fabricante",
    "dato": "Puede repetirse con Hitachi Rail, que compró ese negocio; falta confirmar quién es hoy el dueño del producto",
-   "abre": true,
+   "abre": false,
    "nombra": false,
    "fecha_dato": null,
    "consultada": "2026-11-04",
-   "confianza": "media",
+   "confianza": "baja",
    "madurez_trl_estimada": null
   },
   {

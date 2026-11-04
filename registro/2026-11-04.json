@@ -1,21 +1,21 @@
 {
  "fecha": "2026-11-04",
- "hora_utc": "19:28",
- "segundos": 331,
+ "hora_utc": "19:38",
+ "segundos": 293,
  "fichas": 41,
  "abren": 35,
- "nombran_el_producto": 34,
+ "nombran_el_producto": 35,
  "con_fecha_del_dato": 14,
  "no_abren": [
   "dg-cable-doppelmayr",
   "en-brt-abb",
   "en-cable-doppelmayr",
   "en-metro-abb",
-  "rs-tram-caf",
-  "sc-cable-doppelmayr"
+  "sc-cable-doppelmayr",
+  "sc-tram-thales"
  ],
  "proveedores": 18,
- "novedades": 43,
+ "novedades": 31,
  "proveedores_con_rss_propio": [
   "Clever Devices",
   "Kempower",
