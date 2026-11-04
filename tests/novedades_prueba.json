@@ -1,0 +1,4 @@
+{"revisado": "2026-10-28", "desde": "2026-09-28", "novedades": [
+ {"proveedor": "Alstom", "titulo": "Novedad de prueba uno (dato fijo de las pruebas)", "enlace": "https://example.com/novedad-1", "fecha": "2026-10-20", "medio": "Medio de prueba", "origen": "Google News"},
+ {"proveedor": "Leitner", "titulo": "Novedad de prueba dos (dato fijo de las pruebas)", "enlace": "https://example.com/novedad-2", "fecha": "2026-10-10", "medio": "rss del proveedor", "origen": "rss del proveedor"}
+]}

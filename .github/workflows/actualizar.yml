@@ -1,0 +1,68 @@
+# Revisión diaria de MetroTech. Una vez por día vuelve a abrir el enlace de cada ficha, actualiza la fecha del dato y la
+# confianza, busca novedades de cada proveedor en fuentes abiertas (su RSS o Google News), regenera app/data.js y deja
+# un registro de la corrida en registro/. Solo publica si pasan todas las pruebas: si alguna falla, no hay commit, la
+# página sigue con los datos del día anterior y el registro queda como artefacto de la corrida.
+name: Revisión diaria
+
+on:
+  schedule:
+    - cron: '0 11 * * *'   # 06:00 en Medellín
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: revision-diaria
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: |
+          pip install playwright==1.49.0 pypdf==5.1.0
+          python -m playwright install --with-deps chromium
+
+      - name: Revisar enlaces y buscar novedades
+        run: python tools/actualizar.py
+
+      - name: Regenerar los datos
+        run: python tools/gen_data.py
+
+      - name: Pruebas
+        run: |
+          python tests/test_actualizar.py
+          python tests/test_ui.py
+
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data.js datos registro
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos"
+          else
+            git commit -m "Revisión diaria del $(date -u +%F)"
+            git push
+            gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "La publicación de Pages arranca sola con el push"
+          fi
+
+      - name: Guardar el registro de la corrida
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: registro-${{ github.run_id }}
+          path: registro/
+          if-no-files-found: ignore

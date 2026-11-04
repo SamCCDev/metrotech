@@ -1,7 +1,7 @@
 import json
 C='2026-10-28'
 # El nombre del producto vive solo aquí: la app lo toma de data.js (título, encabezado y textos).
-NOMBRE='Radar Propio'
+NOMBRE='MetroTech'
 MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
 C_TXT='%d de %s de %s'%(int(C[8:]),MESES[int(C[5:7])-1],C[:4])
 V,P,N='verificada','parcial','no-verificada'
@@ -49,11 +49,42 @@ F=[
 ('dg-cable-leitner','dg',['cable'],[],'Leitner','ConnX','https://www.leitner.com/en/products/ropeway-systems/connx/',V,'fabricante',None),
 ('dg-cable-poma','dg',['cable'],[],'POMA','Servicios digitales','https://www.poma.net/en/services/',V,'fabricante',None),
 ]
-fichas=[dict(id=i,categoria=c,modos=m,modos_supuestos=ms,proveedor=p,producto=pr,url=u,verificacion=v,tipo_fuente=t,dato=d,consultada=C,
-  madurez_trl_estimada=None) for i,c,m,ms,p,pr,u,v,t,d in F]
-data=dict(
- version='0.1',generado=C,nombre=NOMBRE,
- aviso='Los proveedores y los enlaces son reales. Se cargaron a mano el %s y no se actualizan solos. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.'%C_TXT,
+import pathlib, sys
+RAIZ=pathlib.Path(__file__).resolve().parent.parent
+
+def fichas_base():
+  return [dict(id=i,categoria=c,modos=m,modos_supuestos=ms,proveedor=p,producto=pr,url=u,tipo_fuente=t,dato=d,v28=v)
+          for i,c,m,ms,p,pr,u,v,t,d in F]
+
+def confianza(tipo,abre):
+  # Alta: la fuente no es el fabricante (prensa especializada o tercero independiente) y la página abrió.
+  # Media: solo lo dice el fabricante. Baja: la página no se pudo abrir o todavía no se revisó.
+  if not abre: return 'baja'
+  return 'media' if tipo=='fabricante' else 'alta'
+
+def fecha_txt(iso):
+  return '%d de %s de %s'%(int(iso[8:]),MESES[int(iso[5:7])-1],iso[:4])
+
+def armar(prueba=False):
+  """prueba=True ignora la revisión diaria y usa el estado del 28 de octubre de 2026: es la copia fija de las pruebas."""
+  est,nov={},{'revisado':None,'novedades':[]}
+  if not prueba:
+    try: est=json.loads((RAIZ/'datos'/'estado.json').read_text(encoding='utf-8'))
+    except FileNotFoundError: est={}
+    try: nov=json.loads((RAIZ/'datos'/'novedades.json').read_text(encoding='utf-8'))
+    except FileNotFoundError: pass
+  else:
+    nov=json.loads((RAIZ/'tests'/'novedades_prueba.json').read_text(encoding='utf-8'))
+  revisado=est.get('revisado') or C
+  fichas=[]
+  for b in fichas_base():
+    e=(est.get('fichas') or {}).get(b['id']) or {'abre':b['v28']!=N,'nombra':b['v28']==V,'fecha_dato':None,'revisada':C}
+    fichas.append(dict(id=b['id'],categoria=b['categoria'],modos=b['modos'],modos_supuestos=b['modos_supuestos'],proveedor=b['proveedor'],
+      producto=b['producto'],url=b['url'],tipo_fuente=b['tipo_fuente'],dato=b['dato'],abre=bool(e['abre']),nombra=bool(e['nombra']),
+      fecha_dato=e.get('fecha_dato'),consultada=e.get('revisada') or revisado,confianza=confianza(b['tipo_fuente'],e['abre']),madurez_trl_estimada=None))
+  return dict(
+ version='0.2',generado=C,revisado=revisado,nombre=NOMBRE,novedades=nov.get('novedades',[]),novedades_desde=nov.get('desde'),
+ aviso='Los proveedores y los enlaces son reales. Se revisan solos una vez al día; la última revisión fue el %s. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.'%fecha_txt(revisado),
  anio_ref=2026,
  modos=[dict(id='metro',nombre='Metro'),dict(id='tranvia',nombre='Tranvía'),dict(id='brt',nombre='Buses BRT'),dict(id='cable',nombre='Cable aéreo')],
  categorias=[dict(id='rs',nombre='Vehículos',desc='Trenes, tranvías, buses eléctricos y cabinas'),dict(id='sc',nombre='Señalización y control',desc='Control de trenes por comunicaciones (CBTC), gestión de flotas de buses y control de cables aéreos'),dict(id='en',nombre='Energía y tracción',desc='Subestaciones, almacenamiento de energía, carga de buses eléctricos y motores de los cables'),dict(id='dg',nombre='Tecnología digital',desc='Mantenimiento predictivo, venta de pasajes, datos y conectividad')],
@@ -79,6 +110,14 @@ data=dict(
   dict(id='PT-6',prioridad='Baja',titulo='Revisar el control de las líneas de cable aéreo',modo='cable',categoria='sc',umbral=85),
  ],
  pesos=dict(edad=0.4,dependencia=0.3,brecha=0.3),
-)
-open(__import__('os').path.join(__import__('os').path.dirname(__file__),'..','app','data.js'),'w',encoding='utf8').write('window.RADAR_DATA = '+json.dumps(data,ensure_ascii=False,indent=1)+';\n')
-print(len(fichas),'fichas')
+ )
+
+def main():
+  prueba='--prueba' in sys.argv
+  data=armar(prueba)
+  destino=RAIZ/('tests/data_prueba.js' if prueba else 'app/data.js')
+  destino.write_text('window.RADAR_DATA = '+json.dumps(data,ensure_ascii=False,indent=1)+';\n',encoding='utf8')
+  print(len(data['fichas']),'fichas ->',destino.relative_to(RAIZ))
+
+if __name__=='__main__':
+  main()

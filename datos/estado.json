@@ -1,0 +1,333 @@
+{
+ "revisado": "2026-11-04",
+ "fichas": {
+  "rs-metro-alstom": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "rs-metro-siemens": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "rs-metro-hitachi": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "rs-tram-alstom": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2019-12-10",
+   "error": null
+  },
+  "rs-tram-caf": {
+   "revisada": "2026-11-04",
+   "abre": false,
+   "nombra": false,
+   "http": null,
+   "fecha_dato": null,
+   "error": "RemoteDisconnected: Remote end closed connection without response"
+  },
+  "rs-tram-stadler": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2021-06-22",
+   "error": null
+  },
+  "rs-tram-siemens": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2014-08-06",
+   "error": null
+  },
+  "rs-brt-volvo": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "rs-brt-byd": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2019-04-01",
+   "error": null
+  },
+  "rs-cable-doppelmayr": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2022-08-25",
+   "error": null
+  },
+  "rs-cable-leitner": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2014-04-02",
+   "error": null
+  },
+  "rs-cable-poma": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2020-08-13",
+   "error": null
+  },
+  "sc-metro-alstom": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-metro-siemens": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2025-11-13",
+   "error": null
+  },
+  "sc-metro-hitachi": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-tram-alstom": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-tram-thales": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": false,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-brt-trapeze": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-brt-init": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-brt-clever": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-cable-doppelmayr": {
+   "revisada": "2026-11-04",
+   "abre": false,
+   "nombra": false,
+   "http": 202,
+   "fecha_dato": null,
+   "error": null
+  },
+  "sc-cable-leitner": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "en-metro-alstom": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2025-06-05",
+   "error": null
+  },
+  "en-metro-abb": {
+   "revisada": "2026-11-04",
+   "abre": false,
+   "nombra": false,
+   "http": null,
+   "fecha_dato": null,
+   "error": "TimeoutError: The read operation timed out"
+  },
+  "en-metro-siemens": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "en-tram-alstom": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2019-12-16",
+   "error": null
+  },
+  "en-tram-siemens": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2022-08-22",
+   "error": null
+  },
+  "en-brt-abb": {
+   "revisada": "2026-11-04",
+   "abre": false,
+   "nombra": false,
+   "http": null,
+   "fecha_dato": null,
+   "error": "TimeoutError: The read operation timed out"
+  },
+  "en-brt-kempower": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2023-03-14",
+   "error": null
+  },
+  "en-brt-heliox": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "en-cable-doppelmayr": {
+   "revisada": "2026-11-04",
+   "abre": false,
+   "nombra": false,
+   "http": null,
+   "fecha_dato": null,
+   "error": "URLError: <urlopen error timed out>"
+  },
+  "en-cable-leitner": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-metro-alstom": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-metro-hitachi": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-metro-siemens": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-brt-init": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-brt-masabi": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2021-10-22",
+   "error": null
+  },
+  "dg-brt-clever": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-cable-doppelmayr": {
+   "revisada": "2026-11-04",
+   "abre": false,
+   "nombra": false,
+   "http": 202,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-cable-leitner": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": null,
+   "error": null
+  },
+  "dg-cable-poma": {
+   "revisada": "2026-11-04",
+   "abre": true,
+   "nombra": true,
+   "http": 200,
+   "fecha_dato": "2026-06-08",
+   "error": null
+  }
+ }
+}

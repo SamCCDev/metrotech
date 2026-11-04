@@ -1,55 +1,65 @@
-# Radar Propio: prototipo
+# MetroTech: prototipo
 
-Prototipo funcional de la propuesta para el Reto 5 del programa de innovación abierta del Metro de Medellín, «Radar Tecnológico: El futuro de la movilidad». Es una página web estática que reproduce los cinco pasos del método: definir qué se vigila, cargar fuentes, comparar proveedores, puntuar la obsolescencia y decidir con alertas ligadas a un Plan de Tecnología.
+Prototipo funcional de la propuesta para el Reto 5 del programa de innovación abierta del Metro de Medellín, «Radar Tecnológico: El futuro de la movilidad». Es una página web estática que reproduce los cinco pasos del método: definir qué se revisa, cargar fichas, comparar proveedores, puntuar el riesgo de obsolescencia y decidir con alertas ligadas a un Plan de Tecnología.
 
 ## Cómo abrirlo
 
-Abra `index.html` (o `app/index.html`) con doble clic. También está publicado en GitHub Pages: https://samccdev.github.io/radar-propio-metro/ . Funciona en cualquier navegador actual, sin instalar nada, sin servidor y sin conexión a internet. No usa servicios externos ni inteligencia artificial: todo el código está en `app/app.js` y los datos en `app/data.js`.
+Está publicado en GitHub Pages: https://samccdev.github.io/metrotech/ . También se puede abrir `index.html` (o `app/index.html`) con doble clic. Funciona en cualquier navegador actual, sin instalar nada y sin conexión una vez abierto. El código está en `app/app.js` y los datos en `app/data.js`.
 
-Lo que se cambie en pantalla (datos de un activo, pesos, fichas nuevas, decisiones) se guarda únicamente en el navegador de quien lo usa. El botón «Restablecer datos de ejemplo», en el paso 2, vuelve al estado inicial.
+Lo que se cambie en pantalla (los datos de un activo, los pesos, las fichas nuevas o las decisiones) se guarda solo en el navegador de quien lo usa. El botón «Volver a los datos de ejemplo», en el paso 2, devuelve todo al estado inicial.
+
+## Las palabras que usa
+
+Una ficha es el registro de un producto: quién lo vende, cómo se llama, a qué categoría y modo de transporte sirve, y el enlace a su fuente, que es la página pública que lo respalda. El cuadro del paso 1 cruza 4 categorías de tecnología (vehículos, señalización y control, energía y tracción, y tecnología digital) con 4 modos de transporte (metro, tranvía, buses BRT y cable aéreo). Cada cruce es una casilla, y una casilla está completa cuando tiene al menos 3 proveedores con una fuente que cuenta, que es el mínimo que pide el reto.
+
+Un activo es un sistema que el Metro tiene instalado, como una flota de trenes o la señalización de una línea. Su índice de obsolescencia va de 0 a 100 y combina cuánto de su vida útil ya pasó, cuánto depende de un solo proveedor y su brecha tecnológica, que es qué tan atrás está frente al mercado, de 0 a 5. El semáforo pinta el índice: verde es riesgo bajo (menos de 35), amarillo es medio y rojo es alto (65 o más). El Plan de Tecnología es la lista de prioridades de renovación del Metro; cada prioridad fija un umbral, y cuando el índice de un activo llega a ese umbral aparece una alerta.
 
 ## Qué hace cada pantalla
 
-El inicio responde de un vistazo qué encontró el radar y cuál es la propuesta. Muestra las fichas con fuente, los proveedores, las celdas de la matriz que llegan a tres proveedores y las alertas del Plan de Tecnología; la cobertura del mercado en una matriz de cuatro por cuatro, el índice de obsolescencia de cada activo con su semáforo, qué tan verificadas están las fuentes y dónde están las brechas. Debajo, la propuesta en seis respuestas (el problema, la solución, la propuesta de valor, por qué es la mejor, la viabilidad y la factibilidad) y la entrada a los cinco pasos. Todas las cifras se calculan con los datos cargados: si se agrega una ficha o se renueva un activo, el inicio cambia.
+El inicio muestra las cifras principales, el cuadro de casillas, el índice de cada activo, qué tan confiable es cada fuente, las casillas incompletas, las novedades de los proveedores y la propuesta en seis respuestas. Todas las cifras se calculan con los datos cargados.
 
-El paso 1 muestra la matriz de cuatro categorías tecnológicas (material rodante, señalización y control, energía y tracción, tecnología digital) por cuatro modos (metro, tranvía, BRT, cable). Cada celda indica cuántos proveedores con fuente tiene, sobre el mínimo de tres que pide el reto.
+El paso 1 muestra el cuadro de 4 por 4 y cuántos proveedores tiene cada casilla. El paso 2 lista las fichas con su clasificación y permite sumar fichas desde un archivo JSON o agregarlas a mano; las fichas nuevas entran con confianza baja y no cuentan hasta que alguien las revise. El paso 3 compara los proveedores de una casilla con los mismos campos. El paso 4 calcula el índice de cada activo y deja cambiar los pesos y los datos. El paso 5 muestra las alertas y las casillas incompletas, y lleva una bitácora de decisiones que se puede descargar en JSON.
 
-El paso 2 lista las fuentes cargadas, permite importar más desde un archivo JSON y agregar fichas a mano. Las fichas nuevas entran como no verificadas y no cuentan para el mínimo hasta que alguien las revise.
+## Cómo se clasifican las fuentes
 
-El paso 3 compara los proveedores de una celda con la misma ficha, y dice si la aplicación a ese modo viene de la fuente o es un supuesto.
+Cada fuente tiene tres clasificaciones:
 
-El paso 4 calcula un índice de obsolescencia de 0 a 100 por activo, a partir de la edad frente a la vida útil, la dependencia del proveedor (que baja con cada alternativa con fuente y sube si el proveedor es cautivo) y la brecha tecnológica. Los pesos se ajustan con tres controles. En pantalla de celular cada activo se muestra como una tarjeta con los campos editables plegados.
+- El tipo, que dice quién la publica: el fabricante, la prensa especializada o un tercero independiente.
+- La fecha del dato, que es la fecha de publicación que declara la página (en sus metadatos, en un PDF o en la propia dirección). No es la fecha de la consulta. Si la página no la declara, la ficha dice «sin fecha».
+- La confianza: alta si la publica alguien distinto del fabricante y la página abrió, media si solo lo dice el fabricante, y baja si la página no abrió en la última revisión. Las fichas de confianza baja se muestran, pero no cuentan para el mínimo de 3.
 
-El paso 5 cruza los índices con las prioridades del Plan de Tecnología, muestra las alertas y las brechas de cobertura, y lleva una bitácora de decisiones que se puede exportar a JSON.
+Ninguna de las tres confirma que el dato sea cierto: dicen de dónde viene, cuándo se publicó y si la página sigue en pie.
 
-## De dónde salen los datos
+## La revisión diaria
 
-Las 41 fichas corresponden a 21 proveedores reales, cada una con un enlace público y la fecha de consulta (28 de octubre de 2026). De las 41, 32 están verificadas (la página respondió y nombra el producto), 5 son parciales (respondió, pero es un comunicado o un documento que no se pudo leer entero) y 4 no se pudieron verificar porque el sitio bloqueó la consulta automática. Las afirmaciones de cada ficha son del fabricante o de prensa especializada y no están contrastadas de forma independiente.
+Las 41 fichas de 21 proveedores se cargaron a mano el 28 de octubre de 2026. Desde el 4 de noviembre, un GitHub Action (`.github/workflows/actualizar.yml`) corre una vez al día, a las 6:00 de Medellín, y hace esto:
 
-Ocho de las dieciséis celdas llegan a tres proveedores con fuente. Las otras ocho quedan visibles como brecha en lugar de rellenarse con nombres sin respaldo.
+1. Vuelve a abrir el enlace de cada ficha, mira si la página nombra el producto y actualiza la fecha del dato y la confianza (`tools/actualizar.py`).
+2. Busca las novedades de los últimos 30 días de cada proveedor: en su propio RSS, si su sitio lo anuncia, y en la búsqueda de Google News en RSS. Las dos son abiertas y no piden clave. Se quedan las que nombran al proveedor en el título y hablan de transporte; el filtro es por palabras y puede dejar pasar alguna nota ajena.
+3. Regenera `app/data.js` (`tools/gen_data.py`) y corre todas las pruebas.
+4. Si las pruebas pasan, publica los datos nuevos y el registro de la corrida (`registro/AAAA-MM-DD.json`). Si alguna falla, no publica nada, la página sigue con los datos del día anterior y el registro queda guardado en la corrida del Action.
 
-Los activos del Metro y las prioridades del Plan de Tecnología son datos de ejemplo inventados para la demostración. La pantalla lo avisa con una franja permanente. No son información del Metro.
+La revisión no agrega ni quita fichas, no cambia los activos ni el Plan de Tecnología y no comprueba que lo que dice cada fuente sea cierto. Las novedades se muestran aparte: un analista decide si alguna merece una ficha nueva. Algunos sitios rechazan las consultas automáticas o tardan en responder, así que una ficha puede pasar a confianza baja un día y volver al siguiente.
 
-El índice de obsolescencia es una fórmula simple y legible, pensada para que el Metro la reemplace por la suya. No calcula costos en pesos: el costo evitado se mediría en un piloto con los datos reales del Plan de Tecnología.
+## Qué es real y qué es de ejemplo
+
+Los proveedores, los productos y los enlaces son reales. Los activos del Metro y las prioridades del Plan de Tecnología son datos de ejemplo inventados para la demostración, y la pantalla lo avisa con una franja fija. El índice de obsolescencia es una fórmula simple, pensada para que el Metro la reemplace por la suya. No calcula costos en pesos: el costo evitado se mediría en un piloto con los datos reales del Plan de Tecnología.
 
 ## Pruebas
 
-`tests/test_ui.py` recorre las cinco pantallas en un navegador real con Playwright. Comprueba que ninguna produce errores de consola, que el puntaje cambia cuando cambia un dato (y no cambia cuando se repite el mismo), que un dato fuera de rango se rechaza, que las alertas aparecen y desaparecen con los índices, que una ficha manual o importada no completa una celda mientras no esté verificada, que un JSON inválido se rechaza y que en celular no hay desbordamiento horizontal.
-
 ```
-pip install playwright
-python tests/test_ui.py                  # usa el Chromium de Playwright
-python tests/test_ui.py /ruta/a/chrome   # o uno ya instalado
+pip install playwright pypdf
+python -m playwright install chromium
+python tests/test_actualizar.py   # sin red: regla de confianza, fechas, filtro de novedades, RSS
+python tests/test_ui.py           # en un navegador real
 ```
 
-Desde el 2 de noviembre las pruebas cubren también el inicio: que abra primero, que cada cifra coincida con la que se calcula directamente de `data.js` (con un control que altera un número a propósito y comprueba que la diferencia se detecta), que las barras salgan de mayor a menor y que las celdas y los botones lleven al paso correcto. La última corrida pasó 55 de 55 pruebas.
+`tests/test_ui.py` recorre las seis pantallas. Como la revisión diaria cambia los datos todos los días, la interfaz se prueba contra una copia fija (`tests/data_prueba.js`, el estado del 28 de octubre de 2026, que genera `python tools/gen_data.py --prueba`), y los datos vivos tienen pruebas propias: que la confianza siga la regla, que las fechas tengan formato válido y que la app abra con ellos sin errores y cuente lo mismo que Python. Para comprobar que las pruebas pueden fallar, se rompió a propósito la regla de confianza en los datos vivos, y la prueba correspondiente falló.
 
-`tools/medir.py` revisa el contraste (4,5:1 como mínimo) y que nada desborde en las seis pantallas, en pantalla de 1920×1080 al 100 y al 90 %, vertical de 1080×1920 y celular de 390 px, en modo claro y oscuro. Antes de medir, comprueba que detecta dos defectos fabricados. Última corrida: 0 fallas en 5.586 textos. `tools/capturar_inicio.py` saca las capturas de `capturas/inicio/`.
+`tools/medir.py` revisa el contraste (4,5:1 como mínimo) y que nada desborde en las seis pantallas, a 1920×1080 al 100 y al 90 %, 1366×768, 1080×1920 y en un celular de 390 px, en modo claro y oscuro. Antes de medir comprueba que detecta dos defectos fabricados.
 
-La app sigue el modo claro u oscuro del aparato. Para comprobar que las pruebas pueden fallar, se corrieron contra una copia con el cálculo del índice fijado en 50: fallaron 7.
-
-`tools/gen_data.py` regenera `app/data.js` a partir de la lista de fichas. Los datos se editan ahí y no a mano en el JS.
+El nombre del producto está en un solo lugar, `NOMBRE` en `tools/gen_data.py`; la app lo toma de `data.js`.
 
 ## Límites
 
-Es un prototipo de demostración, no el sistema que el reto pide con madurez TRL 7. No está desplegado en Metro Digital y no hay información pública de esa plataforma para confirmar que lo aceptaría. No resume documentos con inteligencia artificial; esa parte del método queda descrita en el documento de la propuesta, no construida.
+Es un prototipo de demostración, no el sistema con madurez TRL 7 que pide el reto (un sistema demostrado en un entorno operativo real). No está desplegado en Metro Digital, y no hay información pública de esa plataforma para confirmar que lo aceptaría. No resume documentos con inteligencia artificial; esa parte del método está descrita en el documento de la propuesta, pero no está construida.

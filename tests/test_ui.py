@@ -1,31 +1,42 @@
 """Pruebas del prototipo en un navegador real.
 Uso: python tests/test_ui.py [ruta-a-chromium]
 Necesita: pip install playwright (y un Chromium; sin ruta usa el de Playwright)."""
-import sys, pathlib, json
+import sys, pathlib, json, shutil, tempfile, re
 from playwright.sync_api import sync_playwright
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-APP = (RAIZ / 'app' / 'index.html').as_uri()
+# La revisión diaria cambia app/data.js todos los días. Las pruebas de la interfaz corren contra una copia fija de los
+# datos (tests/data_prueba.js, el estado del 28 de octubre de 2026, que sale de «gen_data.py --prueba»), así las cifras
+# esperadas no se mueven. Los datos vivos tienen sus propias pruebas al final.
+_TMP = pathlib.Path(tempfile.mkdtemp(prefix='metrotech-prueba-'))
+shutil.copytree(RAIZ / 'app', _TMP / 'app')
+shutil.copy(RAIZ / 'tests' / 'data_prueba.js', _TMP / 'app' / 'data.js')
+APP = (_TMP / 'app' / 'index.html').as_uri()
+APP_VIVA = (RAIZ / 'app' / 'index.html').as_uri()
 OK_JSON = RAIZ / 'tests' / 'fichas_ok.json'
 MAL_JSON = RAIZ / 'tests' / 'fichas_mal.json'
 resultados = []
 
-def esperado_desde_data():
-    # Las cifras del inicio calculadas en Python directo de data.js, sin pasar por el JS de la app.
-    txt = (RAIZ / 'app' / 'data.js').read_text(encoding='utf-8')
+def leer_data(ruta):
+    txt = ruta.read_text(encoding='utf-8')
+    return json.loads(txt[txt.index('{'):txt.rindex('}') + 1])
+
+def esperado_desde_data(ruta=RAIZ / 'tests' / 'data_prueba.js'):
+    # Las cifras del inicio calculadas en Python directo de los datos, sin pasar por el JS de la app.
+    txt = ruta.read_text(encoding='utf-8')
     d = json.loads(txt[txt.index('{'):txt.rindex('}') + 1])
     celdas = 0
     for c in d['categorias']:
         for m in d['modos']:
-            ok = {f['proveedor'] for f in d['fichas'] if f['categoria'] == c['id'] and m['id'] in f['modos'] and f['verificacion'] != 'no-verificada'}
+            ok = {f['proveedor'] for f in d['fichas'] if f['categoria'] == c['id'] and m['id'] in f['modos'] and f['confianza'] != 'baja'}
             celdas += len(ok) >= 3
     return {'kpi-fichas': str(len(d['fichas'])), 'kpi-prov': str(len({f['proveedor'] for f in d['fichas']})),
-            'kpi-celdas': f'{celdas} de 16', 'ini-ver-ok': str(sum(f['verificacion'] == 'verificada' for f in d['fichas'])),
+            'kpi-celdas': f'{celdas} de 16', 'ini-conf-media': str(sum(f['confianza'] == 'media' for f in d['fichas'])),
             'activos': len(d['activos'])}
 
 def cifras_inicio(pg):
     return {t: pg.inner_text(f'[data-testid={t}] b' if t.startswith('kpi') else f'[data-testid={t}]').strip()
-            for t in ('kpi-fichas', 'kpi-prov', 'kpi-celdas', 'ini-ver-ok')}
+            for t in ('kpi-fichas', 'kpi-prov', 'kpi-celdas', 'ini-conf-media')}
 
 def distintas(pg, esp):
     got = cifras_inicio(pg)
@@ -143,7 +154,7 @@ with sync_playwright() as p:
     pg.fill('#f-prov', 'Proveedor manual'); pg.fill('#f-prod', 'Producto manual'); pg.fill('#f-url', 'https://example.com/x')
     pg.click('[data-testid=f-add]')
     pg.click('[data-testid=tab-1]')
-    chk('ficha manual entra, pero como no verificada no completa la celda', 'Fichas cargadas: 42' in resumen(pg) and 'Casillas completas: 8 de 16' in resumen(pg), resumen(pg))
+    chk('ficha manual entra, pero con confianza baja no completa la casilla', 'Fichas cargadas: 42' in resumen(pg) and 'Casillas completas: 8 de 16' in resumen(pg), resumen(pg))
     pg.click('[data-testid=tab-2]')
     pg.set_input_files('[data-testid=file-import]', str(MAL_JSON)); pg.wait_for_timeout(400)
     chk('JSON inválido se rechaza', 'rechazó' in pg.inner_text('[data-testid=import-err]'))
@@ -166,8 +177,34 @@ with sync_playwright() as p:
     with pg.expect_download() as d:
         pg.click('[data-testid=b-export]')
     chk('exportar descarga un JSON', d.value.suggested_filename.endswith('.json'))
+    # 6b. clasificación de las fuentes en tres ejes y novedades (datos fijos)
+    pg.click('[data-testid=tab-2]')
+    cab = pg.inner_text('[data-testid=tabla-fuentes] thead')
+    chk('paso 2: columnas de tipo, fecha del dato y confianza', all(x in cab for x in ('Tipo de fuente', 'Fecha del dato', 'Confianza')), cab)
+    fija = leer_data(RAIZ / 'tests' / 'data_prueba.js')
+    bajas = sum(f['confianza'] == 'baja' for f in fija['fichas'])
+    chk('paso 2: tantas fichas de confianza baja como en los datos', pg.locator('[data-testid=tabla-fuentes] tbody >> text=confianza baja').count() == bajas, str(bajas))
+    pg.click('[data-testid=tab-0]')
+    chk('inicio: las 2 novedades de prueba', pg.locator('[data-testid=novedad]').count() == 2)
+    chk('inicio: conteo por tipo de fuente', '40 el fabricante, 1 la prensa especializada' in pg.inner_text('[data-testid=ini-tipos]'), pg.inner_text('[data-testid=ini-tipos]'))
+    chk('inicio: el aviso dice cuándo fue la última revisión', 'última revisión' in pg.inner_text('#aviso'), pg.inner_text('#aviso'))
     chk('sin errores de consola en todo el recorrido', not errores, str(errores))
     ctx.close()
+
+    # 6c. datos vivos (los que deja la revisión diaria): la app abre sin errores y cuenta lo mismo que Python
+    viva = leer_data(RAIZ / 'app' / 'data.js')
+    regla = all(f['confianza'] == ('baja' if not f['abre'] else 'media' if f['tipo_fuente'] == 'fabricante' else 'alta') for f in viva['fichas'])
+    chk('datos vivos: la confianza sigue la regla de los tres ejes', regla)
+    chk('datos vivos: fechas del dato con formato AAAA-MM o AAAA-MM-DD', all(f['fecha_dato'] is None or re.fullmatch(r'\d{4}-\d{2}(-\d{2})?', f['fecha_dato']) for f in viva['fichas']))
+    chk('datos vivos: cada novedad trae título, enlace y proveedor', all(n.get('titulo') and n.get('enlace', '').startswith('http') and n.get('proveedor') for n in viva['novedades']))
+    vc = b.new_context(viewport={'width': 1366, 'height': 860}); vp = vc.new_page(); verr = []
+    vp.on('console', lambda x: verr.append(x.text) if x.type == 'error' else None); vp.on('pageerror', lambda e: verr.append(str(e)))
+    vp.goto(APP_VIVA)
+    ev = esperado_desde_data(RAIZ / 'app' / 'data.js')
+    chk('datos vivos: las cifras del inicio coinciden con Python', distintas(vp, ev) == [], str(cifras_inicio(vp)))
+    chk('datos vivos: una novedad por ítem de los datos', vp.locator('[data-testid=novedad]').count() == len(viva['novedades']))
+    chk('datos vivos: sin errores de consola', not verr, str(verr))
+    vc.close()
 
     # 7. celular: sin desbordamiento horizontal de la página
     m = b.new_context(viewport={'width': 390, 'height': 844}, is_mobile=True, has_touch=True)
@@ -188,6 +225,7 @@ with sync_playwright() as p:
     chk('celular: editar un dato cambia el índice (65.0 -> menor)', float(mp.inner_text('[data-testid=A1-idx]')) < 65.0)
     chk('celular: sin errores de consola', not merr, str(merr))
     b.close()
+    shutil.rmtree(_TMP, ignore_errors=True)
 
 fallas = [r for r in resultados if not r[1]]
 print(f'\n{len(resultados)-len(fallas)} de {len(resultados)} pruebas pasaron')
