@@ -91,7 +91,7 @@ with sync_playwright() as p:
     # 2. paso 1: matriz 4x4, celdas completas conocidas
     pg.click('[data-testid=tab-1]')
     chk('matriz con 16 celdas', pg.locator('[data-testid^=celda-]').count() == 16)
-    chk('resumen inicial: 8 celdas completas', 'Celdas completas: 8 de 16' in resumen(pg), resumen(pg))
+    chk('resumen inicial: 8 celdas completas', 'Casillas completas: 8 de 16' in resumen(pg), resumen(pg))
     chk('celda sin proveedores confirmados aparece como 0/3', '0/3' in pg.inner_text('[data-testid=celda-dg-tranvia]'))
 
     # 3. paso 4: el puntaje cambia si cambia un dato (prueba negativa incluida)
@@ -143,7 +143,7 @@ with sync_playwright() as p:
     pg.fill('#f-prov', 'Proveedor manual'); pg.fill('#f-prod', 'Producto manual'); pg.fill('#f-url', 'https://example.com/x')
     pg.click('[data-testid=f-add]')
     pg.click('[data-testid=tab-1]')
-    chk('ficha manual entra, pero como no verificada no completa la celda', 'Fichas cargadas: 42' in resumen(pg) and 'Celdas completas: 8 de 16' in resumen(pg), resumen(pg))
+    chk('ficha manual entra, pero como no verificada no completa la celda', 'Fichas cargadas: 42' in resumen(pg) and 'Casillas completas: 8 de 16' in resumen(pg), resumen(pg))
     pg.click('[data-testid=tab-2]')
     pg.set_input_files('[data-testid=file-import]', str(MAL_JSON)); pg.wait_for_timeout(400)
     chk('JSON inválido se rechaza', 'rechazó' in pg.inner_text('[data-testid=import-err]'))

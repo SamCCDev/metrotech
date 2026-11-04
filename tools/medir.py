@@ -1,12 +1,12 @@
 """Contraste (4,5:1 o más) y desbordes horizontales en las 6 pantallas (inicio y los 5 pasos), en 1920x1080 al 100 y
-al 90 %, 1080x1920 y 390, en claro y oscuro. Antes de medir, un control negativo: la misma medición sobre la página con
+al 90 %, 1366x768, 1080x1920 y 390, en claro y oscuro. Antes de medir, un control negativo: la misma medición sobre la página con
 dos defectos fabricados (un bloque de 600 px y un texto gris claro sobre blanco) tiene que encontrar los dos; si no, la
 medición no sirve y sale 1. Uso: python tools/medir.py [url]"""
 import sys, json, pathlib
 from playwright.sync_api import sync_playwright
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 URL = sys.argv[1] if len(sys.argv) > 1 else (RAIZ / 'app' / 'index.html').as_uri()
-TAM = {'pc1920': ((1920, 1080), 1, False), 'pc1920-90': ((2134, 1200), 0.9, False), 'vertical1080': ((1080, 1920), 1, False), 'celular390': ((390, 844), 2, True)}
+TAM = {'pc1920': ((1920, 1080), 1, False), 'pc1366': ((1366, 768), 1, False), 'pc1920-90': ((2134, 1200), 0.9, False), 'vertical1080': ((1080, 1920), 1, False), 'celular390': ((390, 844), 2, True)}
 MEDIR = r"""() => {
   const W = document.documentElement.clientWidth, malos = {desborde: [], contraste: []};
   const cx = document.createElement('canvas').getContext('2d', {willReadFrequently: true});
@@ -49,6 +49,6 @@ with sync_playwright() as p:
             c.close()
     b.close()
 tot = sum(v['textos'] for kk, v in informe.items() if kk != 'control_negativo')
-print(f'evaluados {tot} textos en 48 combinaciones; control negativo {informe["control_negativo"]}')
+print(f'evaluados {tot} textos en {len(informe) - 1} combinaciones; control negativo {informe["control_negativo"]}')
 print('FALLAS:' if fallas else 'OK: 0 fallas de contraste ni desborde', *fallas[:300], sep='\n  ')
 sys.exit(1 if fallas else 0)

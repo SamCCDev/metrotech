@@ -1,7 +1,8 @@
 window.RADAR_DATA = {
  "version": "0.1",
  "generado": "2026-10-28",
- "aviso": "Los proveedores y enlaces son reales y se consultaron el 2026-10-28. Los activos y el Plan de Tecnología son DATOS DE EJEMPLO, no del Metro.",
+ "nombre": "Radar Propio",
+ "aviso": "Los proveedores y los enlaces son reales. Se cargaron a mano el 28 de octubre de 2026 y no se actualizan solos. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.",
  "anio_ref": 2026,
  "modos": [
   {
@@ -14,33 +15,33 @@ window.RADAR_DATA = {
   },
   {
    "id": "brt",
-   "nombre": "BRT"
+   "nombre": "Buses BRT"
   },
   {
    "id": "cable",
-   "nombre": "Cable"
+   "nombre": "Cable aéreo"
   }
  ],
  "categorias": [
   {
    "id": "rs",
-   "nombre": "Material rodante / vehículos",
+   "nombre": "Vehículos",
    "desc": "Trenes, tranvías, buses eléctricos y cabinas"
   },
   {
    "id": "sc",
    "nombre": "Señalización y control",
-   "desc": "Control de trenes (CBTC), gestión de flota, control de teleféricos"
+   "desc": "Control de trenes por comunicaciones (CBTC), gestión de flotas de buses y control de cables aéreos"
   },
   {
    "id": "en",
    "nombre": "Energía y tracción",
-   "desc": "Subestaciones, almacenamiento, carga de buses, accionamientos"
+   "desc": "Subestaciones, almacenamiento de energía, carga de buses eléctricos y motores de los cables"
   },
   {
    "id": "dg",
    "nombre": "Tecnología digital",
-   "desc": "Mantenimiento predictivo, pasajes, datos, conectividad"
+   "desc": "Mantenimiento predictivo, venta de pasajes, datos y conectividad"
   }
  ],
  "fichas": [
@@ -120,7 +121,7 @@ window.RADAR_DATA = {
    "url": "https://www.caf.net/en/soluciones/familia/urbos/index.php",
    "verificacion": "no-verificada",
    "tipo_fuente": "fabricante",
-   "dato": "100 % piso bajo, 750 V CC, de 18 a 43 m (datos técnicos del fabricante, según resultado de búsqueda; el sitio bloqueó la consulta automática)",
+   "dato": "100 % piso bajo, 750 V CC, de 18 a 43 m (datos técnicos del fabricante, según resultado de búsqueda; el sitio no dejó abrir la página cuando se comprobó el enlace)",
    "consultada": "2026-10-28",
    "madurez_trl_estimada": null
   },
@@ -312,7 +313,7 @@ window.RADAR_DATA = {
    "url": "https://www.thalesgroup.com/en/tramway-lrt-signalling-solution",
    "verificacion": "verificada",
    "tipo_fuente": "fabricante",
-   "dato": "Posible solapamiento con Hitachi Rail por la venta del negocio; verificar la titularidad actual",
+   "dato": "Puede repetirse con Hitachi Rail, que compró ese negocio; falta confirmar quién es hoy el dueño del producto",
    "consultada": "2026-10-28",
    "madurez_trl_estimada": null
   },
@@ -424,7 +425,7 @@ window.RADAR_DATA = {
    "url": "https://new.abb.com/news/detail/13146/abb-substations-to-strengthen-railway-infrastructure-in-switzerland",
    "verificacion": "no-verificada",
    "tipo_fuente": "fabricante",
-   "dato": "Aparece en resultados de búsqueda; el sitio no respondió a la consulta automática",
+   "dato": "Aparece en resultados de búsqueda; el sitio no respondió cuando se comprobó el enlace",
    "consultada": "2026-10-28",
    "madurez_trl_estimada": null
   },
@@ -488,7 +489,7 @@ window.RADAR_DATA = {
    "url": "https://new.abb.com/news/detail/25203/abb-expands-e-bus-charging-portfolio-with-automated-pantograph/",
    "verificacion": "no-verificada",
    "tipo_fuente": "fabricante",
-   "dato": "Aparece en resultados de búsqueda; el sitio no respondió a la consulta automática",
+   "dato": "Aparece en resultados de búsqueda; el sitio no respondió cuando se comprobó el enlace",
    "consultada": "2026-10-28",
    "madurez_trl_estimada": null
   },
@@ -536,7 +537,7 @@ window.RADAR_DATA = {
    "url": "https://newsroom.doppelmayr.com/de/doppelmayr/all/doppelmayr-direct-drive:-neue-animation/",
    "verificacion": "no-verificada",
    "tipo_fuente": "fabricante",
-   "dato": "Accionamiento sin reductor (según resultados de búsqueda; el sitio no respondió a la consulta automática)",
+   "dato": "Accionamiento sin reductor (según resultados de búsqueda; el sitio no respondió cuando se comprobó el enlace)",
    "consultada": "2026-10-28",
    "madurez_trl_estimada": null
   },
@@ -813,7 +814,7 @@ window.RADAR_DATA = {
   {
    "id": "PT-1",
    "prioridad": "Alta",
-   "titulo": "Renovar señalización de línea de metro antes del fin de vida",
+   "titulo": "Renovar la señalización de una línea de metro antes de que termine su vida útil",
    "modo": "metro",
    "categoria": "sc",
    "umbral": 60
@@ -821,7 +822,7 @@ window.RADAR_DATA = {
   {
    "id": "PT-2",
    "prioridad": "Alta",
-   "titulo": "Modernizar plataforma digital de mantenimiento",
+   "titulo": "Modernizar la plataforma digital de mantenimiento de trenes",
    "modo": "metro",
    "categoria": "dg",
    "umbral": 55
@@ -829,7 +830,7 @@ window.RADAR_DATA = {
   {
    "id": "PT-3",
    "prioridad": "Media",
-   "titulo": "Plan de renovación de la flota de metro",
+   "titulo": "Renovar la flota de trenes de metro",
    "modo": "metro",
    "categoria": "rs",
    "umbral": 70
@@ -837,7 +838,7 @@ window.RADAR_DATA = {
   {
    "id": "PT-4",
    "prioridad": "Media",
-   "titulo": "Electrificación y eficiencia del BRT",
+   "titulo": "Electrificar los buses BRT y hacerlos más eficientes",
    "modo": "brt",
    "categoria": "rs",
    "umbral": 70
@@ -845,7 +846,7 @@ window.RADAR_DATA = {
   {
    "id": "PT-5",
    "prioridad": "Media",
-   "titulo": "Sistema de pasajes y despacho unificado",
+   "titulo": "Unificar la venta de pasajes y el despacho de los buses BRT",
    "modo": "brt",
    "categoria": "dg",
    "umbral": 55
@@ -853,7 +854,7 @@ window.RADAR_DATA = {
   {
    "id": "PT-6",
    "prioridad": "Baja",
-   "titulo": "Control de líneas de cable",
+   "titulo": "Revisar el control de las líneas de cable aéreo",
    "modo": "cable",
    "categoria": "sc",
    "umbral": 85

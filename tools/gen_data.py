@@ -1,5 +1,9 @@
 import json
 C='2026-10-28'
+# El nombre del producto vive solo aquí: la app lo toma de data.js (título, encabezado y textos).
+NOMBRE='Radar Propio'
+MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
+C_TXT='%d de %s de %s'%(int(C[8:]),MESES[int(C[5:7])-1],C[:4])
 V,P,N='verificada','parcial','no-verificada'
 # (id,cat,[modos confirmados],[modos supuestos],proveedor,producto,url,verif,tipo,dato,nota_dato)
 F=[
@@ -7,7 +11,7 @@ F=[
 ('rs-metro-siemens','rs',['metro'],[],'Siemens Mobility','Inspiro','https://press.siemens.com/global/en/pressrelease/start-siemens-mobilitys-inspiro-trains-and-automatic-train-control-systems-metro-sofia',V,'fabricante','Trenes Inspiro en servicio en la Línea 3 del Metro de Sofía (comunicado del fabricante)'),
 ('rs-metro-hitachi','rs',['metro'],[],'Hitachi Rail','Trenes de metro (proyecto Baltimore)','https://www.hitachirail.com/products-and-solutions/rolling-stock/metro-trains/baltimore-metro/',V,'fabricante',None),
 ('rs-tram-alstom','rs',['tranvia'],[],'Alstom','Citadis','https://www.alstom.com/sites/alstom.com/files/2019/12/10/20191210_PR_Tramway_Angers_EN.pdf',V,'fabricante',None),
-('rs-tram-caf','rs',['tranvia'],[],'CAF','Urbos','https://www.caf.net/en/soluciones/familia/urbos/index.php',N,'fabricante','100 % piso bajo, 750 V CC, de 18 a 43 m (datos técnicos del fabricante, según resultado de búsqueda; el sitio bloqueó la consulta automática)'),
+('rs-tram-caf','rs',['tranvia'],[],'CAF','Urbos','https://www.caf.net/en/soluciones/familia/urbos/index.php',N,'fabricante','100 % piso bajo, 750 V CC, de 18 a 43 m (datos técnicos del fabricante, según resultado de búsqueda; el sitio no dejó abrir la página cuando se comprobó el enlace)'),
 ('rs-tram-stadler','rs',['tranvia'],[],'Stadler','Tramlink','https://stadlerrail.com/api/docs/x/f6df7f1948/tramlink_blt_en.pdf',P,'fabricante',None),
 ('rs-tram-siemens','rs',['tranvia'],[],'Siemens Mobility','Avenio','https://assets.new.siemens.com/siemens/assets/api/uuid:d08bfc2a-0f91-46e7-9b37-abafb2b6438b/product-specification-avenio-e.pdf',V,'fabricante',None),
 ('rs-brt-volvo','rs',['brt'],[],'Volvo Buses','BZRT Electric (articulado y biarticulado)','https://www.volvobuses.com/en/city-and-intercity/chassis/volvo-bzrt-electric.html',V,'fabricante','Biarticulado de unos 28 m y hasta 250 pasajeros (comunicado de Volvo, mayo de 2025)'),
@@ -19,21 +23,21 @@ F=[
 ('sc-metro-siemens','sc',['metro'],[],'Siemens Mobility','Trainguard MT (CBTC)','https://www.mobility.siemens.com/us/en/portfolio/rail-infrastructure/communications-based-train-control-system.html',V,'fabricante',None),
 ('sc-metro-hitachi','sc',['metro'],[],'Hitachi Rail (SelTrac)','Control y supervisión de tren urbano','https://www.hitachirail.com/products-and-solutions/urban-rail-control-supervision/',V,'fabricante','Hitachi Rail completó en mayo de 2024 la compra del negocio de Thales de sistemas de transporte terrestre, de donde viene SelTrac (según resultados de búsqueda)'),
 ('sc-tram-alstom','sc',['tranvia'],[],'Alstom','Señalización de tranvía y LRV','https://www.alstom.com/tramway-lrv-signalling-advanced-assistance-operations-and-safety',V,'fabricante',None),
-('sc-tram-thales','sc',['tranvia'],[],'Thales','Señalización de tranvía y LRT','https://www.thalesgroup.com/en/tramway-lrt-signalling-solution',V,'fabricante','Posible solapamiento con Hitachi Rail por la venta del negocio; verificar la titularidad actual'),
+('sc-tram-thales','sc',['tranvia'],[],'Thales','Señalización de tranvía y LRT','https://www.thalesgroup.com/en/tramway-lrt-signalling-solution',V,'fabricante','Puede repetirse con Hitachi Rail, que compró ese negocio; falta confirmar quién es hoy el dueño del producto'),
 ('sc-brt-trapeze','sc',['brt'],[],'Trapeze','Sistemas de transporte inteligentes para buses','https://trapezegroup.com/intelligent-transportation-systems/',V,'fabricante',None),
 ('sc-brt-init','sc',['brt'],[],'INIT','ITCS / información en tiempo real','https://www.initse.com/ende/home/',V,'fabricante',None),
 ('sc-brt-clever','sc',['brt'],[],'Clever Devices (Hitachi)','Gestión de flotas','https://www.cleverdevices.com/',V,'fabricante',None),
 ('sc-cable-doppelmayr','sc',['cable'],[],'Doppelmayr','Doppelmayr Connect (control)','https://mediencenter.doppelmayr.com/doppelmayr-connect-de/58165605',V,'fabricante',None),
 ('sc-cable-leitner','sc',['cable'],[],'Leitner','Sistema de control Leitner','https://www.leitner.com/en/products/ropeway-components/detail/leitner-control-system/',V,'fabricante',None),
 ('en-metro-alstom','en',['metro'],[],'Alstom','HESOP (subestación reversible)','https://www.alstom.com/press-releases-news/2025/6/capturing-wasted-energy-our-cities',V,'fabricante',None),
-('en-metro-abb','en',['metro'],[],'ABB','Subestaciones de tracción ferroviaria','https://new.abb.com/news/detail/13146/abb-substations-to-strengthen-railway-infrastructure-in-switzerland',N,'fabricante','Aparece en resultados de búsqueda; el sitio no respondió a la consulta automática'),
+('en-metro-abb','en',['metro'],[],'ABB','Subestaciones de tracción ferroviaria','https://new.abb.com/news/detail/13146/abb-substations-to-strengthen-railway-infrastructure-in-switzerland',N,'fabricante','Aparece en resultados de búsqueda; el sitio no respondió cuando se comprobó el enlace'),
 ('en-metro-siemens','en',['metro'],[],'Siemens Mobility','SITRAS (alimentación de tracción)','https://press.siemens.com/global/en/pressrelease/start-siemens-mobilitys-inspiro-trains-and-automatic-train-control-systems-metro-sofia',P,'fabricante','El comunicado menciona el sistema SITRAS RSC en el Metro de Sofía; no es una página de producto'),
 ('en-tram-alstom','en',['tranvia'],[],'Alstom','APS (alimentación por el suelo)','https://www.alstom.com/sites/alstom.com/files/2019/12/16/20191214_PR_Sydney_tramway_inauguration_ES.pdf',V,'fabricante',None),
 ('en-tram-siemens','en',['tranvia'],[],'Siemens Mobility','SITRAS HES (almacenamiento de energía)','https://assets.new.siemens.com/siemens/assets/api/uuid:b21e946a-c640-4ae7-adb6-cff8125f0adf/siemens-mobility-qatar-education-city-light-rail-project.pdf',V,'fabricante',None),
-('en-brt-abb','en',['brt'],[],'ABB','Panto Up (carga con pantógrafo)','https://new.abb.com/news/detail/25203/abb-expands-e-bus-charging-portfolio-with-automated-pantograph/',N,'fabricante','Aparece en resultados de búsqueda; el sitio no respondió a la consulta automática'),
+('en-brt-abb','en',['brt'],[],'ABB','Panto Up (carga con pantógrafo)','https://new.abb.com/news/detail/25203/abb-expands-e-bus-charging-portfolio-with-automated-pantograph/',N,'fabricante','Aparece en resultados de búsqueda; el sitio no respondió cuando se comprobó el enlace'),
 ('en-brt-kempower','en',['brt'],[],'Kempower','Pantograph Up','https://kempower.com/solution/kempower-pantograph-up/',V,'fabricante','Hasta 500 kW de potencia de carga (página del fabricante, según resultado de búsqueda)'),
 ('en-brt-heliox','en',['brt'],[],'Heliox','Carga rápida para vehículos eléctricos','https://www.heliox-energy.com/',V,'fabricante',None),
-('en-cable-doppelmayr','en',['cable'],[],'Doppelmayr','Direct Drive','https://newsroom.doppelmayr.com/de/doppelmayr/all/doppelmayr-direct-drive:-neue-animation/',N,'fabricante','Accionamiento sin reductor (según resultados de búsqueda; el sitio no respondió a la consulta automática)'),
+('en-cable-doppelmayr','en',['cable'],[],'Doppelmayr','Direct Drive','https://newsroom.doppelmayr.com/de/doppelmayr/all/doppelmayr-direct-drive:-neue-animation/',N,'fabricante','Accionamiento sin reductor (según resultados de búsqueda; el sitio no respondió cuando se comprobó el enlace)'),
 ('en-cable-leitner','en',['cable'],[],'Leitner','Sistema de accionamiento','https://www.leitner.com/en/products/ropeway-components/detail/leitner-drive-system/',V,'fabricante',None),
 ('dg-metro-alstom','dg',['metro'],['tranvia'],'Alstom','HealthHub','https://www.alstom.com/solutions/services/digital-railway-solutions-unlock-higher-asset-availability-reliability-and-performance',V,'fabricante','Reduce hasta 30 % el tiempo fuera de servicio, según el fabricante (afirmación sin contrastar)'),
 ('dg-metro-hitachi','dg',['metro'],['tranvia'],'Hitachi Rail','HMAX','https://www.hitachirail.com/products-and-solutions/digital-asset-management/',V,'fabricante','Más de 2.000 trenes con HMAX según la página de producto; 2.500 según una página de 2026 (las dos cifras no coinciden)'),
@@ -48,11 +52,11 @@ F=[
 fichas=[dict(id=i,categoria=c,modos=m,modos_supuestos=ms,proveedor=p,producto=pr,url=u,verificacion=v,tipo_fuente=t,dato=d,consultada=C,
   madurez_trl_estimada=None) for i,c,m,ms,p,pr,u,v,t,d in F]
 data=dict(
- version='0.1',generado=C,
- aviso='Los proveedores y enlaces son reales y se consultaron el %s. Los activos y el Plan de Tecnología son DATOS DE EJEMPLO, no del Metro.'%C,
+ version='0.1',generado=C,nombre=NOMBRE,
+ aviso='Los proveedores y los enlaces son reales. Se cargaron a mano el %s y no se actualizan solos. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.'%C_TXT,
  anio_ref=2026,
- modos=[dict(id='metro',nombre='Metro'),dict(id='tranvia',nombre='Tranvía'),dict(id='brt',nombre='BRT'),dict(id='cable',nombre='Cable')],
- categorias=[dict(id='rs',nombre='Material rodante / vehículos',desc='Trenes, tranvías, buses eléctricos y cabinas'),dict(id='sc',nombre='Señalización y control',desc='Control de trenes (CBTC), gestión de flota, control de teleféricos'),dict(id='en',nombre='Energía y tracción',desc='Subestaciones, almacenamiento, carga de buses, accionamientos'),dict(id='dg',nombre='Tecnología digital',desc='Mantenimiento predictivo, pasajes, datos, conectividad')],
+ modos=[dict(id='metro',nombre='Metro'),dict(id='tranvia',nombre='Tranvía'),dict(id='brt',nombre='Buses BRT'),dict(id='cable',nombre='Cable aéreo')],
+ categorias=[dict(id='rs',nombre='Vehículos',desc='Trenes, tranvías, buses eléctricos y cabinas'),dict(id='sc',nombre='Señalización y control',desc='Control de trenes por comunicaciones (CBTC), gestión de flotas de buses y control de cables aéreos'),dict(id='en',nombre='Energía y tracción',desc='Subestaciones, almacenamiento de energía, carga de buses eléctricos y motores de los cables'),dict(id='dg',nombre='Tecnología digital',desc='Mantenimiento predictivo, venta de pasajes, datos y conectividad')],
  fichas=fichas,
  activos=[
   dict(id='A1',nombre='Flota de trenes de metro, lote antiguo',modo='metro',categoria='rs',instalado=1994,vida_util=40,cautivo=True,brecha=3),
@@ -67,12 +71,12 @@ data=dict(
   dict(id='A10',nombre='Accionamiento de línea de cable',modo='cable',categoria='en',instalado=2010,vida_util=25,cautivo=False,brecha=1),
  ],
  pt=[
-  dict(id='PT-1',prioridad='Alta',titulo='Renovar señalización de línea de metro antes del fin de vida',modo='metro',categoria='sc',umbral=60),
-  dict(id='PT-2',prioridad='Alta',titulo='Modernizar plataforma digital de mantenimiento',modo='metro',categoria='dg',umbral=55),
-  dict(id='PT-3',prioridad='Media',titulo='Plan de renovación de la flota de metro',modo='metro',categoria='rs',umbral=70),
-  dict(id='PT-4',prioridad='Media',titulo='Electrificación y eficiencia del BRT',modo='brt',categoria='rs',umbral=70),
-  dict(id='PT-5',prioridad='Media',titulo='Sistema de pasajes y despacho unificado',modo='brt',categoria='dg',umbral=55),
-  dict(id='PT-6',prioridad='Baja',titulo='Control de líneas de cable',modo='cable',categoria='sc',umbral=85),
+  dict(id='PT-1',prioridad='Alta',titulo='Renovar la señalización de una línea de metro antes de que termine su vida útil',modo='metro',categoria='sc',umbral=60),
+  dict(id='PT-2',prioridad='Alta',titulo='Modernizar la plataforma digital de mantenimiento de trenes',modo='metro',categoria='dg',umbral=55),
+  dict(id='PT-3',prioridad='Media',titulo='Renovar la flota de trenes de metro',modo='metro',categoria='rs',umbral=70),
+  dict(id='PT-4',prioridad='Media',titulo='Electrificar los buses BRT y hacerlos más eficientes',modo='brt',categoria='rs',umbral=70),
+  dict(id='PT-5',prioridad='Media',titulo='Unificar la venta de pasajes y el despacho de los buses BRT',modo='brt',categoria='dg',umbral=55),
+  dict(id='PT-6',prioridad='Baja',titulo='Revisar el control de las líneas de cable aéreo',modo='cable',categoria='sc',umbral=85),
  ],
  pesos=dict(edad=0.4,dependencia=0.3,brecha=0.3),
 )
