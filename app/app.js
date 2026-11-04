@@ -22,6 +22,8 @@ function fechaLarga(iso){var x=String(iso||'').split('-');return x.length===3?(+
 var TIPO_TXT={fabricante:'Fabricante',prensa:'Prensa especializada',tercero:'Tercero independiente'};
 function tipoTxt(t){return TIPO_TXT[t]||'Sin clasificar'}
 function aniosDesde(iso){if(!iso)return null;var a=new Date(iso.length===7?iso+'-01':iso),b=new Date(D.revisado||D.generado);return (b-a)/31557600000}
+// Una empresa con varias marcas cuenta una vez: «Doppelmayr (CWA)» y «Doppelmayr», «POMA / Sigma» y «POMA».
+function empresa(p){return String(p).split(/\s*[(\/]/)[0].trim()}
 function minus(t){return t.charAt(0).toLowerCase()+t.slice(1)}
 function mname(id){var m=D.modos.filter(function(x){return x.id===id})[0];return m?m.nombre:id}
 function cname(id){var c=D.categorias.filter(function(x){return x.id===id})[0];return c?c.nombre:id}
@@ -57,7 +59,7 @@ function render(){
 
 // ---- inicio: lo que el radar encontró y las seis preguntas, con las cifras calculadas de los datos cargados
 function resumenRadar(){var prov={},ver={alta:0,media:0,baja:0},tipo={},edad={reciente:0,vieja:0,sin:0},celdas=0,brechas=[];
-  S.fichas.forEach(function(f){prov[f.proveedor]=1;ver[f.confianza]=(ver[f.confianza]||0)+1;tipo[f.tipo_fuente]=(tipo[f.tipo_fuente]||0)+1;
+  S.fichas.forEach(function(f){prov[empresa(f.proveedor)]=1;ver[f.confianza]=(ver[f.confianza]||0)+1;tipo[f.tipo_fuente]=(tipo[f.tipo_fuente]||0)+1;
     var a=aniosDesde(f.fecha_dato);if(a===null)edad.sin++;else if(a<2)edad.reciente++;else edad.vieja++});
   D.categorias.forEach(function(c){D.modos.forEach(function(mo){var n=cobertura(mo.id,c.id).ok.length;if(n>=3)celdas++;else brechas.push({c:c,mo:mo,n:n})})});
   var act=S.activos.map(function(a){var p=puntaje(a);return {a:a,idx:p.idx,s:sem(p.idx)}}).sort(function(x,y){return y.idx-x.idx});
@@ -72,7 +74,7 @@ function p0(m){var r=resumenRadar();
     h('p',{class:'lead',text:'Es un método de cinco pasos y una herramienta que maneja el propio equipo del Metro. Usa solo información pública y cada cálculo se puede revisar. Una ficha es el registro de un producto: quién lo vende, cómo se llama y el enlace a la página pública que lo respalda. Las fichas se cargaron a mano el '+fechaLarga(D.generado)+' y una revisión automática las vuelve a comprobar una vez al día; la última fue el '+fechaLarga(D.revisado||D.generado)+'. Con esos datos, el prototipo muestra lo siguiente:'}),
     h('div',{class:'kpis'},
       kpi('kpi-fichas',r.fichas,'fichas de productos, cada una con su enlace',(r.ver.alta+r.ver.media)+' abrieron en la última revisión'),
-      kpi('kpi-prov',r.prov,'proveedores distintos','todos son empresas reales del mercado'),
+      kpi('kpi-prov',r.prov,'empresas proveedoras','reales; una empresa con varias marcas cuenta una vez'),
       kpi('kpi-celdas',r.celdas+' de 16','casillas con 3 proveedores o más','4 categorías en 4 modos de transporte'),
       kpi('kpi-alertas',r.alertasPT,'alertas del Plan de Tecnología',r.rojos+' activos de ejemplo con riesgo alto')));
   m.appendChild(hero);

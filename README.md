@@ -32,7 +32,7 @@ Ninguna de las tres confirma que el dato sea cierto: dicen de dónde viene, cuá
 
 ## La revisión diaria
 
-Las 41 fichas de 21 proveedores se cargaron a mano el 28 de octubre de 2026. Desde el 4 de noviembre, un GitHub Action (`.github/workflows/actualizar.yml`) corre una vez al día, a las 6:00 de Medellín, y hace esto:
+Las 41 fichas de 18 empresas proveedoras se cargaron a mano el 28 de octubre de 2026. Desde el 4 de noviembre, un GitHub Action (`.github/workflows/actualizar.yml`) corre una vez al día, a las 6:00 de Medellín, y hace esto:
 
 1. Vuelve a abrir el enlace de cada ficha, mira si la página nombra el producto y actualiza la fecha del dato y la confianza (`tools/actualizar.py`).
 2. Busca las novedades de los últimos 30 días de cada proveedor: en su propio RSS, si su sitio lo anuncia, y en la búsqueda de Google News en RSS. Las dos son abiertas y no piden clave. Se quedan las que nombran al proveedor en el título y hablan de transporte; el filtro es por palabras y puede dejar pasar alguna nota ajena.

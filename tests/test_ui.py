@@ -30,7 +30,7 @@ def esperado_desde_data(ruta=RAIZ / 'tests' / 'data_prueba.js'):
         for m in d['modos']:
             ok = {f['proveedor'] for f in d['fichas'] if f['categoria'] == c['id'] and m['id'] in f['modos'] and f['confianza'] != 'baja'}
             celdas += len(ok) >= 3
-    return {'kpi-fichas': str(len(d['fichas'])), 'kpi-prov': str(len({f['proveedor'] for f in d['fichas']})),
+    return {'kpi-fichas': str(len(d['fichas'])), 'kpi-prov': str(len({re.split(r'\s*[(/]', f['proveedor'])[0].strip() for f in d['fichas']})),
             'kpi-celdas': f'{celdas} de 16', 'ini-conf-media': str(sum(f['confianza'] == 'media' for f in d['fichas'])),
             'activos': len(d['activos'])}
 
