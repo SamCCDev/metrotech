@@ -1,8 +1,8 @@
 {
- "revisado": "2026-11-12",
+ "revisado": "2026-11-13",
  "fichas": {
   "rs-metro-alstom": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -10,7 +10,7 @@
    "error": null
   },
   "rs-metro-siemens": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -18,7 +18,7 @@
    "error": null
   },
   "rs-metro-hitachi": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -26,7 +26,7 @@
    "error": null
   },
   "rs-tram-alstom": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -34,7 +34,7 @@
    "error": null
   },
   "rs-tram-caf": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -42,7 +42,7 @@
    "error": null
   },
   "rs-tram-stadler": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -50,7 +50,7 @@
    "error": null
   },
   "rs-tram-siemens": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -58,7 +58,7 @@
    "error": null
   },
   "rs-brt-volvo": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -66,7 +66,7 @@
    "error": null
   },
   "rs-brt-byd": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -74,7 +74,7 @@
    "error": null
   },
   "rs-cable-doppelmayr": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -82,7 +82,7 @@
    "error": null
   },
   "rs-cable-leitner": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -90,7 +90,7 @@
    "error": null
   },
   "rs-cable-poma": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -98,7 +98,7 @@
    "error": null
   },
   "sc-metro-alstom": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -106,7 +106,7 @@
    "error": null
   },
   "sc-metro-siemens": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -114,7 +114,7 @@
    "error": null
   },
   "sc-metro-hitachi": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -122,7 +122,7 @@
    "error": null
   },
   "sc-tram-alstom": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -130,7 +130,7 @@
    "error": null
   },
   "sc-tram-thales": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": false,
    "nombra": false,
    "http": 404,
@@ -138,7 +138,7 @@
    "error": "HTTP 404"
   },
   "sc-brt-trapeze": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -146,7 +146,7 @@
    "error": null
   },
   "sc-brt-init": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -154,7 +154,7 @@
    "error": null
   },
   "sc-brt-clever": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -162,7 +162,7 @@
    "error": null
   },
   "sc-cable-doppelmayr": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": false,
    "nombra": false,
    "http": 202,
@@ -170,7 +170,7 @@
    "error": null
   },
   "sc-cable-leitner": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -178,7 +178,7 @@
    "error": null
   },
   "en-metro-alstom": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -186,7 +186,7 @@
    "error": null
   },
   "en-metro-abb": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": false,
    "nombra": false,
    "http": null,
@@ -194,7 +194,7 @@
    "error": "TimeoutError: The read operation timed out"
   },
   "en-metro-siemens": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -202,7 +202,7 @@
    "error": null
   },
   "en-tram-alstom": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -210,7 +210,7 @@
    "error": null
   },
   "en-tram-siemens": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -218,7 +218,7 @@
    "error": null
   },
   "en-brt-abb": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": false,
    "nombra": false,
    "http": null,
@@ -226,7 +226,7 @@
    "error": "TimeoutError: The read operation timed out"
   },
   "en-brt-kempower": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -234,7 +234,7 @@
    "error": null
   },
   "en-brt-heliox": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -242,7 +242,7 @@
    "error": null
   },
   "en-cable-doppelmayr": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": false,
    "nombra": false,
    "http": null,
@@ -250,7 +250,7 @@
    "error": "URLError: <urlopen error timed out>"
   },
   "en-cable-leitner": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -258,7 +258,7 @@
    "error": null
   },
   "dg-metro-alstom": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -266,7 +266,7 @@
    "error": null
   },
   "dg-metro-hitachi": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -274,7 +274,7 @@
    "error": null
   },
   "dg-metro-siemens": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -282,7 +282,7 @@
    "error": null
   },
   "dg-brt-init": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -290,7 +290,7 @@
    "error": null
   },
   "dg-brt-masabi": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -298,7 +298,7 @@
    "error": null
   },
   "dg-brt-clever": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -306,7 +306,7 @@
    "error": null
   },
   "dg-cable-doppelmayr": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": false,
    "nombra": false,
    "http": 202,
@@ -314,7 +314,7 @@
    "error": null
   },
   "dg-cable-leitner": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
@@ -322,7 +322,7 @@
    "error": null
   },
   "dg-cable-poma": {
-   "revisada": "2026-11-12",
+   "revisada": "2026-11-13",
    "abre": true,
    "nombra": true,
    "http": 200,
