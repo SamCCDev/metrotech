@@ -1,0 +1,26 @@
+{
+ "fecha": "2026-11-14",
+ "hora_utc": "16:52",
+ "segundos": 295,
+ "fichas": 41,
+ "abren": 34,
+ "nombran_el_producto": 34,
+ "con_fecha_del_dato": 14,
+ "no_abren": [
+  "dg-cable-doppelmayr",
+  "en-brt-abb",
+  "en-cable-doppelmayr",
+  "en-metro-abb",
+  "rs-tram-caf",
+  "sc-cable-doppelmayr",
+  "sc-tram-thales"
+ ],
+ "proveedores": 18,
+ "novedades": 31,
+ "proveedores_con_rss_propio": [
+  "Clever Devices",
+  "Kempower",
+  "Trapeze"
+ ],
+ "errores_de_novedades": []
+}
