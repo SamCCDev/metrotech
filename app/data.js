@@ -1,7 +1,7 @@
 window.RADAR_DATA = {
  "version": "0.2",
  "generado": "2026-10-28",
- "revisado": "2026-11-15",
+ "revisado": "2026-11-16",
  "nombre": "MetroTech",
  "novedades": [
   {
@@ -10,6 +10,14 @@ window.RADAR_DATA = {
    "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSjNTamZncHVaRjkxZ1k5RWVnYUdxckJMQ2h2WDBXeEVtREVWdUZNanhvYTVYWTlsNVZqTHVwdHJLWjBiUk1yMkc4NS10a19aeFZjNnowTzJaT0tmNUhCZVFEaWpQcWFMTVd6VlA5LWxqbEhRNlI3eVMwLU5DUUxKeU9WeFF4WjJmeGhXczZEaGplNm9uZjdCT1IwdS1OWGRYQ0J5RWJLc3pUZ1lPQU1qdW9VQjZwaXcwZy1jVnNmQXpXbkw0RWhEN2NQYUNnNXdvR3R2aVY4bzNwTUotNWRwZ1ZvZFY5ZG9q?oc=5",
    "fecha": "2026-11-02",
    "medio": "MarketScreener España",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Alstom",
+   "titulo": "CRRC y Alstom presentan 610 preguntas en licitación de 52 trenes de pasajeros en México - El Economista",
+   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQjRNcEYzdGY2Tko4REZIX0x0MXZvM0s4aG1nWUR1YjBKamRBbGZvTFNTSnJnOHRtLTBqcE9wWjJuUzFSRDc5UDhDSjkxRGNLNS04TGdraXpGdEVBZEplWGNGZUU4LTY0Y2lST2FreWx2bEZ4dENIYjhXOHYxM2xrdm5PSnB2TWg1dzJvRUJvaWFrUGRSdWhvem05UDRQY0Z2NjBWcDhVN2ZyWGdzZnZ3UWdUeGZCOG15TXhfZUVPVEd0NTBRdUtlMnJuZm1pVjZqazlZdmp30gHWAUFVX3lxTFBCNE1wRjN0ZjZOSjhERkhfTHQxdm8zSzhobWdZRHViMEpqZEFsZm9MU1NKcmc4dG0tMGpwT3BaMm5TMVJENzlQOENKOTFEY0s1LThMZ2tpekZ0RUFkSmVYY0ZlRTgtNjRjaVJPYWt5bHZsRnh0Q0hiOFc4djEzbGt2bk9KcHZNaDV3Mm9FQm9pYWtQZFJ1aG96bTlQNFBjRnY2MFZwOFU3ZnJYZ3NmdndRZ1R4ZkI4bXlNeF9lRU9UR3Q1MFF1S2Uycm5mbWlWNmprOVl2anc?oc=5",
+   "fecha": "2026-11-15",
+   "medio": "El Economista",
    "origen": "Google News"
   },
   {
@@ -45,51 +53,43 @@ window.RADAR_DATA = {
    "origen": "Google News"
   },
   {
-   "proveedor": "Alstom",
-   "titulo": "El fabricante de trenes Alstom se desploma un 27% en Bolsa tras recortar previsiones - Cinco Días",
-   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbVVMcU1ZeTJ3b2Vqb3J0TXRmN0ZteUV4bFYwNVBtSVBMUU80ZWx1V2RmNXFadjJzRmJHV0V0Ri03YjJrNTBoS2NkVHZiaGV4WHhmR0NCWHBwV1JfNFBkeVRIUVR1UWdRZmtRV1Jzbkg0M0lOdmZzZUFzZzlZUlNCU0xEVWJMckhSTm5ybDJMcVd4Rk5rdXc1YlJrR20wT0pzTHdZVVcyaUZJV3pYdHVsN3JoYXczMXpBR0ttNlB6aVktNEhQcjFqenBLX0tIcHBJektKYdIB6AFBVV95cUxQLU1mQXpiNktkYmhkeGJOQkp5M2oybmNDeWJTLUEyUXlTT0I1Y3V0RFIxNjItTGl0dUtidEZKUEJtREo0emFjY091OXpuakRmUU8wSjVvWEdiREpNUGNINWc0TU9QNmJVVlRZMjBoNHVIaUtMbTRaQnNZNXNsTkZlWEJWWG1xM0hxSXlRbnpYTHAwNG80aHJyTkVOcDcyRThWX0g0VWV2Y3ZRb2ZEejBTaVlqdmNlWVA5Mk9qSTdNU3Nhc09Xd1NqdUxCWVBjWXpqUnVNdldkajlVNjhxemY3YzAzaS1LcXdf?oc=5",
-   "fecha": "2026-11-02",
+   "proveedor": "CAF",
+   "titulo": "CAF amplía el contrato con el metro de Oslo para fabricar 24 unidades más - ORAIN",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVWU2X3E5WVUwUklZR0pQdUVUaHVZYndWX3BXeEhTbk9HWEx5MUtQZVc5Uk5CUFFYQUxoMmlZY0J6ZVJKNEpzSzFhS0oteDg2Z1dURzNBQVBzVm9sMEdDbXE4dFhpdW11YmlIY3luYk1RV3Z4TXpVckluc1F0c21BVE5nQ3VrTEMydG9QeGZEci13Y21TY0VvT1p5SGxybG1ZZF95cHV3R0ZpdkJ3MUxYUk9BN3M?oc=5",
+   "fecha": "2026-11-16",
+   "medio": "ORAIN",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "CAF",
+   "titulo": "CAF suministrará 24 unidades de metro adicionales a Oslo por 125 millones de euros - TradingView",
+   "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DZ0tlSmRZUTlJZG9QZnFrY0FpNnI3eGFHczVPWmxfMFdIWGhWUGxZMWVSQ09BUGRxZ2pqWUd5TE9UZm1SVlV4dkVJMEdOaFd0bER4SnpiZ3VqTlpsVUxjUmQwbFU1d0VMbzdxQ1d3ZXRseDZPdFZR?oc=5",
+   "fecha": "2026-11-16",
+   "medio": "TradingView",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "CAF",
+   "titulo": "CAF logra en Noruega una ampliación de 125 millones del contrato con el metro de Oslo - Cinco Días",
+   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMms2RW8tUDFpSjg2NV9NOFBIMXg1ZERtNExhSTBGclk2TDhFcTcxd3lCYVNzVXhNNDN6M3hjZ092TWxvNkJXUzZJYnNfWERBdzJZR0ZqV3lxbTVFQ2llZU5sNkp1SWtGWWpjM3lFWkVZbVJWY2pQZ2pDdFprZTJsUF90OG9KZnVRLW5VOHdkeW1fWmFWTzJOdHlvdy1WcnZUUUJPb1ZxRExtWmMwZDBEUjgtRnVLdmg5aDBEOEMyZTFmWEk0d3RsRkFwWXQ4U0xkZ0NIeHpqd9IB6wFBVV95cUxQak5kbC1HMDllTjNhcjhMZXZsdmk0VGlTZmxvSzBreXpNR2pOU0k3MU9nZ212ZFl3NVNGWTBPbVM2dkNlRmFtUU1nZXYtaGFpSUFraG5TbjJOZWJ3RUxDclJiVzZidHJmVldJdVVpM0JmeDVheG1pY1hKRkg0Y2N1VzY4dmVsNGlLUUdGSmZLZE42cF9KOVdQZmhRRGZ0MzBjYmxPbDlubEpwbVFGU19WblZOU2FZc0x6dzZmWDhxQzM0Z3JyM1haMFcxR09wQVQxVDlka2hFZHBQX011SDU4dXpRNDZEVWNRTkVJ?oc=5",
+   "fecha": "2026-11-16",
    "medio": "Cinco Días",
    "origen": "Google News"
   },
   {
    "proveedor": "CAF",
-   "titulo": "Solaris propulsa los resultados de CAF: Las ventas de autobuses se disparan un 31% hasta septiembre - Merca2.es",
-   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ranZoMDZxYlpZaWtNRnBQQ0puX0FoWGk0OEJRcnEwVXJ5bXN2cXpNa2N0ZUE5NTNBdW9jakVmQWNRak9uaUhqdHJjRU9wNENzenJ5aEVqeVZxS0trdnYtYWFaSjlSbVMyLXltOF9tdkNCQ1M1QVpPakpvYw?oc=5",
-   "fecha": "2026-11-12",
-   "medio": "Merca2.es",
+   "titulo": "CAF suministrará 24 unidades de metro adicionales en Oslo por 125 millones - El Correo",
+   "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPemZuclJIRmQ1NWFNUnJvZkxRWnVYaWJoSFhBR0xKU2ZzUHI2c3JGV1JodS1rblRrUnR0a3IwMFc4Zk9sM1REZDI5UVpFbnVwQ1VXa0JJZ2pUc3hzQm9pOVh3Wi02bm1rb0tqRFpETGF3NkNkNkZOS1dvMHZBQldkbk9uNnZ0Qi00aWRXODFYZG43N2lPTnp6V294RGp3emlhODlnQXZ4enlsUjhxbVHSAbMBQVVfeXFMT1IwdnFqbndXdGsybncxV1ZDMkdMVFBwSGNta2tTVU5TT08zUmtqZ2lnSEdXMWRreUlCdV9rdkRydnI2Wmh2MkpBZ1o1N19sTEs0OXZVeWNKOHh0eGtXMGJzb004OFpMeW84bGZDTElmdkc1LVFJQW5WWGJUdEZTRlBVaHhxM2NacEJKcXM1eW9Jd3B1dzE2a0VEZGlCbmtYSDdvUXNQVXNneVNSUU44Ujk4Z00?oc=5",
+   "fecha": "2026-11-16",
+   "medio": "El Correo",
    "origen": "Google News"
   },
   {
    "proveedor": "CAF",
-   "titulo": "CAF dispara un 30% los beneficios y en 2027 inicia la producción de autobuses eléctricos en Estados Unidos - Cinco Días",
-   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPY2JqSFFmclpCYS05TjYzMjkwYkdvMmI4dmFkeHRLUTlUc3VLcUlJakYxN2M5Vnp5WmU1M0Z2RmR2RkowMGNPbFhKTWs3cEZpRGxrQk5PN0UydzR6Q0EzNzRoRko0TU9XSXF3NlAyOGVGLVRlVnFsaDlFQUJYSEJjWDJBWFl5RUFvRk54SzNQSTY4STVJWl9tRGFNWU5qUHpoY1RaU3B1Y2wtcXV5X3dCMHJ6aVZYaFBEU2MwWG5NSVpSbVBEQ1ppT3NuOEk5ajktOTZGZUxfX0FJeW1tMXQxaTEybHdnaVIyazBoTEhoajBtUdIBhgJBVV95cUxPZVZCYXRmZmJ4ZlBXblVuUlE1b19uT213ZjYwRFRsX3J3YnJOS24zdk5BSWJQR1pHNURBYWhtTkw0a2FOaDlYQWlTWWl5dmtOcHRiRFBhN24xZXpVMTN3V1pOZWh6Qy01Vm9lTW00X2NZMEVkY0hRWnZxZi1Fd251SDB4RER2WThwQ19hci1EV3JQNTV1ejlBQTRNcm9fbGlrbmpJQmp6U2hRWUJLSGsyOHRyQkROd2Jja1lNMW51dDZ5VTNEaGVLMGptR1dkOENZUDZoa2tuWk9uaXZzTXJUUDlLWHA2S0VOMzdfWW1FTWtSZ3FZd2ExUFRZeG5GV1RJdTZ1MDNB?oc=5",
-   "fecha": "2026-11-10",
-   "medio": "Cinco Días",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "CAF",
-   "titulo": "El Grupo CAF eleva un 30% su beneficio impulsado por el negocio ferroviario - Noticias de Gipuzkoa",
-   "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEVNeFpCcy1qMGEwenVjRTZBcmd3TW8xTUg1VUZpSXB3YjVvRGQ3OU1qY0pvSU1BRDZkalZDWTNrQWo5cUhIbW9HTFJkY2FBMzFCal9OZjhrZWcxYXJlZzZjQ3VZb01tdnFXbnZGUDVmcTVxNDRaY0MyLUhNN2dRVy1sMzlSeVEwbUh5cEFHczMta090RGtnMWdfUnRjZ9IBowFBVV95cUxQelZlMnROVTdHT29DcXJnWEU5djNYNmlZRzRjRjVCTEhaTzI3eG15MXlpeUtYUEdDQm5xdGNMY1A4ZnhpU3VVZEdxTTM3RnIyWjRzZ1E0SWVPbm1YWHphU0pUNEtoZXZYclFyS1BZUUNtaWtvUVZQbk85TEdfOFFsUGdiZm5WSUR5TENLN05kVUltT3lBclJlbWxxTUJUOW8tbWxZ?oc=5",
-   "fecha": "2026-11-10",
-   "medio": "Noticias de Gipuzkoa",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "CAF",
-   "titulo": "Sacyr y CAF fichan a Sener y Siemens para el Metro de Bogotá - Expansión",
-   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWNYeGkwSmYxazZuak1JaHM4OWUyb1BDTkJjbk84SFZDNm11anhIV05UdUVKN0lscm56ZnpKTk1HajJyWk1HN0VfOTFlYWdyZEVpWk0xLVZQLWRUVXRNODdLdXBCWWY3WEZ0MDhwQjBTUFlVZXZnWG0taFcxTng3Rkp0bzR6bXJWSG5jN1dXSDRfRURkSWVYaEt1Qy1keDh5LWNtVnhkQW9ZR3Fya003d3M1ZUZ4MkNf0gG4AUFVX3lxTE1hRmZhZkx0MURJLTB5VzNBSHFWLTh4cFNETmd5NkpEU2dvOS1sVlNfOGFVZEVDMGFxeVpyY0ZDbnM3SkdVZmFvNEtxTlRldUZlM1BsSEVRcUpKek5WcjJUd0hzVFlZVnpvRTV3a0ZTYVcwM0dzLWRCVE1paGpEdFdqWTkzdHFrdmtTdVo4QlV1dzN5UzB5Z0lLSXI4NXkxb1ZVcktSOEZNRGwxemlFejItTm0zYnMtRW8?oc=5",
-   "fecha": "2026-11-08",
-   "medio": "Expansión",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "CAF",
-   "titulo": "Los empleados de ScotRail advierten de un boicot a los trenes de CAF si gana la licitación en Escocia - Crónica Vasca",
-   "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYXF5ZjQ4MVMzSTFXM1h6NVhVWVB3MFhhSlRYaElLNTZFSEljQW82NlNOZEQyb3NEbjM5MHotSDJhNzBlNEVPMElkQk52XzFhZG5HU0ZfeGVTbU9MYndxejdrVUhPcmFIaUNPTFZYbFltTmlOSXZnRjVRYmg3R1QySmhJdmtQM20yVHFySWtKYlp1VFhYSWhNaE83aXpfdlVkd0cyVU4ycVhmbmxmSzRaZTN1d09zaTZLX3Zrbms2bXNYZ1NHb3BDSE1BTTTSAdIBQVVfeXFMTlU2SE9OOEcxd2x0UmExeE50cVNhX1VpN0FJamN2YnFCbWRuNVFSeTRsUlFOMFV0NVgzbGNUTE5SR1doWnNDbGJqakRrWjR1WDFkc3hlRTBmT1dFMUYxdWRmSThNTVhtSVUtUTBwYjRyVXYtMkFnSVp6dnBwaFZ6MmpWVEVRRVNwUmpFc1MyNko0ajVQUWY1VnBNSHlMTVE3RElOVFAwSDBRRWFHV0JaOEZNRWVZWEdhZV9hRktaYUU0dWlfd1h6Mzc4VGd4M2JyMGNn?oc=5",
-   "fecha": "2026-10-27",
-   "medio": "Crónica Vasca",
+   "titulo": "CAF y Sporveien acuerdan más trenes para el metro de Oslo por 125 millones - Radio Intereconomía",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0NNWkw3eUZJUFE2MjRteGltMlVMTlpPazBxb0RldzhaRkhOVG12Q3d3VFg5cy13U2NsMFlhUzRWYy04RFF0NjBYR1lXUXZ4VjI3dmdzcXZNNE9RbnNNRC04WnJzNllpRGhvNEJaVXQ3T0FJaVJ3V1NCYUdRc2s4OFJPREVjbHliVmtqdjVNaDRHcy1TVmdXVkhIbFN6ZFZ6OE1yUEtVN21WVXJLWVF3MHZ2VE5YRlBlNWN2eDdvcTBvcUNoR0xwYndYOFp4S01ZOHfSAdIBQVVfeXFMTU9DTVpMN3lGSVBRNjI0bXhpbTJVTE5aT2swcW9EZXc4WkZITlRtdkN3d1RYOXMtd1NjbDBZYVM0VmMtOERRdDYwWEdZV1F2eFYyN3Znc3F2TTRPUW5zTUQtOFpyczZZaURobzRCWlV0N09BSWlSd1dTQmFHUXNrODhST0RFY2x5YlZranY1TWg0R3MtU1ZnV1ZISGxTemRWejhNclBLVTdtVlVyS1lRdzB2dlROWEZQZTVjdng3b3Ewb3FDaEdMcGJ3WDhaeEtNWTh3?oc=5",
+   "fecha": "2026-11-16",
+   "medio": "Radio Intereconomía",
    "origen": "Google News"
   },
   {
@@ -165,86 +165,6 @@ window.RADAR_DATA = {
    "origen": "Google News"
   },
   {
-   "proveedor": "Siemens Mobility",
-   "titulo": "Sacyr y CAF fichan a Sener y Siemens para el Metro de Bogotá - Expansión",
-   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWNYeGkwSmYxazZuak1JaHM4OWUyb1BDTkJjbk84SFZDNm11anhIV05UdUVKN0lscm56ZnpKTk1HajJyWk1HN0VfOTFlYWdyZEVpWk0xLVZQLWRUVXRNODdLdXBCWWY3WEZ0MDhwQjBTUFlVZXZnWG0taFcxTng3Rkp0bzR6bXJWSG5jN1dXSDRfRURkSWVYaEt1Qy1keDh5LWNtVnhkQW9ZR3Fya003d3M1ZUZ4MkNf0gG4AUFVX3lxTE1hRmZhZkx0MURJLTB5VzNBSHFWLTh4cFNETmd5NkpEU2dvOS1sVlNfOGFVZEVDMGFxeVpyY0ZDbnM3SkdVZmFvNEtxTlRldUZlM1BsSEVRcUpKek5WcjJUd0hzVFlZVnpvRTV3a0ZTYVcwM0dzLWRCVE1paGpEdFdqWTkzdHFrdmtTdVo4QlV1dzN5UzB5Z0lLSXI4NXkxb1ZVcktSOEZNRGwxemlFejItTm0zYnMtRW8?oc=5",
-   "fecha": "2026-11-08",
-   "medio": "Expansión",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Siemens Mobility",
-   "titulo": "Renfe moderniza su flota con una millonaria compra de trenes Siemens - MasContainer",
-   "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdUNTbFJKd0NrS1FCZTA3aVRxdFpkTDA0ZGRJSzQ5YUd0LWVsa3VfQ3JSanEtQ1dkTWhTZ3NpcEpKZWwzZmx6TzlJYnhaeGRyZFdDa082VWwwRDloRjNZVk1XTDNiTkFHT0JHcnFCX2Y2b1JCSk9qMUd1SThwUTd2N2dnX0JhRzVrX0dPV3VKMmE?oc=5",
-   "fecha": "2026-11-04",
-   "medio": "MasContainer",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Siemens Mobility",
-   "titulo": "El LZB de Siemens, un sistema de señalización viejo a prueba de bombas - Expansión",
-   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY2MyTDBGY00tdTlhc2FsTzR0RUJrcUktU0ZiZ250OXlveHBIR2ltdk5QTEJGTWdqWlVIelBnR0JINmZ5OHBVZHBINFpQcXE3RkE2cF90Y2M3S0FnSmxBdkh3Y1FYLTF0TnFTaGNqbUdxWTlPMGYxNFVid0kyeWdFYXBWWUh6VUR0NUZzRUljRXF6OHpDZDlxbUFsaHV5NE15LTJ6bWI1S04wRllZS2RYYVhlWmbSAbQBQVVfeXFMTlI5WlhRUzJVSWQ4dW5CMG8xS3I2X0U1RjQzN3Y1ZFZfeWlibl9idnFOb3hoNGdGMWl0WnBuamwyUkhIeEpIMDZkT0pNMDRRbUVrbFM1T1FVcmJiNjdEbU53OGhVNzAtTmdGZlpJT1N1UWxxYld1MVNZVDNUN1l3ZXFUMVJSMmVmRndweWNHTXR5LThXUWxCUkpDWHk3NkdOSWM4WEJHZzlsVFpSTEFyRks2ZGkw?oc=5",
-   "fecha": "2026-10-29",
-   "medio": "Expansión",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Siemens Mobility",
-   "titulo": "El contrato de Siemens provoca un bronco consejo en Renfe con quejas por su uso electoral y por el mantenimiento de los trenes - El Español",
-   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRlpxY2l1bTktUnJCTFBHak1jUWVyb2QtNjluY3h5RlN4c0FmX1JnRDR0V212MmNzVDRXUXlBaUNkQk85ZzVoY0JLSnpyak5iTXlYQzdFc0Jtdk5iU2p1al92eGFTQmpkN2lOZll2dmdJTzVBYTh1U3JxZW8xSkViM1hxUmpvUEZkYl9xWU43WWNBLTZjWnhqSUk5SlpkV3VXVGVhSWNZQy0xRjVyazJ5V0gtWmpSQ1g3NW1EMm0yNzl6aTl6Smk2NHk4WWxqaE0zUklkbi1OQzhuM29tbXRNcTh6Zk1vNlowd0h2Smdza1NUdTDSAfgBQVVfeXFMTy1XYmIwYUxCdGgtOWdLbTJ6TzdrTk5mZWRZblNDMkVSRGVaLWRzRng3TUdPRjhYNGVIbkJLYWU0U0dJWFh2UFdicUlhQ2Y2em1XSC00YlVxb0hfZ0lMSFg3VUJQbGJKb2tGS3llZi1YZHhwMFJBMktEeHdSZTBWa3NnYVhlcllEVG5sNkV4N2R4VGFfWEVVZ0tzOXNKdDlIbFJkZUZ5aklVOFBvTXJCYUNRbDlyQ2FFb2NqdExzSXJmbHkzU01ST2UycHAtZWpvVjhvOW5KVHV4Q2J2bTNjbElSckd2a2RCWkRweFlmV1R2emI5NUxrMVo?oc=5",
-   "fecha": "2026-10-28",
-   "medio": "El Español",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Siemens Mobility",
-   "titulo": "Los nuevos trenes de Siemens para Renfe tardarán más de tres años en rodar por las vías españolas - Merca2.es",
-   "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wUVl5cThvamdJVHh2bnpLa1ZkZHNVVzNwVmJoT3JvNU55YXNUTjFTdV9xQ0lPcTVsR0wyS18tN2lOR2pYckxReEtXelo3dERaLU1tWnhWenh6TjJETl95TWd4RTFWM0NiNG5RV2RMMzVOS3RqaHc?oc=5",
-   "fecha": "2026-10-28",
-   "medio": "Merca2.es",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Stadler",
-   "titulo": "Propuesta de red de tranvías para Montevideo y el área metropolitana: ¿Hay espacio para discutir una alternativa a los buses BRT cuando el gobierno ya avanza con su plan? Con Luis Pelloni (Stadler Rail) - Radiomundo En P",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNU3lsMlFOZlNpY2h0bDdIaDdSMmpETnZ3anFtX0tKZzE1WDA1b0NkUVVkQkdsQ1VsT1B4V2ZtUFVaSThtN3BLYk8zeDBWYnJpalZaZFdHc0pUUnROSnFpeFk1dmwxQ2RqZGl6Um5YcnBIb2FkV3gzb0lzb0VOaWlaRTZOSGItVU5pd2I1OXcxNE45R20tQ1k5WU5NTXJKNHkzekIxcXAxTHFNV2hrZE5QOFA4enZyMF9GUFFQV0lvRi1SSklENkg0ZXo4MU9KaGVnUWF0b0dvRWluVk1WckpCMTdLRlVTOW5PZkFNTjZINTloalY5RUxHWWpDUjJ2QzhYbU04RnNhbWI1ekNON3FPLXFlVGxnMzcxVy1yTG1zRXMyY3VqWGFyQVpnVUYzOTRSMkx1Q3NMMUVkbUVXTE5hR2E0WTZTTkdhNFRZTVAxU3QxbzYzVW4yV0dPcHBLQQ?oc=5",
-   "fecha": "2026-11-12",
-   "medio": "Radiomundo En Perspectiva",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Stadler",
-   "titulo": "Tren eléctrico Stadler FLIRT inicia operaciones regulares en Lituania - Foro3D",
-   "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTzNBcEc1MXFTQVd3SFJCT0c3LVFIYTdGenh2cWFYTkF5VURkcWp2N3NqcHFFQ29DblhSZEhaTl96MF9IQ2ExcHctTVI4RnFPY2lhQVVEOHVIajFMUC1QZE1YcGlrbGJRMDJDVVBsSFM4NzdGRWlBamN2SFpTd3RLWDg0cFFyZm95cUpMMV9JYkZoSm50emI1blNLYWw2NF9NQjRyZ0REY0trNDF5?oc=5",
-   "fecha": "2026-11-10",
-   "medio": "Foro3D",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Stadler",
-   "titulo": "Kazajistán abre la venta de billetes para los nuevos trenes Stadler - Foro3D",
-   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV2hfcXEyaGlFRVMwZm1FMnVCSnVLNTZLSGh2SHluUXRYQmlBeEVHWC1VWkhjZ3c0RUFCNjhLM0RHQmtMbkFSSmdScVdZUExJVEprMHFLQVJiZm9UNDlpbm9sZ2JlS0xTdlctdkRPRG0xQnE0TG1kekpUQUhCd2cyVzJuM3htUzRFWURHZXhIeTRIS2ZjdUZndHdwRDAzcUVVaVR2cjF1cGNFUQ?oc=5",
-   "fecha": "2026-11-07",
-   "medio": "Foro3D",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Thales",
-   "titulo": "Adif adjudicó a Thales la renovación de la señalización de la vía Madrid - Sevilla y debía estar finalizada en enero de 2026 - Antena 3 Noticias",
-   "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQaDE0VHVuVnVBNERjdEE0ZUQxUVE5OFZ2LWZSNzQ5YjVrMmV2WWx2eHVXWnA4dGdReUlwOUlVTzhtV21DZXFwNUxWTG1LUmIzaGR0ZlBETFhNVnhFS3BkaXoxUzFlQk5vRXAtVWhxc011OGluWF93RUVMR2drSk5mNFNCWFJEVjE3TGo0TVBIWnpScHlNZ2c1ZlFRREFTWW1BWFRibFhrbWNiSmt2eDAyXzJCWEpVNmhycUd2SkZlWnpPMkhuWXBLeVJvaTY3TWlkbmlEei16NjN4dENTV2xBZ09weDRTLVk3cDd2c1ROU21zMlRoc2NrbzNqdWhvYnZscE96eWFkZVTSAYgCQVVfeXFMTTI0dVo5OHBWeUQ2UzN1WVgxNTBLU2xFY09DX29tWjk0UFRoei1XRW45b2dFT0JPc3kwS0Z1Zm1jV3YyaHRSWFVHUkdKVW9rYjRHekM1TTZUbzRFSzE3enZyZXRScU5TLS1Bd3p4WE1sa0xXNGQ2b0x3VUJGeUYxU1FXcGt2RGZFUWVUZUFVMFdVMHQ5RUg0b0NpN3pzMXJiS2VBelNpa08tTHR5RF9fSFJnVl9rc2FmNE9XUXc0VFFwSFdVSVdQYzVhbEpiNFFpMW5wUWtfSnJpeDdtQVF4M3ExSElZZ09oSG9DdS1ZYjBoZGZWUGY2SDQ2MmlUdTdQTWt5VTg0aGlE?oc=5",
-   "fecha": "2026-10-29",
-   "medio": "Antena 3 Noticias",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Thales",
-   "titulo": "Adif adjudicó a Thales renovar la señalización de la vía, que debía estar lista este año - Ultima Hora",
-   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVk9VRl8wQlZBVGo4TllDNVlqbzBuOTMzdDVNZ3E2YVc0OVM0TC1rQldqcnBYaGg2T1ZYbFdkaWV5X1lZMFBTYWROTUJNcTlaTlBvZmlUUDVFWXMyVlhsZk16LU1TbncyUlNVd3J1czUzVHlPMUpsM1N2a2VWdFpzcEU0Z1ZZMnpkWERmU0FvTFBuYVJFampERzJZa2xrdDNiWnBWZ250RWZndW4xME8wbGZjS3R4aUJackJaYlNlbjhnZFNCc1BHTzRyNFcxNzNuSFowTA?oc=5",
-   "fecha": "2026-10-29",
-   "medio": "Ultima Hora",
-   "origen": "Google News"
-  },
-  {
    "proveedor": "Volvo Buses",
    "titulo": "Alexander Dennis y Volvo estudian desarrollar un autobús eléctrico articulado de 18 metros - Nexotrans",
    "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUmd2ZFoya2JndldTOWlDZS05WVh6WFVDZEUwaG1lZHB3elR1UGJaT0RQY3d4bTdrV3N1czljNnBER3VIQlhRZElZY2ZucVFzWHNKc2JmUkJZWmx1ZW9QRmFCQWJZXzhMa1AyQmZ5cW43TGoxekU2WGtHa3I4cXdxNkdRMjJrcmRCUXNjX1ZuQjNIbTZZYXhWeFB3VDFDU2RFTVNoSzMwOUZNbHdwaDd0UFkyYw?oc=5",
@@ -253,8 +173,8 @@ window.RADAR_DATA = {
    "origen": "Google News"
   }
  ],
- "novedades_desde": "2026-10-16",
- "aviso": "Los proveedores y los enlaces son reales. Se revisan solos una vez al día; la última revisión fue el 15 de noviembre de 2026. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.",
+ "novedades_desde": "2026-10-17",
+ "aviso": "Los proveedores y los enlaces son reales. Se revisan solos una vez al día; la última revisión fue el 16 de noviembre de 2026. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.",
  "anio_ref": 2026,
  "modos": [
   {
@@ -312,7 +232,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -331,7 +251,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -350,7 +270,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -369,7 +289,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2019-12-10",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -388,7 +308,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -407,7 +327,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2021-06-22",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -426,7 +346,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2014-08-06",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -445,7 +365,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -464,7 +384,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2019-04-01",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "alta",
    "madurez_trl_estimada": null
   },
@@ -483,7 +403,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2022-08-25",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -502,7 +422,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2014-04-02",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -521,7 +441,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2020-08-13",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -540,7 +460,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -559,7 +479,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2025-11-13",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -578,7 +498,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -597,7 +517,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -613,11 +533,11 @@ window.RADAR_DATA = {
    "url": "https://www.thalesgroup.com/en/tramway-lrt-signalling-solution",
    "tipo_fuente": "fabricante",
    "dato": "Puede repetirse con Hitachi Rail, que compró ese negocio; falta confirmar quién es hoy el dueño del producto",
-   "abre": false,
+   "abre": true,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
-   "confianza": "baja",
+   "consultada": "2026-11-16",
+   "confianza": "media",
    "madurez_trl_estimada": null
   },
   {
@@ -635,7 +555,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -654,7 +574,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -673,7 +593,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -692,7 +612,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -711,7 +631,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -730,7 +650,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2025-06-05",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -749,7 +669,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -768,7 +688,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -787,7 +707,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2019-12-16",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -806,7 +726,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2022-08-22",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -825,7 +745,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -844,7 +764,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2023-03-14",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -863,7 +783,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -882,7 +802,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -901,7 +821,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -922,7 +842,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -943,7 +863,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -964,7 +884,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -983,7 +903,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1002,7 +922,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2021-10-22",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1021,7 +941,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1040,7 +960,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -1059,7 +979,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1078,7 +998,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2026-06-08",
-   "consultada": "2026-11-15",
+   "consultada": "2026-11-16",
    "confianza": "media",
    "madurez_trl_estimada": null
   }

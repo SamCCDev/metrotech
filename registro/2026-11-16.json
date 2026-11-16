@@ -1,0 +1,31 @@
+{
+ "fecha": "2026-11-16",
+ "hora_utc": "20:50",
+ "segundos": 309,
+ "fichas": 41,
+ "abren": 35,
+ "nombran_el_producto": 34,
+ "con_fecha_del_dato": 14,
+ "no_abren": [
+  "dg-cable-doppelmayr",
+  "en-brt-abb",
+  "en-cable-doppelmayr",
+  "en-metro-abb",
+  "rs-tram-caf",
+  "sc-cable-doppelmayr"
+ ],
+ "proveedores": 18,
+ "novedades": 21,
+ "proveedores_con_rss_propio": [
+  "Clever Devices",
+  "Kempower",
+  "Trapeze"
+ ],
+ "errores_de_novedades": [
+  "Heliox: Google News: HTTPError",
+  "INIT: Google News: HTTPError",
+  "Siemens Mobility: Google News: HTTPError",
+  "Stadler: Google News: HTTPError",
+  "Thales: Google News: HTTPError"
+ ]
+}
