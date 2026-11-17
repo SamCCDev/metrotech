@@ -1,6 +1,6 @@
 {
- "revisado": "2026-11-16",
- "desde": "2026-10-17",
+ "revisado": "2026-11-17",
+ "desde": "2026-10-18",
  "origenes": {
   "ABB": [
    "Google News"
@@ -87,6 +87,14 @@
   },
   {
    "proveedor": "Alstom",
+   "titulo": "Alstom competirá en Portugal con el tren de alta velocidad Avelia Stream - Revista VÍA LIBRE",
+   "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oVlNiQTZYRUtWdVNYUEdFQ3lpYzNuXzJlRW9yVkN1VS1DLW9NUHpvQnhzeG5VanYyX0pnVjVTTmdHZWsycjR5MkJRY2JJU0p5Z0JLWWxfZC00QmtSZUpqT0JfS2xoaC1Pejhr?oc=5",
+   "fecha": "2026-11-13",
+   "medio": "Revista VÍA LIBRE",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Alstom",
    "titulo": "Virgin y Alstom fabricarán 12 trenes de alta velocidad para operar a través del Canal de la Mancha - Interempresas Media",
    "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOGRZZmpKakdKQXNWUlRjZ2tWRzZUSl81QXJjZWVHaEdERkRwZk1WOXp1NjRtWTdaRGpUcFFTbExEWHNFYkVEcjU0RkZqWTNIc0JvYXNtbTBEdGtlRHNTVzJmWUFoeG9KTjVsZnRuQ0h6TnpHVXROeUpBSXBvZ1JxeWhPd0NtVVZyeGdDOW5IWVZBX0c5M0Y2dGliVWhOcGdrSmU5eFZvemVqeVlYT1d1dE5FRmN3cnNMeWc4Y05KR1NBWktkWExOeTgwSkhFQVRkaXZsOEtn?oc=5",
    "fecha": "2026-11-09",
@@ -102,11 +110,11 @@
    "origen": "Google News"
   },
   {
-   "proveedor": "Alstom",
-   "titulo": "Las pérdidas en contratos de trenes hunden en Bolsa a Alstom - Expansión",
-   "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNXBjOEt1R3pVSTg1UmNsMmN3aFBZdDJobXpuOW44Zk9ZZ3BuSUtlZjd0T2VwU25HNzNETWhDYUJxd3FBU3lrU1NYQ0J4RE5Wc1FCQkRRbFgyTWlqVnhOLWdnTGp0Q25GeExUZmhwUjd0cHF1VkhjSUxMbV9nUEpXQldKU0JRTWN0c2FMVHdVUmFHSWFDN1JyM05EN2TSAZwBQVVfeXFMUHo3Rmh5LVEzUU9GNDJ0b0prTm52d1VlcGVIeHc3NnBLcGxoUWlKR0JQNE42c1F4TzBiZkZOcU41dWt0UXhwTlJCRmREZDJNaDJrSnBjMVhVVVFtQl9EcENIR1o5VzVVcFhyYXpYV3JFSFhPUXdNUTdnbWxsS2NWZXVwS0FMaFZUb1lpc25uQmRjYlNuX2pKSHRiTEd2?oc=5",
-   "fecha": "2026-11-03",
-   "medio": "Expansión",
+   "proveedor": "BYD",
+   "titulo": "Bus Simulator 27 recibe dos autobuses eléctricos BYD en un DLC gratuito - Foro3D",
+   "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG9iZnFYQmctbTZOTGJRV0gyNXdISG1idHU3UTJSU2VFVG5RMnA4aWo0cFF5R1ppUkV1M3FUeFhXTUoyNTQzTWZjNmhpQm1McXdxQ0F5akx5N1NaUEFPTDJiZlRPMFNpTVVFUE5DOVdidHdpRFVQdi1MRXVwOUNJTld2Qkd4ZlZsTDFhU0FVQzZkbTM0X2lQSWJSdkpQMVlKUWtTa0MxakUwS1c2MXc?oc=5",
+   "fecha": "2026-11-17",
+   "medio": "Foro3D",
    "origen": "Google News"
   },
   {
@@ -135,18 +143,18 @@
   },
   {
    "proveedor": "CAF",
-   "titulo": "CAF suministrará 24 unidades de metro adicionales en Oslo por 125 millones - El Correo",
-   "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPemZuclJIRmQ1NWFNUnJvZkxRWnVYaWJoSFhBR0xKU2ZzUHI2c3JGV1JodS1rblRrUnR0a3IwMFc4Zk9sM1REZDI5UVpFbnVwQ1VXa0JJZ2pUc3hzQm9pOVh3Wi02bm1rb0tqRFpETGF3NkNkNkZOS1dvMHZBQldkbk9uNnZ0Qi00aWRXODFYZG43N2lPTnp6V294RGp3emlhODlnQXZ4enlsUjhxbVHSAbMBQVVfeXFMT1IwdnFqbndXdGsybncxV1ZDMkdMVFBwSGNta2tTVU5TT08zUmtqZ2lnSEdXMWRreUlCdV9rdkRydnI2Wmh2MkpBZ1o1N19sTEs0OXZVeWNKOHh0eGtXMGJzb004OFpMeW84bGZDTElmdkc1LVFJQW5WWGJUdEZTRlBVaHhxM2NacEJKcXM1eW9Jd3B1dzE2a0VEZGlCbmtYSDdvUXNQVXNneVNSUU44Ujk4Z00?oc=5",
+   "titulo": "CAF y Sporveien acuerdan la ampliación del suministro de unidades de metro para Oslo - Estrategia Empresarial",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0Z2N1Vzc0hJVHZxZE9HREFCak9yQTN5UG5ZTWZ1dHludkZtRFY3dDdxTVJjRWJ3N2ZGeXJLR3lWN29pRkU1THdtZEplYjN4VEpuZmJMU0FyY3FjQ3lIZGNPVU4wbU5OUlZuNVRfTG1oRkVQWTNtMHZvcGlHeHM5TmN1SXpiWTI4dmszLU1RdVlueHNKSm1XVW1mYlZaRzNuYTV6bHFSVzVZNmJqcHoxQzA5RkVEeGlOUWJNUA?oc=5",
    "fecha": "2026-11-16",
-   "medio": "El Correo",
+   "medio": "Estrategia Empresarial",
    "origen": "Google News"
   },
   {
    "proveedor": "CAF",
-   "titulo": "CAF y Sporveien acuerdan más trenes para el metro de Oslo por 125 millones - Radio Intereconomía",
-   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0NNWkw3eUZJUFE2MjRteGltMlVMTlpPazBxb0RldzhaRkhOVG12Q3d3VFg5cy13U2NsMFlhUzRWYy04RFF0NjBYR1lXUXZ4VjI3dmdzcXZNNE9RbnNNRC04WnJzNllpRGhvNEJaVXQ3T0FJaVJ3V1NCYUdRc2s4OFJPREVjbHliVmtqdjVNaDRHcy1TVmdXVkhIbFN6ZFZ6OE1yUEtVN21WVXJLWVF3MHZ2VE5YRlBlNWN2eDdvcTBvcUNoR0xwYndYOFp4S01ZOHfSAdIBQVVfeXFMTU9DTVpMN3lGSVBRNjI0bXhpbTJVTE5aT2swcW9EZXc4WkZITlRtdkN3d1RYOXMtd1NjbDBZYVM0VmMtOERRdDYwWEdZV1F2eFYyN3Znc3F2TTRPUW5zTUQtOFpyczZZaURobzRCWlV0N09BSWlSd1dTQmFHUXNrODhST0RFY2x5YlZranY1TWg0R3MtU1ZnV1ZISGxTemRWejhNclBLVTdtVlVyS1lRdzB2dlROWEZQZTVjdng3b3Ewb3FDaEdMcGJ3WDhaeEtNWTh3?oc=5",
+   "titulo": "CAF refuerza su alianza con Sporveien y amplía el contrato del Metro de Oslo por 125 millones de euros - empresa Exterior",
+   "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUndIR2ZkWDJjTE1VMHpjcFg5aFJfY2V0RktnbjBVbjVqcC1WSDNFYVFteWhhUjZRLWJKWWd4enpZTGFON1ZWaTNlNnZuczNnX0U5RHlKSlhyclY5ODdyWFhOYzRMWlZuZGhlRGdkMmhrY2hOQlFLX1lieWUwUEVUaG1aZW10cDh1WDYzU1FacTFCMGl2cWFPR3ZsaG5adU5xU180SDNnRGhEUmgwdTNrc1d5VzU5ZVhISG9sYTluRWplVzdOZVpaQTdUMA?oc=5",
    "fecha": "2026-11-16",
-   "medio": "Radio Intereconomía",
+   "medio": "empresa Exterior",
    "origen": "Google News"
   },
   {
@@ -219,6 +227,94 @@
    "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPc29rOTVIUk4yX28yZ1ZyRGpsaU1peTgxSTNBa0R5clpjNTZtczdFUndFNnphOVU4c0lMZU5TYXRhOERsTWxXbVJLSjllT3YxRFJnZFB1aG5KWXItcmNjWC0zOVh6QV9jdzNvS1hhRkw1eWZ4R3l1b3l6bzNneVd3bjJWa3d6dVhZT3lFOU9VNkl4QnBmVE5lNHRtdThjWUZzV2JkQmdJZUdpcjNoNFhNSlVvVmlsYXpyWlZkZzVZVEFBY291UXpjUllzUWVNam1tSEFTM21BTFZza3dlVFVwaDdJV3gwa0hVaWdDNGFRdjN6UnYyNVZGUDE2VnloYlhCcHfSAewBQVVfeXFMTV9DaFM3MUZlSlgwNU1OekhqUWFuMDl4TVNVcVFTcDlTc3IzN0xScHJuUkx4UUtZT2UxUjZrVnhFTjdKaEpMNXRJUUZOeF8xRllVd3NOMGpyOUdOVXFXUmJleHN1UlkwYkJNUDBKMWpIVFlUZHZHdjM5d2FLYk9xWFZUbkQxZXFHSzZaVHN3MV9HLXAtYmRiTm5IaHc2MXdDZmhpWDlsZkFZRVFDeTh2U1FNeDNhVURTZkVxYWF1VVlhVDA1UWZ2aVdId3BKbGdGM3RoTlk1NzlobTZxZ0lHUHc5UlM0NUNIQVl3TzM?oc=5",
    "fecha": "2026-10-26",
    "medio": "El Economista",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Siemens Mobility",
+   "titulo": "Sacyr y CAF fichan a Sener y Siemens para el Metro de Bogotá - Expansión",
+   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWNYeGkwSmYxazZuak1JaHM4OWUyb1BDTkJjbk84SFZDNm11anhIV05UdUVKN0lscm56ZnpKTk1HajJyWk1HN0VfOTFlYWdyZEVpWk0xLVZQLWRUVXRNODdLdXBCWWY3WEZ0MDhwQjBTUFlVZXZnWG0taFcxTng3Rkp0bzR6bXJWSG5jN1dXSDRfRURkSWVYaEt1Qy1keDh5LWNtVnhkQW9ZR3Fya003d3M1ZUZ4MkNf0gG4AUFVX3lxTE1hRmZhZkx0MURJLTB5VzNBSHFWLTh4cFNETmd5NkpEU2dvOS1sVlNfOGFVZEVDMGFxeVpyY0ZDbnM3SkdVZmFvNEtxTlRldUZlM1BsSEVRcUpKek5WcjJUd0hzVFlZVnpvRTV3a0ZTYVcwM0dzLWRCVE1paGpEdFdqWTkzdHFrdmtTdVo4QlV1dzN5UzB5Z0lLSXI4NXkxb1ZVcktSOEZNRGwxemlFejItTm0zYnMtRW8?oc=5",
+   "fecha": "2026-11-08",
+   "medio": "Expansión",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Siemens Mobility",
+   "titulo": "Renfe moderniza su flota con una millonaria compra de trenes Siemens - MasContainer",
+   "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdUNTbFJKd0NrS1FCZTA3aVRxdFpkTDA0ZGRJSzQ5YUd0LWVsa3VfQ3JSanEtQ1dkTWhTZ3NpcEpKZWwzZmx6TzlJYnhaeGRyZFdDa082VWwwRDloRjNZVk1XTDNiTkFHT0JHcnFCX2Y2b1JCSk9qMUd1SThwUTd2N2dnX0JhRzVrX0dPV3VKMmE?oc=5",
+   "fecha": "2026-11-04",
+   "medio": "MasContainer",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Siemens Mobility",
+   "titulo": "El LZB de Siemens, un sistema de señalización viejo a prueba de bombas - Expansión",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY2MyTDBGY00tdTlhc2FsTzR0RUJrcUktU0ZiZ250OXlveHBIR2ltdk5QTEJGTWdqWlVIelBnR0JINmZ5OHBVZHBINFpQcXE3RkE2cF90Y2M3S0FnSmxBdkh3Y1FYLTF0TnFTaGNqbUdxWTlPMGYxNFVid0kyeWdFYXBWWUh6VUR0NUZzRUljRXF6OHpDZDlxbUFsaHV5NE15LTJ6bWI1S04wRllZS2RYYVhlWmbSAbQBQVVfeXFMTlI5WlhRUzJVSWQ4dW5CMG8xS3I2X0U1RjQzN3Y1ZFZfeWlibl9idnFOb3hoNGdGMWl0WnBuamwyUkhIeEpIMDZkT0pNMDRRbUVrbFM1T1FVcmJiNjdEbU53OGhVNzAtTmdGZlpJT1N1UWxxYld1MVNZVDNUN1l3ZXFUMVJSMmVmRndweWNHTXR5LThXUWxCUkpDWHk3NkdOSWM4WEJHZzlsVFpSTEFyRks2ZGkw?oc=5",
+   "fecha": "2026-10-29",
+   "medio": "Expansión",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Siemens Mobility",
+   "titulo": "El contrato de Siemens provoca un bronco consejo en Renfe con quejas por su uso electoral y por el mantenimiento de los trenes - El Español",
+   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRlpxY2l1bTktUnJCTFBHak1jUWVyb2QtNjluY3h5RlN4c0FmX1JnRDR0V212MmNzVDRXUXlBaUNkQk85ZzVoY0JLSnpyak5iTXlYQzdFc0Jtdk5iU2p1al92eGFTQmpkN2lOZll2dmdJTzVBYTh1U3JxZW8xSkViM1hxUmpvUEZkYl9xWU43WWNBLTZjWnhqSUk5SlpkV3VXVGVhSWNZQy0xRjVyazJ5V0gtWmpSQ1g3NW1EMm0yNzl6aTl6Smk2NHk4WWxqaE0zUklkbi1OQzhuM29tbXRNcTh6Zk1vNlowd0h2Smdza1NUdTDSAfgBQVVfeXFMTy1XYmIwYUxCdGgtOWdLbTJ6TzdrTk5mZWRZblNDMkVSRGVaLWRzRng3TUdPRjhYNGVIbkJLYWU0U0dJWFh2UFdicUlhQ2Y2em1XSC00YlVxb0hfZ0lMSFg3VUJQbGJKb2tGS3llZi1YZHhwMFJBMktEeHdSZTBWa3NnYVhlcllEVG5sNkV4N2R4VGFfWEVVZ0tzOXNKdDlIbFJkZUZ5aklVOFBvTXJCYUNRbDlyQ2FFb2NqdExzSXJmbHkzU01ST2UycHAtZWpvVjhvOW5KVHV4Q2J2bTNjbElSckd2a2RCWkRweFlmV1R2emI5NUxrMVo?oc=5",
+   "fecha": "2026-10-28",
+   "medio": "El Español",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Siemens Mobility",
+   "titulo": "Renfe adjudica su pedido de 30 trenes de alta velocidad a Siemens por 1.218 millones - Cinco Días",
+   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUXhESzA5RkpjWDZsM09FZlNsQUFWZjdfRHYtMVh1UW5BM1lxXzNjZHRxTEFrUG9sOEVIOVRUQkE5dFNaWDgyUHFuRl9kYmhWSGdHUGJ4U3lUcUFCREowcml0dFkzSUc3dkRMVUxfV2JHNndJOVZwM29tN251cXRUMENNNnJjNzBfQUVvQUFYYUttVm9qQWIyOXlYQmdkaDFyZnNzU0JjOUJEYVdqM0ZfOU1EVlowSEN0TnNHMEJzT05qdWNPaGdDcVVrUHVjbm5BSmpmdNIB6AFBVV95cUxPSldiTi1qX3RqRUVCaWZQNWc4NXZpcndrX0pNN21WYl9RMFJvLV9QTmhyZlJBUUlJalN0Y0dRdDRwWG1YQm1GblJiSlNsMmwtSnFVNllFTmdyZGVwTkRnVmt3TWRyaFhYY2R1RkliQW85cUZhX3ZGdEF3WDJOS1hIVllaenBUdzB1RHNsWTVLaURoV0dlV1NINWFQaU56bTRlNGNrMmp6emVVOUUzMWVfdmVCMVdRZDRUc0dpRDVlTmFlMlV0S1lLV0NZaWdnbURBOGlkSFh3OThTYUpSMnN3dXhxSnFMdFZ5?oc=5",
+   "fecha": "2026-10-27",
+   "medio": "Cinco Días",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Stadler",
+   "titulo": "Propuesta de red de tranvías para Montevideo y el área metropolitana: ¿Hay espacio para discutir una alternativa a los buses BRT cuando el gobierno ya avanza con su plan? Con Luis Pelloni (Stadler Rail) - Radiomundo En P",
+   "enlace": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNU3lsMlFOZlNpY2h0bDdIaDdSMmpETnZ3anFtX0tKZzE1WDA1b0NkUVVkQkdsQ1VsT1B4V2ZtUFVaSThtN3BLYk8zeDBWYnJpalZaZFdHc0pUUnROSnFpeFk1dmwxQ2RqZGl6Um5YcnBIb2FkV3gzb0lzb0VOaWlaRTZOSGItVU5pd2I1OXcxNE45R20tQ1k5WU5NTXJKNHkzekIxcXAxTHFNV2hrZE5QOFA4enZyMF9GUFFQV0lvRi1SSklENkg0ZXo4MU9KaGVnUWF0b0dvRWluVk1WckpCMTdLRlVTOW5PZkFNTjZINTloalY5RUxHWWpDUjJ2QzhYbU04RnNhbWI1ekNON3FPLXFlVGxnMzcxVy1yTG1zRXMyY3VqWGFyQVpnVUYzOTRSMkx1Q3NMMUVkbUVXTE5hR2E0WTZTTkdhNFRZTVAxU3QxbzYzVW4yV0dPcHBLQQ?oc=5",
+   "fecha": "2026-11-12",
+   "medio": "Radiomundo En Perspectiva",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Stadler",
+   "titulo": "Tren eléctrico Stadler FLIRT inicia operaciones regulares en Lituania - Foro3D",
+   "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTzNBcEc1MXFTQVd3SFJCT0c3LVFIYTdGenh2cWFYTkF5VURkcWp2N3NqcHFFQ29DblhSZEhaTl96MF9IQ2ExcHctTVI4RnFPY2lhQVVEOHVIajFMUC1QZE1YcGlrbGJRMDJDVVBsSFM4NzdGRWlBamN2SFpTd3RLWDg0cFFyZm95cUpMMV9JYkZoSm50emI1blNLYWw2NF9NQjRyZ0REY0trNDF5?oc=5",
+   "fecha": "2026-11-10",
+   "medio": "Foro3D",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Stadler",
+   "titulo": "Kazajistán abre la venta de billetes para los nuevos trenes Stadler - Foro3D",
+   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV2hfcXEyaGlFRVMwZm1FMnVCSnVLNTZLSGh2SHluUXRYQmlBeEVHWC1VWkhjZ3c0RUFCNjhLM0RHQmtMbkFSSmdScVdZUExJVEprMHFLQVJiZm9UNDlpbm9sZ2JlS0xTdlctdkRPRG0xQnE0TG1kekpUQUhCd2cyVzJuM3htUzRFWURHZXhIeTRIS2ZjdUZndHdwRDAzcUVVaVR2cjF1cGNFUQ?oc=5",
+   "fecha": "2026-11-07",
+   "medio": "Foro3D",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Stadler",
+   "titulo": "Trabajadores de Stadler Rail Valencia realizan paros para pedir mejoras laborales, denuncian estrés térmico o arbitrariedad en los ascensos - La Razón",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNSGlfU05abUNTTmF4cjdiODNfT3ZDbmVma01adERydjRXS2gwU3JrN29hLWlnX2cxZTNPRVRNVFNyY2xZUTlSSEJsd0xKaDByUkwzYk5zTWNELXJmMmFrckVyUnltZUZMTEtoUjBVeHkzWkpicVhLdWw5SmNFRGQwUXNYd2ZkZFlycUdneGxFT0RIMHZubXFaN2M0aENTR0k4dnVnMkVyd0lPRWhpbjc4aThIbnZVWDl5LWdyc29xRDlEZzJsOGNYaXd5dEJlV3V1ZkliNTI5b3M3UjE2emozUU1jMUZ1ME5LMnJPNU1pS1NXOUgyNHBFdVhqeUdsRE4xaG40NnA0YTQxa0F3R0RLMk9rQlh1M2h5NFEyaTA4ckxFMWpvbDZtTzJDVdIBvwJBVV95cUxPR0lIdDFvMnZqR1NiNjFUbndseXBCakdkWS1MWWNtRnJxRE14RG41YTFwckZqRGIzM3dZalY1dV9aOU1mUnZ6MWY1M2V1Zk9LTUt4NG00M3JTSlhZc2xJSS02YjlSUGVtamtoRE5pSURjVWZodTF6SHRwbnZJRTZZb0U0aHpwZWo0TU9MbEFqdmpUeHgyd0lYT0ZTbjZNOHBxUG42Sm04NTVBdlRYbFlmeC1maWF3eF9xZjA4VFZmSGpyQ0dvbjZlRmRaMEtoMy1jTWtHRGVXbEpzQTN5RnZ2cGhKcTFTVHNQdjNsQ1JqVm5UM0h6aGV6OE10SlZaNnZJR3lYMXNYSkJGcGF6R3F5Z2ppV0dRUFJwMFFpeVNIX0pTc3JrNFM3b2txVy1qc0pfY2xvVGJJWmlzREZ3dHl3?oc=5",
+   "fecha": "2026-11-05",
+   "medio": "La Razón",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Thales",
+   "titulo": "Adif adjudicó a Thales la renovación de la señalización de la vía Madrid - Sevilla y debía estar finalizada en enero de 2026 - Antena 3 Noticias",
+   "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQaDE0VHVuVnVBNERjdEE0ZUQxUVE5OFZ2LWZSNzQ5YjVrMmV2WWx2eHVXWnA4dGdReUlwOUlVTzhtV21DZXFwNUxWTG1LUmIzaGR0ZlBETFhNVnhFS3BkaXoxUzFlQk5vRXAtVWhxc011OGluWF93RUVMR2drSk5mNFNCWFJEVjE3TGo0TVBIWnpScHlNZ2c1ZlFRREFTWW1BWFRibFhrbWNiSmt2eDAyXzJCWEpVNmhycUd2SkZlWnpPMkhuWXBLeVJvaTY3TWlkbmlEei16NjN4dENTV2xBZ09weDRTLVk3cDd2c1ROU21zMlRoc2NrbzNqdWhvYnZscE96eWFkZVTSAYgCQVVfeXFMTTI0dVo5OHBWeUQ2UzN1WVgxNTBLU2xFY09DX29tWjk0UFRoei1XRW45b2dFT0JPc3kwS0Z1Zm1jV3YyaHRSWFVHUkdKVW9rYjRHekM1TTZUbzRFSzE3enZyZXRScU5TLS1Bd3p4WE1sa0xXNGQ2b0x3VUJGeUYxU1FXcGt2RGZFUWVUZUFVMFdVMHQ5RUg0b0NpN3pzMXJiS2VBelNpa08tTHR5RF9fSFJnVl9rc2FmNE9XUXc0VFFwSFdVSVdQYzVhbEpiNFFpMW5wUWtfSnJpeDdtQVF4M3ExSElZZ09oSG9DdS1ZYjBoZGZWUGY2SDQ2MmlUdTdQTWt5VTg0aGlE?oc=5",
+   "fecha": "2026-10-29",
+   "medio": "Antena 3 Noticias",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Thales",
+   "titulo": "Adif adjudicó a Thales renovar la señalización de la vía, que debía estar lista este año - Ultima Hora",
+   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVk9VRl8wQlZBVGo4TllDNVlqbzBuOTMzdDVNZ3E2YVc0OVM0TC1rQldqcnBYaGg2T1ZYbFdkaWV5X1lZMFBTYWROTUJNcTlaTlBvZmlUUDVFWXMyVlhsZk16LU1TbncyUlNVd3J1czUzVHlPMUpsM1N2a2VWdFpzcEU0Z1ZZMnpkWERmU0FvTFBuYVJFampERzJZa2xrdDNiWnBWZ250RWZndW4xME8wbGZjS3R4aUJackJaYlNlbjhnZFNCc1BHTzRyNFcxNzNuSFowTA?oc=5",
+   "fecha": "2026-10-29",
+   "medio": "Ultima Hora",
    "origen": "Google News"
   },
   {
