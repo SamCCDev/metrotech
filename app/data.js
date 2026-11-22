@@ -1,9 +1,25 @@
 window.RADAR_DATA = {
  "version": "0.2",
  "generado": "2026-10-28",
- "revisado": "2026-11-21",
+ "revisado": "2026-11-22",
  "nombre": "MetroTech",
  "novedades": [
+  {
+   "proveedor": "Alstom",
+   "titulo": "La T4S de Barajas, dos horas sin tren por una avería del sistema de Alstom - Aviación Digital",
+   "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XYklqdGNzeHIxeVNFa194OFBtRXlpMFdWc3lCMjBFdlV6VjZ3SWFzQWFrSGd3blpPTEdIOGRwQjBTOWR3Z1RrZFQ4WjJLRnVPWUluM05FM3ZyU3lfaEdRSEZWQ0lhajJWazlB?oc=5",
+   "fecha": "2026-11-22",
+   "medio": "Aviación Digital",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Alstom",
+   "titulo": "Largas colas en la T4 de Barajas por una avería del tren operado por Alstom - Telecinco",
+   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNalljZm5tNzh6UndTcGxqbW10VTMxVzd1T2VPakg3dTFhY0NUYnRpMHVwVkl2TlgwWXBzam01amxxQjJhVVhEWUVHZ25LNExOQ0RlUnBxMXpjSV9DY012X3I5QW1uLVZPQzRTQzNLZ3NjUTYyaTBScWItNkJscmFCNTNISVBGSEptWkFocjhVZDE5LUhmZVJ0WFJlQmIzNkJUOEFPb0t1S1pxR3VBdFItYjlsM1hHbUJIc1E?oc=5",
+   "fecha": "2026-11-22",
+   "medio": "Telecinco",
+   "origen": "Google News"
+  },
   {
    "proveedor": "Alstom",
    "titulo": "CRRC y Alstom presentan 610 preguntas en licitación de 52 trenes de pasajeros en México - El Economista",
@@ -29,22 +45,6 @@ window.RADAR_DATA = {
    "origen": "Google News"
   },
   {
-   "proveedor": "Alstom",
-   "titulo": "Alstom duplica su producción en Barcelona para acelerar la entrega de trenes a Portugal - El Economista",
-   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTnZ6b0t6YWhoY3hRVzk4bU1mOTBDeEhNZnBMbFVXMElGWV9KbjJFaVRKWU4ySU13N25JeUtXb2lVeTE1eHNxNUxhNVZoaGFWQ2MwX2dzeHpLd0V3OGJpNVJqd1Z5cVoxNU0xSE1KWlhlZmtlX3d2NjYxWTQwRTVTVzB4Vi1aci1kVXVoQWV5WW5Cdi0tWklheXpKZF95QXFRMzBVQktlUE9TbllJZmRieVpOZU9DM2lDTlBya1ctU1k3c3JvbjBKUjJJNEZNdE5VSTI0Y3d3RVp4T1Z0NF90MzcwZGVaZEJZYXpOTEI1TlBVMlVjS2dv0gHiAUFVX3lxTE9CRGVZRVFPRXBtVGRUdm9HTUtCRmxrU2RDNkE5dmtLU1hKZm9md0R2Y1VUYUt1OWpqMktYdFROdmtiMEIyUXZHb2pWOVdMOGN0V1BpMmZmeUFrMEJnSXhqNjdPVzhneUpSSG1DUVhBdEF2TjVoR1pCTzJ2bUxlNDFlYWJ2SEV4cXB5RThUbV9XMHJ4dXpSdFZJVVp6OFpCa21NV1pjYl9pUEM5R1NCeDdjRWRHemZfa0xnN2ZyazgwbFY0TFZSazlzUnBMMnFOV2tQRTdfdS1jLTQwX21EOHRRS0E?oc=5",
-   "fecha": "2026-11-06",
-   "medio": "El Economista",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Alstom",
-   "titulo": "Las pérdidas en contratos de trenes hunden en Bolsa a Alstom - Expansión",
-   "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNXBjOEt1R3pVSTg1UmNsMmN3aFBZdDJobXpuOW44Zk9ZZ3BuSUtlZjd0T2VwU25HNzNETWhDYUJxd3FBU3lrU1NYQ0J4RE5Wc1FCQkRRbFgyTWlqVnhOLWdnTGp0Q25GeExUZmhwUjd0cHF1VkhjSUxMbV9nUEpXQldKU0JRTWN0c2FMVHdVUmFHSWFDN1JyM05EN2TSAZwBQVVfeXFMUHo3Rmh5LVEzUU9GNDJ0b0prTm52d1VlcGVIeHc3NnBLcGxoUWlKR0JQNE42c1F4TzBiZkZOcU41dWt0UXhwTlJCRmREZDJNaDJrSnBjMVhVVVFtQl9EcENIR1o5VzVVcFhyYXpYV3JFSFhPUXdNUTdnbWxsS2NWZXVwS0FMaFZUb1lpc25uQmRjYlNuX2pKSHRiTEd2?oc=5",
-   "fecha": "2026-11-03",
-   "medio": "Expansión",
-   "origen": "Google News"
-  },
-  {
    "proveedor": "BYD",
    "titulo": "Bus Simulator 27 recibe dos autobuses eléctricos BYD en un DLC gratuito - Foro3D",
    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG9iZnFYQmctbTZOTGJRV0gyNXdISG1idHU3UTJSU2VFVG5RMnA4aWo0cFF5R1ppUkV1M3FUeFhXTUoyNTQzTWZjNmhpQm1McXdxQ0F5akx5N1NaUEFPTDJiZlRPMFNpTVVFUE5DOVdidHdpRFVQdi1MRXVwOUNJTld2Qkd4ZlZsTDFhU0FVQzZkbTM0X2lQSWJSdkpQMVlKUWtTa0MxakUwS1c2MXc?oc=5",
@@ -62,10 +62,10 @@ window.RADAR_DATA = {
   },
   {
    "proveedor": "CAF",
-   "titulo": "CAF sustituirá otras 1.292 ruedas del metro de Bruselas por un desgaste prematuro que provoca vibraciones - Anoticias",
-   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZk1MM19OQzg5dlBvTE1rRkI2Nmlza2ludVJJUThiOGI5b1dlYVlET2Z2SkxXQjFyX3daMlNvWE96dzN5VnliQXFBOUduOGFSUDcwalU4cWgwUVVXdkJNV3dHZFNTUkxnUUtaMFZsX0F0VWVvZVRHdFprSndJVlNZdDhwUXpiWlF0cUxndkYzYTZlQ3I1cURLMHpUU0RkN2RsQ1J6SUtyX1lxdFEydU9IQ2FNSnhCV3lIcVhORlJDeENZZl9ZSGF4LXBLMXBqaXVNV3h2NmRQb3AtbUd1bFhoZ1ZzaWQ?oc=5",
+   "titulo": "CAF sustituirá otras 1.292 ruedas del metro de Bruselas por un desgaste prematuro que provoca vibraciones - GipuzkoaGaur",
+   "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNGlVcTlhVW9Ib1U5bVR1Wi1zN0ctQV9IRFJBUmFtYXVFNmhsa1hnZUJHVVBUOGxOZmhYSWxkLUpSSDFaMU5ScnVHcFotMDIxT1NGbUUzLWdZbWZlcnAtX1p2QVFORjRYWEJ0TnVxcDV5MWpHY2tIR01oRkpmVm0xSldqMmV6RnJTaGY3d0dRN0FndWd2YW42dnRuSkdmMFM0OU8zTHNBZFppS2t0TExRZXVWeDZMZENaYUV4Wk1FVmtSd0VNa1JZeGR6NFdmU3F1WGRmbnlyNGFnYk5EbzI4Z2cwcGQ4TTdQai0tczlsUWZJTHNyYzZFRl8zeEs?oc=5",
    "fecha": "2026-11-20",
-   "medio": "Anoticias",
+   "medio": "GipuzkoaGaur",
    "origen": "Google News"
   },
   {
@@ -134,14 +134,6 @@ window.RADAR_DATA = {
   },
   {
    "proveedor": "Hitachi Rail",
-   "titulo": "Hitachi Rail inaugura en Toronto un centro de tecnología digital de 30 millones de dólares canadienses - IndexBox",
-   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjktWHhuaTZBSmljcmQxcmxlUTRhaU9XMkJQV01GOXROMGozVjNmOE9YUW50aGpsOTVkVjlSVFhZVmM5Q3dldERHSUtiVlh4Yk9IcndtMDA4eG1fTUpXZ0I2eVRkUDVtSk5vZDdPYk1VSDk3bndvNUliSE1pT3pxYy1RMzRiMmRvc2ltdE80YkhfMk1zMFctUg?oc=5",
-   "fecha": "2026-11-12",
-   "medio": "IndexBox",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Hitachi Rail",
    "titulo": "Hitachi, Sistem e Indra: las empresas detrás de la seguridad ferroviaria - El Periódico",
    "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS1kzYjhWaWNfZnVGM1FwbGcxdXJhN010SWJlbC1NRVBLYUJFaGdTSVRmX1M1V1BiT0NnZE1hc0E2QTRsazNwdFFzSXRYWGg0OERuTW4yVmZBUEtDemg0MGxWTThHS3oxeUpnR29BUV93M3l0dHB0dC1mUmU5WkJoaXJKc1p0MDkyMDM5aGUwMmNjdUhzN0ptVzhJZ9IBmwFBVV95cUxPQVAwaGJSakJPZjd0WUJWblpiZnJKdnB3M2tNWEZQalVYRlg5Nnlwa21QU0tjOEJFRUdpTUZPM1lCT0lWUHZCcUZQWXBIWlBKMjN0aV9HUy14Q2FxazhqeXNZeTMwOGNXZjVvUGJlVDZVRE1pSUJOVFNhYXFwdmVRQnNnNnY4TmxvN0RpOGhoMVZLcHFiWEVBYUxQNA?oc=5",
    "fecha": "2026-11-01",
@@ -174,6 +166,14 @@ window.RADAR_DATA = {
   },
   {
    "proveedor": "Siemens Mobility",
+   "titulo": "Siemens suministrará 113 trenes de baterías para descarbonizar el transporte ferroviario en Baja Sajonia - Interempresas Media",
+   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYmZiOTJYVlU2N0hudUx0LTR2YWkxTW5vcGlFbjNVNkNwRG5KSElZMEJXV0dqNWZaLXA4aFVfcnNhSkJsdUZyTHZKaW4xelI2SU9aYXVndWJjaG9fVmltMHNIQ19kV3QxQWRIQkRXX2ZmVlhlUnRFazZCQlBJTlJlSHBwSFpVWUMtNjNNbTNGZ1M2cDhBX1RTMTBRQjlzTnB5a0N6MUp2VHVldXdRekh3WWdLTGkxYkpxX0p5aENrc2s0R1RmamJ6alJVNTJITTFka2ZKcVhKNnFrUQ?oc=5",
+   "fecha": "2026-11-04",
+   "medio": "Interempresas Media",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Siemens Mobility",
    "titulo": "Renfe moderniza su flota con una millonaria compra de trenes Siemens - MasContainer",
    "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdUNTbFJKd0NrS1FCZTA3aVRxdFpkTDA0ZGRJSzQ5YUd0LWVsa3VfQ3JSanEtQ1dkTWhTZ3NpcEpKZWwzZmx6TzlJYnhaeGRyZFdDa082VWwwRDloRjNZVk1XTDNiTkFHT0JHcnFCX2Y2b1JCSk9qMUd1SThwUTd2N2dnX0JhRzVrX0dPV3VKMmE?oc=5",
    "fecha": "2026-11-04",
@@ -197,18 +197,10 @@ window.RADAR_DATA = {
    "origen": "Google News"
   },
   {
-   "proveedor": "Siemens Mobility",
-   "titulo": "El LZB de Siemens, un sistema de señalización viejo a prueba de bombas - Expansión",
-   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY2MyTDBGY00tdTlhc2FsTzR0RUJrcUktU0ZiZ250OXlveHBIR2ltdk5QTEJGTWdqWlVIelBnR0JINmZ5OHBVZHBINFpQcXE3RkE2cF90Y2M3S0FnSmxBdkh3Y1FYLTF0TnFTaGNqbUdxWTlPMGYxNFVid0kyeWdFYXBWWUh6VUR0NUZzRUljRXF6OHpDZDlxbUFsaHV5NE15LTJ6bWI1S04wRllZS2RYYVhlWmbSAbQBQVVfeXFMTlI5WlhRUzJVSWQ4dW5CMG8xS3I2X0U1RjQzN3Y1ZFZfeWlibl9idnFOb3hoNGdGMWl0WnBuamwyUkhIeEpIMDZkT0pNMDRRbUVrbFM1T1FVcmJiNjdEbU53OGhVNzAtTmdGZlpJT1N1UWxxYld1MVNZVDNUN1l3ZXFUMVJSMmVmRndweWNHTXR5LThXUWxCUkpDWHk3NkdOSWM4WEJHZzlsVFpSTEFyRks2ZGkw?oc=5",
-   "fecha": "2026-10-29",
-   "medio": "Expansión",
-   "origen": "Google News"
-  },
-  {
    "proveedor": "Stadler",
    "titulo": "Stadler llevó su propuesta de tren-tram al Senado (y cuestionó la comparación de costos con el BRT) - InfoNegocios Uruguay",
-   "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDNVTFU5OG04YnZmNVFGUWZ3YzFUN3JqWU94eXhXVy0xb29IMUhocVJiUXpzdDRoSlhuYkhtcjQ3OTR3a0ZOZlA3WWxJbnUxaWxhUXNYYXdFUW9FSjVqeDJrTmlPYUJuSjBWVlZvZUlTN1locy01X25jOVp6YjZIM0VxNHFqMjBMelgyLUxPRUNTZ1V2UXhRdkhCRVBmNzFmdERvRjRGTG5BZ0MtbmVVRUg2NURHVndubHZHN0JEb2VVSjhVQnd6eDBrT3h5VHlKTlJxOFphcznSAdgBQVVfeXFMT2QzVUxVOThtOGJ2ZjVRRlFmd2MxVDdyallPeHl4V1ctMW9vSDFIaHFSYlF6c3Q0aEpYbmJIbXI0Nzk0d2tGTmZQN1lsSW51MWlsYVFzWGF3RVFvRUo1angya05pT2FCbkowVlZWb2VJUzdZaHMtNV9uYzlaemI2SDNFcTRxajIwTHpYMi1MT0VDU2dVdlF4UXZIQkVQZjcxZnREb0Y0RkxuQWdDLW5lVUVINjVER1Z3bmx2RzdCRG9lVUo4VUJ3engwa094eVR5Sk5ScThaYXM5?oc=5",
-   "fecha": "2026-11-18",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON3dSRGxBSWRDZWJoanBOUTE1bi03Y3ZGdXBPM1ZHSDJOUUtkRHo4ZXJYa0IxYWhfVzRhMEJoSEdTQzJXemlpOEdNUnhjamlVV2tXTWVrQ1RSRUtoN29CTjI3Y2NVU2xvOTJQM3FnR2pJUjR2UkNyd3ZUTWdzSXpZUUZBZEZXa2QtNkUxc0ZDWmNaMnRrWWFzTHgwdmJySFBmZVlLcEt6YW1DLV9oRVdPMTZ3ajJIU1J3RXluSmRzZW94aFlvSEHSAdgBQVVfeXFMT2QzVUxVOThtOGJ2ZjVRRlFmd2MxVDdyallPeHl4V1ctMW9vSDFIaHFSYlF6c3Q0aEpYbmJIbXI0Nzk0d2tGTmZQN1lsSW51MWlsYVFzWGF3RVFvRUo1angya05pT2FCbkowVlZWb2VJUzdZaHMtNV9uYzlaemI2SDNFcTRxajIwTHpYMi1MT0VDU2dVdlF4UXZIQkVQZjcxZnREb0Y0RkxuQWdDLW5lVUVINjVER1Z3bmx2RzdCRG9lVUo4VUJ3engwa094eVR5Sk5ScThaYXM5?oc=5",
+   "fecha": "2026-11-22",
    "medio": "InfoNegocios Uruguay",
    "origen": "Google News"
   },
@@ -253,8 +245,8 @@ window.RADAR_DATA = {
    "origen": "Google News"
   }
  ],
- "novedades_desde": "2026-10-22",
- "aviso": "Los proveedores y los enlaces son reales. Se revisan solos una vez al día; la última revisión fue el 21 de noviembre de 2026. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.",
+ "novedades_desde": "2026-10-23",
+ "aviso": "Los proveedores y los enlaces son reales. Se revisan solos una vez al día; la última revisión fue el 22 de noviembre de 2026. Los activos y el Plan de Tecnología son datos de ejemplo, no del Metro.",
  "anio_ref": 2026,
  "modos": [
   {
@@ -312,7 +304,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -331,7 +323,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -350,7 +342,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -369,7 +361,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2019-12-10",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -388,7 +380,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -407,7 +399,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2021-06-22",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -426,7 +418,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2014-08-06",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -445,7 +437,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -464,7 +456,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2019-04-01",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "alta",
    "madurez_trl_estimada": null
   },
@@ -483,7 +475,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2022-08-25",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -502,7 +494,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2014-04-02",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -521,7 +513,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2020-08-13",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -540,7 +532,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -559,7 +551,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2025-11-13",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -578,7 +570,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -597,7 +589,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -616,7 +608,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -635,7 +627,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -654,7 +646,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -673,7 +665,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -692,7 +684,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -711,7 +703,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -730,7 +722,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2025-06-05",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -749,7 +741,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -768,7 +760,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -787,7 +779,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2019-12-16",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -806,7 +798,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2022-08-22",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -825,7 +817,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -844,7 +836,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2023-03-14",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -863,7 +855,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -882,7 +874,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -901,7 +893,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -922,7 +914,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -943,7 +935,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -964,7 +956,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -983,7 +975,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1002,7 +994,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2021-10-22",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1021,7 +1013,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1040,7 +1032,7 @@ window.RADAR_DATA = {
    "abre": false,
    "nombra": false,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "baja",
    "madurez_trl_estimada": null
   },
@@ -1059,7 +1051,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": null,
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   },
@@ -1078,7 +1070,7 @@ window.RADAR_DATA = {
    "abre": true,
    "nombra": true,
    "fecha_dato": "2026-06-08",
-   "consultada": "2026-11-21",
+   "consultada": "2026-11-22",
    "confianza": "media",
    "madurez_trl_estimada": null
   }
