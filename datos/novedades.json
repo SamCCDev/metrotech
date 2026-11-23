@@ -1,6 +1,6 @@
 {
- "revisado": "2026-11-22",
- "desde": "2026-10-23",
+ "revisado": "2026-11-23",
+ "desde": "2026-10-24",
  "origenes": {
   "ABB": [
    "Google News"
@@ -71,14 +71,6 @@
   },
   {
    "proveedor": "Alstom",
-   "titulo": "Largas colas en la T4 de Barajas por una avería del tren operado por Alstom - Telecinco",
-   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNalljZm5tNzh6UndTcGxqbW10VTMxVzd1T2VPakg3dTFhY0NUYnRpMHVwVkl2TlgwWXBzam01amxxQjJhVVhEWUVHZ25LNExOQ0RlUnBxMXpjSV9DY012X3I5QW1uLVZPQzRTQzNLZ3NjUTYyaTBScWItNkJscmFCNTNISVBGSEptWkFocjhVZDE5LUhmZVJ0WFJlQmIzNkJUOEFPb0t1S1pxR3VBdFItYjlsM1hHbUJIc1E?oc=5",
-   "fecha": "2026-11-22",
-   "medio": "Telecinco",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Alstom",
    "titulo": "CRRC y Alstom presentan 610 preguntas en licitación de 52 trenes de pasajeros en México - El Economista",
    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUmh3eXpscWItVmhXRk92U3Y5cTVHV25mS2VKN1VTc25NSFZVQlltY0xmX1o2Q3Vuc2FPblViNmdlTmlONkM3SE5GT19UbEF0bnV1Rkh4TlJobXRydlVQcHJBbDNQTS1iYW5ILXlneWVyMVRrM2ZtaDdBRXVXc0pxeDc2Y0FfdGJHM3k0a0lBUmtyRnRFVzlEajlqdWhtMGxkclhsWUxKOWpOSnNHSWJ0N3dYdUpvX3lQVjZQOTlqclJOdl9tQmRBaEE2c09xVkRu0gHWAUFVX3lxTFBCNE1wRjN0ZjZOSjhERkhfTHQxdm8zSzhobWdZRHViMEpqZEFsZm9MU1NKcmc4dG0tMGpwT3BaMm5TMVJENzlQOENKOTFEY0s1LThMZ2tpekZ0RUFkSmVYY0ZlRTgtNjRjaVJPYWt5bHZsRnh0Q0hiOFc4djEzbGt2bk9KcHZNaDV3Mm9FQm9pYWtQZFJ1aG96bTlQNFBjRnY2MFZwOFU3ZnJYZ3NmdndRZ1R4ZkI4bXlNeF9lRU9UR3Q1MFF1S2Uycm5mbWlWNmprOVl2anc?oc=5",
    "fecha": "2026-11-15",
@@ -102,10 +94,34 @@
    "origen": "Google News"
   },
   {
+   "proveedor": "Alstom",
+   "titulo": "Alstom duplica su producción en Barcelona para acelerar la entrega de trenes a Portugal - El Economista",
+   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTnZ6b0t6YWhoY3hRVzk4bU1mOTBDeEhNZnBMbFVXMElGWV9KbjJFaVRKWU4ySU13N25JeUtXb2lVeTE1eHNxNUxhNVZoaGFWQ2MwX2dzeHpLd0V3OGJpNVJqd1Z5cVoxNU0xSE1KWlhlZmtlX3d2NjYxWTQwRTVTVzB4Vi1aci1kVXVoQWV5WW5Cdi0tWklheXpKZF95QXFRMzBVQktlUE9TbllJZmRieVpOZU9DM2lDTlBya1ctU1k3c3JvbjBKUjJJNEZNdE5VSTI0Y3d3RVp4T1Z0NF90MzcwZGVaZEJZYXpOTEI1TlBVMlVjS2dv0gHiAUFVX3lxTE9CRGVZRVFPRXBtVGRUdm9HTUtCRmxrU2RDNkE5dmtLU1hKZm9md0R2Y1VUYUt1OWpqMktYdFROdmtiMEIyUXZHb2pWOVdMOGN0V1BpMmZmeUFrMEJnSXhqNjdPVzhneUpSSG1DUVhBdEF2TjVoR1pCTzJ2bUxlNDFlYWJ2SEV4cXB5RThUbV9XMHJ4dXpSdFZJVVp6OFpCa21NV1pjYl9pUEM5R1NCeDdjRWRHemZfa0xnN2ZyazgwbFY0TFZSazlzUnBMMnFOV2tQRTdfdS1jLTQwX21EOHRRS0E?oc=5",
+   "fecha": "2026-11-06",
+   "medio": "El Economista",
+   "origen": "Google News"
+  },
+  {
    "proveedor": "BYD",
    "titulo": "Bus Simulator 27 recibe dos autobuses eléctricos BYD en un DLC gratuito - Foro3D",
    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG9iZnFYQmctbTZOTGJRV0gyNXdISG1idHU3UTJSU2VFVG5RMnA4aWo0cFF5R1ppUkV1M3FUeFhXTUoyNTQzTWZjNmhpQm1McXdxQ0F5akx5N1NaUEFPTDJiZlRPMFNpTVVFUE5DOVdidHdpRFVQdi1MRXVwOUNJTld2Qkd4ZlZsTDFhU0FVQzZkbTM0X2lQSWJSdkpQMVlKUWtTa0MxakUwS1c2MXc?oc=5",
    "fecha": "2026-11-17",
+   "medio": "Foro3D",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "BYD",
+   "titulo": "El autobús eléctrico BYD C12 DUO acelera la transición del Reino Unido hacia un transporte público sin emisiones - Diario de Transporte",
+   "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOVGx5MkhYVkdDTTVFbGJubkJZdjZwdm9HMXUtNU9mNFl3Sk42ZW80ODdyY2l1OUlOSGtKMXN4NnNpZUtXVmZrMG5LV2JRb0ZuNm1XZWFWLS1hcHktZ3pyYlVDZHJaNmtKeU0xcThSeHgtN0tDbUJVWm9Mekx0NS1PYU1pbU9ZMHl0eW1kYWxvbEJ0aEZyeUROY25ZY3BJOXR2MmpCZWk3NEM1UUZfWGhObFJ5SWpoVVZ6Rm5Bb3QzRFUxVVhZR3FaUVhMYUgxeFNNYjlUNm5JZ3RFZnBBeU1NZlM4aWNpbWx1anBnUXV0NUJlSGhubERUb1Yyd0JiT2dGOExHNXZXcGhGSk15?oc=5",
+   "fecha": "2026-11-03",
+   "medio": "Diario de Transporte",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "CAF",
+   "titulo": "Budapest amplía su flota iluminada de fin de año con el tranvía CAF y el de Hannover - Foro3D",
+   "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRml1NTI5TUpaSWE1aGt3MlBVeDFXU196QTFuc3hSSFNibmdfQjFYYm9aeFNHeFJRbkFlM3IwOU1PRUlibWhDdGhZaExiZ3RpVHBzWE1NYnpObS0wS0FGRGVZQTlTdmYxVDNuVzBlWUtaai1oR19pRG5OYmdRZTBBMW9veEZzMG1LRko2WnJJdDRhdV9MTUZoenV6UG1FTnRwQnplNGhoVFhuR3Jx?oc=5",
+   "fecha": "2026-11-23",
    "medio": "Foro3D",
    "origen": "Google News"
   },
@@ -127,14 +143,6 @@
   },
   {
    "proveedor": "CAF",
-   "titulo": "CAF irrumpe en el mercado ferroviario de Perú con la modernización del emblemático ‘Tren Macho’ - empresa Exterior",
-   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaGJwYm1Ca3Zsb1JCUzJWLVMyNWxXTS1qOFlra3pyVGtqZmM2dENWMnhlbllob1hmUEpwZUhiVWpVV1dua3FJVUVSY0lRUFRid0R6VzJOVVFOdjltT2RSMVN4VEI0SGVwN1BxTHZGUHNneS1HZjZFQTlyRWtkTl82UUMzTUhYWXV3bmZsNkx6NnFCbE5nQ1VXRmJVNVJJdXZvajY4NU1wdGVNemFHWTg3NU9jRTZxYkJxeXJmelEwWQ?oc=5",
-   "fecha": "2026-11-19",
-   "medio": "empresa Exterior",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "CAF",
    "titulo": "Varias organizaciones presentan una querella contra CAF ante la Audiencia Nacional por el tren de Jerusalén - El Salto",
    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONEU4YkZpN0F0a0dod3RUV1I2TDN6bF9sOG1QWElEVGF2a3BIOGoxaXNjc2U3VDRtMDRqRHBaUHNsdTJYX0VTQmlKLTZBMlNJQjRQdkE1UXlIRW4yZUlrS1BycGtqeHhGeDNtYUtXeU5CS0hwX09jUndQU3RROUo5eG0tSi1SOTZpZS02b2RqVzdpMmNKWGJUYUZn?oc=5",
    "fecha": "2026-11-19",
@@ -143,10 +151,18 @@
   },
   {
    "proveedor": "CAF",
-   "titulo": "Siete organizaciones se querellan contra CAF en la Audiencia Nacional por su participación en el tren de Jerusalén - elDiario.es",
-   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNVRrdGZvS2s4M0RjSUNGbUtlTGd0eF9QeUJHbkxVYkZ6Y2E3a1RIS0hkSHNXQlRYYndzc3IwQWpuSkplXzR0X0lidkNTeHkzTTJiRVJoaXdpNDNoZ2dRWVFaRTNJamZZNXk5SHFqaW54aEhZc3hlUWE4ckVRZ240ZDRUWl9WLThzRUxQZG9MLU1KR1M1YURmRmdQS29CMHc1X3IwX2UyUlVlLWQwN3JzNzBURmNILWNmU3VpNHZ3ZG1VWnRBSlZ5SE0wM1hqNFk2Y1HSAdcBQVVfeXFMT3BlS3NteWhiS3JfdDZyVGZha3lPZmZ2RnRkVDVxU2ZrQmswWXl6T3BjZlptLW1kRnBVU05QTlBwSmRyYnVxZlRnUjhKUHVwTWwyYUYtREM2OUtGNWFFYjl2eXQtSUZLQUQ0M21Fd3VLa1F4RkIwZ2lMTlQ5NWpoREQ2UlBrV2o3TlRGTlVlZlZDcl9VTkVSOVlCVGRaLXFUMzFqalg4dURBRXhwTDhOQ0Z6OHB1WjdzakI3NW9uTXZHU0x6UXQ1MHY1Q0cxcU45dDBOT2ZrZDQ?oc=5",
+   "titulo": "CAF irrumpe en el mercado ferroviario de Perú con la modernización del emblemático ‘Tren Macho’ - empresa Exterior",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaGJwYm1Ca3Zsb1JCUzJWLVMyNWxXTS1qOFlra3pyVGtqZmM2dENWMnhlbllob1hmUEpwZUhiVWpVV1dua3FJVUVSY0lRUFRid0R6VzJOVVFOdjltT2RSMVN4VEI0SGVwN1BxTHZGUHNneS1HZjZFQTlyRWtkTl82UUMzTUhYWXV3bmZsNkx6NnFCbE5nQ1VXRmJVNVJJdXZvajY4NU1wdGVNemFHWTg3NU9jRTZxYkJxeXJmelEwWQ?oc=5",
    "fecha": "2026-11-19",
-   "medio": "elDiario.es",
+   "medio": "empresa Exterior",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Doppelmayr",
+   "titulo": "Doppelmayr Panamá Corp. es recomendada para construir el Teleférico de Panamá y San Miguelito - www.metrolibre.com",
+   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYU4tYmNoSkp3d1FtcEQzWlFJVkV1VThOa2l3SFpncWNobzVWVGN6UTRGVFJSZ1laRmxaaGNOVTNkTUc5S3loVmdkbmctRjNrV0prdmpwaExoei1FaGxyRnpXRTg2U1NzRGhzbHFYZHY2RVNRQ2dWN2dVMjA2WGVzaFdGQ3BlaDVCaWEzaEJWZlFqdXhnay15VlQwNjh5SWF0eDg1Mno5alBWTXBEUjFTajhseE8tRk5pOWNXR3ZlS0ZFSjNrZzdBOWVHd1RpdFVScHFreHVn?oc=5",
+   "fecha": "2026-11-21",
+   "medio": "www.metrolibre.com",
    "origen": "Google News"
   },
   {
@@ -163,14 +179,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41THBzTWlqNnl6UHAtbkdsaWFPZ2JHYWZGcTNMb0QzbGRlX2M2XzRCaHp6QjlGUkw4bUVPVDFkWVItOWpFRkd1VXpJS0xpdnE3ZlFWN1J5RE5FX2Y4bFJlRnlGc2NNS0ktUXNFS0hnMGR3UTFEbjgw?oc=5",
    "fecha": "2026-11-13",
    "medio": "Ex-ante",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Doppelmayr",
-   "titulo": "Doppelmayr Panamá Corp. es recomendada para construir el Teleférico de Panamá y San Miguelito - www.metrolibre.com",
-   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYU4tYmNoSkp3d1FtcEQzWlFJVkV1VThOa2l3SFpncWNobzVWVGN6UTRGVFJSZ1laRmxaaGNOVTNkTUc5S3loVmdkbmctRjNrV0prdmpwaExoei1FaGxyRnpXRTg2U1NzRGhzbHFYZHY2RVNRQ2dWN2dVMjA2WGVzaFdGQ3BlaDVCaWEzaEJWZlFqdXhnay15VlQwNjh5SWF0eDg1Mno5alBWTXBEUjFTajhseE8tRk5pOWNXR3ZlS0ZFSjNrZzdBOWVHd1RpdFVScHFreHVn?oc=5",
-   "fecha": "2026-11-10",
-   "medio": "www.metrolibre.com",
    "origen": "Google News"
   },
   {
@@ -251,6 +259,14 @@
    "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jRC1ZM1A2STNld1lnd2d5M3d1Q0dWeWpJWjZUUlBGTGFOTUYxWi0wUFphTjJUeTlzc2hNUTlvTG5zQjhqU3FJZlFWYW50VnN5Xy1YU3FzdnVKM1FIZXJ1SmZpZXBISzdmMmhZ?oc=5",
    "fecha": "2026-10-31",
    "medio": "Qué.es",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Stadler",
+   "titulo": "Los trenes Stadler Rail están siendo probados en las vías férreas de Rumanía - Informat.ro",
+   "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWNUYlVfNE9FZWt6SG5pTTJPbFctNnViWXByanJCM29iTS1VOFZ4ZFRucEJURmdja2tmVGdZYlg0dmsyamh2Y3ByRzRpR2UtM0JTQzFyaWx6NlN4eDBYU3FtYVZPSnVBY1J0ZWp3aS1fZk5xWUNhODNDa2YyZm5yRWV6WHRhMEVjNEhwOUg2YlhMYld5cGdXUUFrXzBNLVY3WFE?oc=5",
+   "fecha": "2026-11-23",
+   "medio": "Informat.ro",
    "origen": "Google News"
   },
   {
