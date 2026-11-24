@@ -1,6 +1,6 @@
 {
- "revisado": "2026-11-23",
- "desde": "2026-10-24",
+ "revisado": "2026-11-24",
+ "desde": "2026-10-25",
  "origenes": {
   "ABB": [
    "Google News"
@@ -63,6 +63,22 @@
  "novedades": [
   {
    "proveedor": "Alstom",
+   "titulo": "Alstom se postula en solitario para ganar el gran contrato de 412 millones del metro de Barcelona - El Periódico",
+   "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSUJvZG5FNnZwX1lMQkpfbjFZU3Y4VW5fTFRneGRaOUlPdzRRRHFIbi00VF80N3p5cnVveVdjMVprMXc3dHZHODNDb2VCZENZdlNSZUFQdTdCMjVIUFRPRElJbjk5MVpJazBsVjkydDBhTHJ3bU54YVA3MjNWeTVNenB1a185ejRlQXVaMUFOUWdNaU12TFc2dHNjQnduNzJCMXVyMFo0TDhYVzBYMVgxeTRn0gGyAUFVX3lxTE1jSTNWZWJUS1dlOHFDVTc0MHh6a250REVNd0J1X1QwUWFzX1lGbUhjSzNzeUtBaUx0TVlyZ1hRc1VhUlhCdkZHaWlhU2ttend0dlZjbVU1NElXbWdEaURmalMxWXI5ekZyeFVCdTNhRjJrVWdWZlVBejh3dF9PaWtSMzRtZWRtU2RxTUx6NFdYZFpZUWZlMk9NTHlHa0NfZXNsSGhLN0xrNml6ci0zYTdmMlE?oc=5",
+   "fecha": "2026-11-24",
+   "medio": "El Periódico",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Alstom",
+   "titulo": "Alstom y Talgo competirán por los trenes de alta velocidad entre Lisboa y Oporto - La Portada de Extremadura",
+   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN2VaVHlvY1dfajFXR01iU1dDenU1UVZrVktqbmpYSFBpbTA3dWpXWXRQaURoUmMyTzVRYjM2UE5WMW5ZUC1CdEZsUFh1RFRSbUpyVFdzei10ZVVicERJMEVLQjhDVmtYNHJKZzQwY1FtUXdTS2NTNzZteGtzZG4xN2E1MVR6eUQxTi1tR3dLXzZQdkx3OGRua3lhN2NfcTctS0V2NHlPbnFRcG1MX0VqWVFvdnFBNlZiRzBMakJtcWRtLVV6cS0xSV81Z2g2LV9RUFBvU2s1aw?oc=5",
+   "fecha": "2026-11-24",
+   "medio": "La Portada de Extremadura",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Alstom",
    "titulo": "La T4S de Barajas, dos horas sin tren por una avería del sistema de Alstom - Aviación Digital",
    "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XYklqdGNzeHIxeVNFa194OFBtRXlpMFdWc3lCMjBFdlV6VjZ3SWFzQWFrSGd3blpPTEdIOGRwQjBTOWR3Z1RrZFQ4WjJLRnVPWUluM05FM3ZyU3lfaEdRSEZWQ0lhajJWazlB?oc=5",
    "fecha": "2026-11-22",
@@ -86,22 +102,6 @@
    "origen": "Google News"
   },
   {
-   "proveedor": "Alstom",
-   "titulo": "Virgin y Alstom fabricarán 12 trenes de alta velocidad para operar a través del Canal de la Mancha - Interempresas Media",
-   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOGRZZmpKakdKQXNWUlRjZ2tWRzZUSl81QXJjZWVHaEdERkRwZk1WOXp1NjRtWTdaRGpUcFFTbExEWHNFYkVEcjU0RkZqWTNIc0JvYXNtbTBEdGtlRHNTVzJmWUFoeG9KTjVsZnRuQ0h6TnpHVXROeUpBSXBvZ1JxeWhPd0NtVVZyeGdDOW5IWVZBX0c5M0Y2dGliVWhOcGdrSmU5eFZvemVqeVlYT1d1dE5FRmN3cnNMeWc4Y05KR1NBWktkWExOeTgwSkhFQVRkaXZsOEtn?oc=5",
-   "fecha": "2026-11-10",
-   "medio": "Interempresas Media",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Alstom",
-   "titulo": "Alstom duplica su producción en Barcelona para acelerar la entrega de trenes a Portugal - El Economista",
-   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTnZ6b0t6YWhoY3hRVzk4bU1mOTBDeEhNZnBMbFVXMElGWV9KbjJFaVRKWU4ySU13N25JeUtXb2lVeTE1eHNxNUxhNVZoaGFWQ2MwX2dzeHpLd0V3OGJpNVJqd1Z5cVoxNU0xSE1KWlhlZmtlX3d2NjYxWTQwRTVTVzB4Vi1aci1kVXVoQWV5WW5Cdi0tWklheXpKZF95QXFRMzBVQktlUE9TbllJZmRieVpOZU9DM2lDTlBya1ctU1k3c3JvbjBKUjJJNEZNdE5VSTI0Y3d3RVp4T1Z0NF90MzcwZGVaZEJZYXpOTEI1TlBVMlVjS2dv0gHiAUFVX3lxTE9CRGVZRVFPRXBtVGRUdm9HTUtCRmxrU2RDNkE5dmtLU1hKZm9md0R2Y1VUYUt1OWpqMktYdFROdmtiMEIyUXZHb2pWOVdMOGN0V1BpMmZmeUFrMEJnSXhqNjdPVzhneUpSSG1DUVhBdEF2TjVoR1pCTzJ2bUxlNDFlYWJ2SEV4cXB5RThUbV9XMHJ4dXpSdFZJVVp6OFpCa21NV1pjYl9pUEM5R1NCeDdjRWRHemZfa0xnN2ZyazgwbFY0TFZSazlzUnBMMnFOV2tQRTdfdS1jLTQwX21EOHRRS0E?oc=5",
-   "fecha": "2026-11-06",
-   "medio": "El Economista",
-   "origen": "Google News"
-  },
-  {
    "proveedor": "BYD",
    "titulo": "Bus Simulator 27 recibe dos autobuses eléctricos BYD en un DLC gratuito - Foro3D",
    "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG9iZnFYQmctbTZOTGJRV0gyNXdISG1idHU3UTJSU2VFVG5RMnA4aWo0cFF5R1ppUkV1M3FUeFhXTUoyNTQzTWZjNmhpQm1McXdxQ0F5akx5N1NaUEFPTDJiZlRPMFNpTVVFUE5DOVdidHdpRFVQdi1MRXVwOUNJTld2Qkd4ZlZsTDFhU0FVQzZkbTM0X2lQSWJSdkpQMVlKUWtTa0MxakUwS1c2MXc?oc=5",
@@ -115,6 +115,14 @@
    "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOVGx5MkhYVkdDTTVFbGJubkJZdjZwdm9HMXUtNU9mNFl3Sk42ZW80ODdyY2l1OUlOSGtKMXN4NnNpZUtXVmZrMG5LV2JRb0ZuNm1XZWFWLS1hcHktZ3pyYlVDZHJaNmtKeU0xcThSeHgtN0tDbUJVWm9Mekx0NS1PYU1pbU9ZMHl0eW1kYWxvbEJ0aEZyeUROY25ZY3BJOXR2MmpCZWk3NEM1UUZfWGhObFJ5SWpoVVZ6Rm5Bb3QzRFUxVVhZR3FaUVhMYUgxeFNNYjlUNm5JZ3RFZnBBeU1NZlM4aWNpbWx1anBnUXV0NUJlSGhubERUb1Yyd0JiT2dGOExHNXZXcGhGSk15?oc=5",
    "fecha": "2026-11-03",
    "medio": "Diario de Transporte",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "CAF",
+   "titulo": "La CAF avanza en estudios del tren turístico entre Santa Marta y Aracataca - EL INFORMADOR - Santa Marta, Colombia",
+   "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbExLRWFHWVNlYWV2OFpKSFNBUVdnaXc3VVpUNVcyNktSM3FySnRXNFFJdGZ5ajhoOHFEdFdwRElQd2FRajhZWEpmNWxaZnFhWUVLNmhYZGIwMmhxMGk0LTU0Y1pKb3pQUzNuaS1JanY4WVhWX3FNcTVuUmd2eW5MOHpQSkMxWnJrZkNQRXh3Sng3MGJsSU5GQXlqeHRYN1JCMnd4aVNGNkVPcjhLVTljMHFKWHlPLW95dURQNWlETU1LU0hnVHpEX2w0UG5HTUVMM2l1Z1R0bUl4UUNBa1JiVVFoWHBXQWs?oc=5",
+   "fecha": "2026-11-24",
+   "medio": "EL INFORMADOR - Santa Marta, Colombia",
    "origen": "Google News"
   },
   {
@@ -147,14 +155,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONEU4YkZpN0F0a0dod3RUV1I2TDN6bF9sOG1QWElEVGF2a3BIOGoxaXNjc2U3VDRtMDRqRHBaUHNsdTJYX0VTQmlKLTZBMlNJQjRQdkE1UXlIRW4yZUlrS1BycGtqeHhGeDNtYUtXeU5CS0hwX09jUndQU3RROUo5eG0tSi1SOTZpZS02b2RqVzdpMmNKWGJUYUZn?oc=5",
    "fecha": "2026-11-19",
    "medio": "El Salto",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "CAF",
-   "titulo": "CAF irrumpe en el mercado ferroviario de Perú con la modernización del emblemático ‘Tren Macho’ - empresa Exterior",
-   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaGJwYm1Ca3Zsb1JCUzJWLVMyNWxXTS1qOFlra3pyVGtqZmM2dENWMnhlbllob1hmUEpwZUhiVWpVV1dua3FJVUVSY0lRUFRid0R6VzJOVVFOdjltT2RSMVN4VEI0SGVwN1BxTHZGUHNneS1HZjZFQTlyRWtkTl82UUMzTUhYWXV3bmZsNkx6NnFCbE5nQ1VXRmJVNVJJdXZvajY4NU1wdGVNemFHWTg3NU9jRTZxYkJxeXJmelEwWQ?oc=5",
-   "fecha": "2026-11-19",
-   "medio": "empresa Exterior",
    "origen": "Google News"
   },
   {
@@ -211,6 +211,14 @@
    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS3RRTy0xbXNidUxnZlpaeHczcW9ELTZGZFR4RUFNdFVxVmNzby1QOFVSYmY5VFZ0R2Z4dFRkbFpUT0FKa3ZoZWlad3lkMHFIcVVLanpSNW5iaTcwV2hfMFkwQ3VJWkV3RDhMdDNaNkNBYUJyX3dMc2hzNjlFbUY2b1o4UGdyTnYzZjhvRl9QMUxRVjBkMFhjR2JYOHVXTjNITXB2REpUNmNEeTcwZkhDMEVfTE5KYkY5bnFTcklYMWpzUERIbW9GVlBLbThOTXRCYnFYMFdISGgxMmplNUJ5eTB2Q1V3Zw?oc=5",
    "fecha": "2026-10-27",
    "medio": "Europa Press",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Hitachi Rail",
+   "titulo": "Renfe adjudica a Siemens 30 trenes AVE por 1.218 millones y deja fuera a Hitachi - Merca2.es",
+   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13cWlVMXhFWVh2UXV2Y21heDdUVEFiMlFqWFcwOENEWDRBaVJZMEh1TWtSZW9jOEpaU3JQNU9NNlNETzJ1WnNTNjJnQVJRNXQtalh2MDNhMEpzalpZQzBETDl3NDNwelRfbnFPaGZrYzlmMWZDVlV4em5KUQ?oc=5",
+   "fecha": "2026-10-27",
+   "medio": "Merca2.es",
    "origen": "Google News"
   },
   {
@@ -273,7 +281,7 @@
    "proveedor": "Stadler",
    "titulo": "Stadler llevó su propuesta de tren-tram al Senado (y cuestionó la comparación de costos con el BRT) - InfoNegocios Uruguay",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON3dSRGxBSWRDZWJoanBOUTE1bi03Y3ZGdXBPM1ZHSDJOUUtkRHo4ZXJYa0IxYWhfVzRhMEJoSEdTQzJXemlpOEdNUnhjamlVV2tXTWVrQ1RSRUtoN29CTjI3Y2NVU2xvOTJQM3FnR2pJUjR2UkNyd3ZUTWdzSXpZUUZBZEZXa2QtNkUxc0ZDWmNaMnRrWWFzTHgwdmJySFBmZVlLcEt6YW1DLV9oRVdPMTZ3ajJIU1J3RXluSmRzZW94aFlvSEHSAdgBQVVfeXFMT2QzVUxVOThtOGJ2ZjVRRlFmd2MxVDdyallPeHl4V1ctMW9vSDFIaHFSYlF6c3Q0aEpYbmJIbXI0Nzk0d2tGTmZQN1lsSW51MWlsYVFzWGF3RVFvRUo1angya05pT2FCbkowVlZWb2VJUzdZaHMtNV9uYzlaemI2SDNFcTRxajIwTHpYMi1MT0VDU2dVdlF4UXZIQkVQZjcxZnREb0Y0RkxuQWdDLW5lVUVINjVER1Z3bmx2RzdCRG9lVUo4VUJ3engwa094eVR5Sk5ScThaYXM5?oc=5",
-   "fecha": "2026-11-22",
+   "fecha": "2026-11-18",
    "medio": "InfoNegocios Uruguay",
    "origen": "Google News"
   },
@@ -303,10 +311,10 @@
   },
   {
    "proveedor": "Thales",
-   "titulo": "Adif adjudicó a Thales renovar la señalización de la vía, que debía estar lista este año - Ultima Hora",
-   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVk9VRl8wQlZBVGo4TllDNVlqbzBuOTMzdDVNZ3E2YVc0OVM0TC1rQldqcnBYaGg2T1ZYbFdkaWV5X1lZMFBTYWROTUJNcTlaTlBvZmlUUDVFWXMyVlhsZk16LU1TbncyUlNVd3J1czUzVHlPMUpsM1N2a2VWdFpzcEU0Z1ZZMnpkWERmU0FvTFBuYVJFampERzJZa2xrdDNiWnBWZ250RWZndW4xME8wbGZjS3R4aUJackJaYlNlbjhnZFNCc1BHTzRyNFcxNzNuSFowTA?oc=5",
+   "titulo": "Adif adjudicó a Thales la renovación de la señalización de la línea Madrid-Sevilla, que debía estar lista en enero de 2026 - Diario de Santiago",
+   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYjRsVGMxSHpLVjFKWFhIRTAzWmRLU2pmOFBBNE15QnlJOC0wbzdIdXZERjZGZjZ1U2ZVUW15TDdvQkpGS1dfQ3pyVXRDeW1mQTIyVVJENUstQ29lZ0t1bHVGWnUwa1Vxc291OURQSkhKZ2FqODlqNmttclczZWlzVjJXQk9RWUZlTFNsLXV3ZzJIaG9wbmZNVndsaXVYMjdIOEZvWjNwTGRSUDVsQWFGVTdPX1hZallGWjE3SDZ0d0JYd3Y3LW50YUVQRUFUWjBmRjdtNWVXQWstZUQ0N2VVdDMta1lrWDkxbHNVRnppQ0J0VE0?oc=5",
    "fecha": "2026-10-29",
-   "medio": "Ultima Hora",
+   "medio": "Diario de Santiago",
    "origen": "Google News"
   },
   {
