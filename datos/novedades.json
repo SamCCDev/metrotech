@@ -1,6 +1,6 @@
 {
- "revisado": "2026-11-25",
- "desde": "2026-10-26",
+ "revisado": "2026-11-26",
+ "desde": "2026-10-27",
  "origenes": {
   "ABB": [
    "Google News"
@@ -63,7 +63,15 @@
  "novedades": [
   {
    "proveedor": "Alstom",
-   "titulo": "Homologados los nuevos trenes de Alstom para la red de Rodalies - El Periódico",
+   "titulo": "Seguridad Ferroviaria homologa los nuevos trenes Rodalies de Alstom para 2027 - Merca2.es",
+   "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRkhneUlieElPcFV5ZmtnaG9HbkVyWmZaRHV5RVE2N0F4TGU4Q2FSc1RJV3hIb3V6emxvNklWSlVsTGdFd0hEb0FCckI0MnE2cWhWV2Y3cmExU3Yzb3htYlYwNzFiY3JQSjM1X1E1NHlNSnV1TWhCSExFLXlncGxVYmlR?oc=5",
+   "fecha": "2026-11-26",
+   "medio": "Merca2.es",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Alstom",
+   "titulo": "Los nuevos trenes de Alstom para Rodalies logran al fin su homologación - El Periódico",
    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaUpqS19FU0ozbndmalNfcWFLaGJhY1dsX1lPbUYxREJRMkgtZGlzLVRzX25OV3JHeXdMbHEwdmJDVUxCeFZmVGMxczZjeDRNSnV0SXVjUlJhSFhtTFpvNTRvWV9CRFNmNUlSdXl2UmwtTHFweWVKdTZsUWZlM3FqX0FCaFpOZDhPaEJCZVFydmctQWtXZ25kY2pjRm04Z2JKU3BrVThzX1FaUWtnVEhj0gGvAUFVX3lxTFB5aXFBTTRlcGdnQ0VGazU4YWFRZjVvc3B2Yl9IeHptcUFlTGdBSzdxMFFrWnNtUWt6dWtOMG8zZV80WWMtUld6elVjOGJFWjluQy1SUzBLNnhXYnpJSUpWT1FVWGF4U01zWDBtQ3gwanpQVXdXWkxqSTNNOG85U2p3TXFMenRnZnM3anIzYWljTHJ0UzdlZlFoX1YzWDg3bVZEaV9uWE5zWVRLS0R6SHc?oc=5",
    "fecha": "2026-11-25",
    "medio": "El Periódico",
@@ -71,18 +79,10 @@
   },
   {
    "proveedor": "Alstom",
-   "titulo": "Alstom logra la autorización de Europa para sus nuevos trenes de Renfe tras meses de retrasos - El Economista",
+   "titulo": "Alstom logra la autorización de Europa para sus nuevos trenes de Renfe - El Economista",
    "enlace": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWk45R2YxTzQ1bkNKUE5fRTh0d2NRWWJTbHk2RDNrOHhDek8tYzY3anktSXdVaHIwMGZoY2x1RXZrNVp1Rk1nb2VUMlA2cW1zSHZtU05zREVQVVdTX1VRb0xiUFl4V1dCMEt5UUlqSEVkWHlvcWVxWGc5MFdERm5PSVRjVG1uc0ZSSXg0eEhxRzd3OTdJY1Y4UXNldXJzV0ZCbktEMVRGaUdZbnRSYXRjeC15bndZaTVpT2JNNm9SS2ZDM1hUTDBKYVZ4YmVRV0IwZzB2aHhvS2d2S2Y3dkpwVzYtLWlwVnNrR1FDYzlQelpBX3h6MWVfc2ZOWEhmYXPSAeoBQVVfeXFMUHBZczY3VmVvcUEtMDhaSzVpNE1BVGI0Z3F5WWdqbWRTUGtyWkQxS1BFSWpDYzBsejQzMm1oUjRQaWQ3UHM4TkN3RXNfR3FVTEptZVlpQ25DUWlLemZ1ZFZ3b3JmdWFBYkpzbEE1VUNDdmZWemoxaGY4Q090TVloLUtCX0VUOG9SMlc1STlNakkxWHVIdHVfa3Q5dlZVY0NoRkMwdEx2QTZ6N2VkZFpwZUI3Y1R6Wkp1cTJFV085Q0FPdzgzdW5fYWFXX3ItblZBNWphanBNY2xSUUhjZVdOVXhQdnlCVGY5Qk93?oc=5",
    "fecha": "2026-11-25",
    "medio": "El Economista",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Alstom",
-   "titulo": "Alstom, sin rivales en el mayor contrato de la historia del Metro de Barcelona - Expansión",
-   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMzNTX0VGZUlUeVgtZ2pjeng1aU4yVmNzOXcwRnk1eTQ5MXhXR01CMmdrMnVJelE3YmU5YmdYN2p0Y0treDAxeTdFQVkxbTRnNGl6UGdPWEFtcFJOLTNVTnNFVEF1RWJaUnVpY0MyUVVJYWVWUXpWT2JCLWdDNXRMNEFOMGRPVlJmT1R6MDBueDhiMlphSlN5Q21OX2VtcWdhOUtiZW1rVFJIQdIBqgFBVV95cUxQMVFBWFVjNklDQ1JNbTdPVFZvS3A1Mm9NeWQwQlY5NnBOWV9yZUxCTXZoUDljNDhwTjFUMmVCRnFGMjNiN3FwSjdkZ0tmbUNLa0hNTmxzdm0tUUdFT0F4d0JYNDBsdVNpVTBJU1JWcklTLUZHcW5BNzlnNVhfTzdBX01qbWVjQzRCd1dDN2xtWVNsODlrVUxjQWRTTDR6WFoxNEZBLXN5NHZwdw?oc=5",
-   "fecha": "2026-11-24",
-   "medio": "Expansión",
    "origen": "Google News"
   },
   {
@@ -119,14 +119,6 @@
   },
   {
    "proveedor": "CAF",
-   "titulo": "La CAF avanza en estudios del tren turístico entre Santa Marta y Aracataca - EL INFORMADOR - Santa Marta, Colombia",
-   "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbExLRWFHWVNlYWV2OFpKSFNBUVdnaXc3VVpUNVcyNktSM3FySnRXNFFJdGZ5ajhoOHFEdFdwRElQd2FRajhZWEpmNWxaZnFhWUVLNmhYZGIwMmhxMGk0LTU0Y1pKb3pQUzNuaS1JanY4WVhWX3FNcTVuUmd2eW5MOHpQSkMxWnJrZkNQRXh3Sng3MGJsSU5GQXlqeHRYN1JCMnd4aVNGNkVPcjhLVTljMHFKWHlPLW95dURQNWlETU1LU0hnVHpEX2w0UG5HTUVMM2l1Z1R0bUl4UUNBa1JiVVFoWHBXQWs?oc=5",
-   "fecha": "2026-11-24",
-   "medio": "EL INFORMADOR - Santa Marta, Colombia",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "CAF",
    "titulo": "Así son los nuevos trenes del Topo en Donostia: de CAF, con 400 plazas y máxima accesibilidad - Noticias de Gipuzkoa",
    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNnNwY19mS0N3MThSUjJfcEd1bjFKYzVrYmVFQUNueGI0dnM1a0ppS0tLNC1lOTdwbXNIV0NDLU1vNkEwcUZvR3JFamJScU90dzdFX0U3RlhIVE5GX2kxSUJobW5COHBRWGxja1gxZVYtekV0QzA3NjlZZ0ZMbXVZNnVzRkJXSklhY0tGYWJkN2RRakR6QnZpQXpkRWFiellGSnfSAacBQVVfeXFMTklmYkVRZnE4bEVXLUQ5RHRxemplOHZxSFc1UHk1NUI1V2QxeFMtNVdyQ0xRUjBWcnY3SENlMnF6WUlFUTdOaXlybnVHM3NjMUdrWGg2TVBuaERad2hnNEtlWG43WDYxSGYtQXp4M0NjanFYQ2RwdUg0bXoyNG15LTdmT1RnYndaS2FXcVE1dzE1NWN4anFfRFVUcnpSQldfaHFLNmIxQjA?oc=5",
    "fecha": "2026-11-20",
@@ -143,6 +135,14 @@
   },
   {
    "proveedor": "CAF",
+   "titulo": "CAF irrumpe en el mercado ferroviario de Perú con la modernización del emblemático ‘Tren Macho’ - empresa Exterior",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaGJwYm1Ca3Zsb1JCUzJWLVMyNWxXTS1qOFlra3pyVGtqZmM2dENWMnhlbllob1hmUEpwZUhiVWpVV1dua3FJVUVSY0lRUFRid0R6VzJOVVFOdjltT2RSMVN4VEI0SGVwN1BxTHZGUHNneS1HZjZFQTlyRWtkTl82UUMzTUhYWXV3bmZsNkx6NnFCbE5nQ1VXRmJVNVJJdXZvajY4NU1wdGVNemFHWTg3NU9jRTZxYkJxeXJmelEwWQ?oc=5",
+   "fecha": "2026-11-19",
+   "medio": "empresa Exterior",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "CAF",
    "titulo": "Varias organizaciones presentan una querella contra CAF ante la Audiencia Nacional por el tren de Jerusalén - El Salto",
    "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONEU4YkZpN0F0a0dod3RUV1I2TDN6bF9sOG1QWElEVGF2a3BIOGoxaXNjc2U3VDRtMDRqRHBaUHNsdTJYX0VTQmlKLTZBMlNJQjRQdkE1UXlIRW4yZUlrS1BycGtqeHhGeDNtYUtXeU5CS0hwX09jUndQU3RROUo5eG0tSi1SOTZpZS02b2RqVzdpMmNKWGJUYUZn?oc=5",
    "fecha": "2026-11-19",
@@ -151,10 +151,10 @@
   },
   {
    "proveedor": "CAF",
-   "titulo": "CAF irrumpe en el mercado ferroviario de Perú con la modernización del emblemático ‘Tren Macho’ - empresa Exterior",
-   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaGJwYm1Ca3Zsb1JCUzJWLVMyNWxXTS1qOFlra3pyVGtqZmM2dENWMnhlbllob1hmUEpwZUhiVWpVV1dua3FJVUVSY0lRUFRid0R6VzJOVVFOdjltT2RSMVN4VEI0SGVwN1BxTHZGUHNneS1HZjZFQTlyRWtkTl82UUMzTUhYWXV3bmZsNkx6NnFCbE5nQ1VXRmJVNVJJdXZvajY4NU1wdGVNemFHWTg3NU9jRTZxYkJxeXJmelEwWQ?oc=5",
+   "titulo": "Siete organizaciones se querellan contra CAF en la Audiencia Nacional por su participación en el tren de Jerusalén - elDiario.es",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNVRrdGZvS2s4M0RjSUNGbUtlTGd0eF9QeUJHbkxVYkZ6Y2E3a1RIS0hkSHNXQlRYYndzc3IwQWpuSkplXzR0X0lidkNTeHkzTTJiRVJoaXdpNDNoZ2dRWVFaRTNJamZZNXk5SHFqaW54aEhZc3hlUWE4ckVRZ240ZDRUWl9WLThzRUxQZG9MLU1KR1M1YURmRmdQS29CMHc1X3IwX2UyUlVlLWQwN3JzNzBURmNILWNmU3VpNHZ3ZG1VWnRBSlZ5SE0wM1hqNFk2Y1HSAdcBQVVfeXFMT3BlS3NteWhiS3JfdDZyVGZha3lPZmZ2RnRkVDVxU2ZrQmswWXl6T3BjZlptLW1kRnBVU05QTlBwSmRyYnVxZlRnUjhKUHVwTWwyYUYtREM2OUtGNWFFYjl2eXQtSUZLQUQ0M21Fd3VLa1F4RkIwZ2lMTlQ5NWpoREQ2UlBrV2o3TlRGTlVlZlZDcl9VTkVSOVlCVGRaLXFUMzFqalg4dURBRXhwTDhOQ0Z6OHB1WjdzakI3NW9uTXZHU0x6UXQ1MHY1Q0cxcU45dDBOT2ZrZDQ?oc=5",
    "fecha": "2026-11-19",
-   "medio": "empresa Exterior",
+   "medio": "elDiario.es",
    "origen": "Google News"
   },
   {
@@ -191,6 +191,14 @@
   },
   {
    "proveedor": "Hitachi Rail",
+   "titulo": "Hitachi Rail modernizará corredor ferroviario Saltillo-Laredo - Mexico Business News",
+   "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNXZQVERaMnBTdERwQVlfNl8yOGpzQjBlRHlqbngweGt3NUpMNmhWOU1pZkZyVWt1bGlWVXY5Uno3MXRKUkxwMXUwQlFlMXZzTWw2dDA2dGVnQmhpRmNhTVRJMHR4ZjdaamlHcmk0OGR1aXdtM0d4MF9uSUc4Rm14eEw4aDlWczZ5OF9aaVl2N0VBRUVkbGp3cU5taGxWWkRCdzg3bXBhRzRLTlgza3Y3WWZB?oc=5",
+   "fecha": "2026-11-24",
+   "medio": "Mexico Business News",
+   "origen": "Google News"
+  },
+  {
+   "proveedor": "Hitachi Rail",
    "titulo": "Hitachi e Iryo envían a la juez sus diagnosis del accidente de Adamuz: el tren iba a 203 kilómetros por hora antes de descarrilar - ABC",
    "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTE55ai11dVVRVEdfazBxLXhfQmZXMjJqZ1hMcktOZWdDTkxDcDNBNHlfYmxQdFlkVXg1ZzcyRmpkbTctMkhWU2JGNkN5Z2UzNDJMQW1NblpzVkhLQ3dYODVMb3g4OVZOVkszVnlJUTUxR0FvUC1BaExGbkgwYVRPYWJaZ2lBV3MxTWFJOFFSMmpNMW9maVlTVmhDWTFmWWJoWDB3azExZ2ZpTmttWWU3NXp4bjFVZjJYTnpJ0gHAAUFVX3lxTFAtZUFrQ1MwUGdjcU0wNy1ucm1GUERhSnlBcEpsYUZSQVREN0NnWjlwUm9XR0hLWDhnTkRPOEFuNUdfM091NHo1dkhGT080bmNYLVd6WFFHWUNXVFVyc2FLemVTaGdmUWptUFhjQ2pDaDlSYURUYXFXZXhxLWJsRmxZeldVZnBqVzBFNlpkeE94UlF5elJhOXlYUTE2ZGxUV3Q5MVZOcFdjMEVlNzNLSEczUjZtM2xhSld2aGRNYjZMZw?oc=5",
    "fecha": "2026-11-19",
@@ -206,19 +214,11 @@
    "origen": "Google News"
   },
   {
-   "proveedor": "Hitachi Rail",
-   "titulo": "Hitachi Rail España trabajará en la señalización de la línea de tren Ankara-Estambul - Europa Press",
-   "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS3RRTy0xbXNidUxnZlpaeHczcW9ELTZGZFR4RUFNdFVxVmNzby1QOFVSYmY5VFZ0R2Z4dFRkbFpUT0FKa3ZoZWlad3lkMHFIcVVLanpSNW5iaTcwV2hfMFkwQ3VJWkV3RDhMdDNaNkNBYUJyX3dMc2hzNjlFbUY2b1o4UGdyTnYzZjhvRl9QMUxRVjBkMFhjR2JYOHVXTjNITXB2REpUNmNEeTcwZkhDMEVfTE5KYkY5bnFTcklYMWpzUERIbW9GVlBLbThOTXRCYnFYMFdISGgxMmplNUJ5eTB2Q1V3Zw?oc=5",
-   "fecha": "2026-10-27",
-   "medio": "Europa Press",
-   "origen": "Google News"
-  },
-  {
-   "proveedor": "Hitachi Rail",
-   "titulo": "Renfe adjudica a Siemens 30 trenes AVE por 1.218 millones y deja fuera a Hitachi - Merca2.es",
-   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13cWlVMXhFWVh2UXV2Y21heDdUVEFiMlFqWFcwOENEWDRBaVJZMEh1TWtSZW9jOEpaU3JQNU9NNlNETzJ1WnNTNjJnQVJRNXQtalh2MDNhMEpzalpZQzBETDl3NDNwelRfbnFPaGZrYzlmMWZDVlV4em5KUQ?oc=5",
-   "fecha": "2026-10-27",
-   "medio": "Merca2.es",
+   "proveedor": "Leitner",
+   "titulo": "Aval ambiental al teleférico de la italiana Leitner en la Ciudad de México - Puntodincontro",
+   "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzFJSjdLa2xpWHlnZzRuUXRod3lvVHRkMXRFbmJwdjVsS0hiNnA2TXZ3bHppQndHNGRQSXkxWXR0NVB5OUpYTUN5S3hEU3FxNUZmWDFHUzI2cDVnakc0ZmNWQ2s5NGQ5OGFGMzFsR29VcVpEWmdheHNzVlFsYXlrbjk2Z0tKcUFHTVlZZklQbHgxSFh6SzRta0JDNTBhSnJ3d0tVTFRVU1dSSlZiazhYbTZkbmtjQQ?oc=5",
+   "fecha": "2026-11-25",
+   "medio": "Puntodincontro",
    "origen": "Google News"
   },
   {
@@ -263,18 +263,18 @@
   },
   {
    "proveedor": "Stadler",
-   "titulo": "Los trenes Stadler Rail están siendo probados en las vías férreas de Rumanía - Informat.ro",
-   "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWNUYlVfNE9FZWt6SG5pTTJPbFctNnViWXByanJCM29iTS1VOFZ4ZFRucEJURmdja2tmVGdZYlg0dmsyamh2Y3ByRzRpR2UtM0JTQzFyaWx6NlN4eDBYU3FtYVZPSnVBY1J0ZWp3aS1fZk5xWUNhODNDa2YyZm5yRWV6WHRhMEVjNEhwOUg2YlhMYld5cGdXUUFrXzBNLVY3WFE?oc=5",
-   "fecha": "2026-11-23",
-   "medio": "Informat.ro",
+   "titulo": "Stadler llevó su propuesta de tren-tram al Senado (y cuestionó la comparación de costos con el BRT) - InfoNegocios Uruguay",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON3dSRGxBSWRDZWJoanBOUTE1bi03Y3ZGdXBPM1ZHSDJOUUtkRHo4ZXJYa0IxYWhfVzRhMEJoSEdTQzJXemlpOEdNUnhjamlVV2tXTWVrQ1RSRUtoN29CTjI3Y2NVU2xvOTJQM3FnR2pJUjR2UkNyd3ZUTWdzSXpZUUZBZEZXa2QtNkUxc0ZDWmNaMnRrWWFzTHgwdmJySFBmZVlLcEt6YW1DLV9oRVdPMTZ3ajJIU1J3RXluSmRzZW94aFlvSEHSAdgBQVVfeXFMT2QzVUxVOThtOGJ2ZjVRRlFmd2MxVDdyallPeHl4V1ctMW9vSDFIaHFSYlF6c3Q0aEpYbmJIbXI0Nzk0d2tGTmZQN1lsSW51MWlsYVFzWGF3RVFvRUo1angya05pT2FCbkowVlZWb2VJUzdZaHMtNV9uYzlaemI2SDNFcTRxajIwTHpYMi1MT0VDU2dVdlF4UXZIQkVQZjcxZnREb0Y0RkxuQWdDLW5lVUVINjVER1Z3bmx2RzdCRG9lVUo4VUJ3engwa094eVR5Sk5ScThaYXM5?oc=5",
+   "fecha": "2026-11-25",
+   "medio": "InfoNegocios Uruguay",
    "origen": "Google News"
   },
   {
    "proveedor": "Stadler",
-   "titulo": "Stadler llevó su propuesta de tren-tram al Senado (y cuestionó la comparación de costos con el BRT) - InfoNegocios Uruguay",
-   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON3dSRGxBSWRDZWJoanBOUTE1bi03Y3ZGdXBPM1ZHSDJOUUtkRHo4ZXJYa0IxYWhfVzRhMEJoSEdTQzJXemlpOEdNUnhjamlVV2tXTWVrQ1RSRUtoN29CTjI3Y2NVU2xvOTJQM3FnR2pJUjR2UkNyd3ZUTWdzSXpZUUZBZEZXa2QtNkUxc0ZDWmNaMnRrWWFzTHgwdmJySFBmZVlLcEt6YW1DLV9oRVdPMTZ3ajJIU1J3RXluSmRzZW94aFlvSEHSAdgBQVVfeXFMT2QzVUxVOThtOGJ2ZjVRRlFmd2MxVDdyallPeHl4V1ctMW9vSDFIaHFSYlF6c3Q0aEpYbmJIbXI0Nzk0d2tGTmZQN1lsSW51MWlsYVFzWGF3RVFvRUo1angya05pT2FCbkowVlZWb2VJUzdZaHMtNV9uYzlaemI2SDNFcTRxajIwTHpYMi1MT0VDU2dVdlF4UXZIQkVQZjcxZnREb0Y0RkxuQWdDLW5lVUVINjVER1Z3bmx2RzdCRG9lVUo4VUJ3engwa094eVR5Sk5ScThaYXM5?oc=5",
-   "fecha": "2026-11-18",
-   "medio": "InfoNegocios Uruguay",
+   "titulo": "Los trenes Stadler Rail están siendo probados en las vías férreas de Rumanía - Informat.ro",
+   "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWNUYlVfNE9FZWt6SG5pTTJPbFctNnViWXByanJCM29iTS1VOFZ4ZFRucEJURmdja2tmVGdZYlg0dmsyamh2Y3ByRzRpR2UtM0JTQzFyaWx6NlN4eDBYU3FtYVZPSnVBY1J0ZWp3aS1fZk5xWUNhODNDa2YyZm5yRWV6WHRhMEVjNEhwOUg2YlhMYld5cGdXUUFrXzBNLVY3WFE?oc=5",
+   "fecha": "2026-11-23",
+   "medio": "Informat.ro",
    "origen": "Google News"
   },
   {
